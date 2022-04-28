@@ -1,9 +1,13 @@
+<?php 
+    $groupID = $_GET['group'];
+    include("./". $groupID . "/basic_info.php"); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>組標題 - 專展標題</title>
+<title><?php echo($title); ?> - 專展標題</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
@@ -25,6 +29,7 @@
 
 <!-- Template Main CSS File -->
 <link href="../assets/css/style.css" rel="stylesheet">
+<link href="assets/css/custom.css" rel="stylesheet">
 
 <!-- =======================================================
   * Template Name: Gp - v4.7.0
@@ -39,7 +44,7 @@
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-lg-between">
-        <h1 class="logo me-auto me-lg-0"><a href="index.html">Logo</a></h1>
+        <h1 class="logo me-auto me-lg-0"><a href="../">Logo</a></h1>
         <!-- Uncomment below if you prefer to use an image logo --> 
         <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>-->
         
@@ -48,12 +53,23 @@
                 <li><a class="nav-link scrollto" href="../">首頁</a></li>
                 <li><a class="nav-link scrollto" href="../#about">關於科技系</a></li>
                 <li><a class="nav-link scrollto" href="../#concept">專展理念</a></li>
-                <li class="dropdown"><a class="nav-link scrollto active" href="#"><span>作品廊</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a class="nav-link scrollto active" href="../#portfolio"><span>作品廊</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a class="nav-link scrollto active" href="./group/g01.php">組別一</a></li>
-                        <li><a class="nav-link scrollto" href="#">組別二</a></li>
-                        <li><a class="nav-link scrollto" href="#">組別三</a></li>
-                        <li><a class="nav-link scrollto" href="#">組別四</a></li>
+                        <?php include("./group_title.php"); ?>
+                        <li><a class="nav-link scrollto" href="?group=demo"><?php echo $demo; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g01"><?php echo $g01; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g02"><?php echo $g02; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g03"><?php echo $g03; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g04"><?php echo $g04; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g05"><?php echo $g05; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g06"><?php echo $g06; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g07"><?php echo $g07; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g08"><?php echo $g08; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g09"><?php echo $g09; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g10"><?php echo $g10; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g11"><?php echo $g11; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g12"><?php echo $g12; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g13"><?php echo $g13; ?></a></li>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="../#visit">參觀資訊</a></li>
@@ -68,17 +84,13 @@
 <!-- End Header -->
 
 <main id="main"> 
-    <!--dynamic change-->
-    <?php include("./g01.php"); ?>
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
-                <h2><?php echo($groupTitle); ?></h2>
-                <ol>
-                    <li><a href="../#portfolio">作品廊</a></li>
-                    <li><?php echo($breadcrumbTitle); ?></li>
-                </ol>
+                <div></div>
+                <h1><?php echo($title); ?></h1>
+                <h6><a href="../#portfolio">作品廊</a>／<?php echo($breadcrumb); ?></h6>
             </div>
         </div>
     </section>
@@ -87,30 +99,16 @@
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
         <div class="container">
-            <div class="row gy-4">
+            <div class="row gy-4 gx-5">
                 <div class="col-lg-6">
                     <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-                            <div class="swiper-slide"> <img src="../assets/img/portfolio/portfolio-1.jpg" alt=""> </div>
-                            <div class="swiper-slide"> <img src="../assets/img/portfolio/portfolio-2.jpg" alt=""> </div>
-                            <div class="swiper-slide"> <img src="../assets/img/portfolio/portfolio-3.jpg" alt=""> </div>
-                        </div>
+                        <?php include($photoSlide_path); ?>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="portfolio-info">
-                        <h3>Project information</h3>
-                        <ul>
-                            <li><strong>Category</strong>: Web design</li>
-                            <li><strong>Client</strong>: ASU Company</li>
-                            <li><strong>Project date</strong>: 01 March, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                        </ul>
-                    </div>
-                    <div class="portfolio-description">
-                        <h2>This is an example of portfolio detail</h2>
-                        <p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
+                <div class="col-lg-6" style="display: flex; align-items: center;">
+                    <div class="portfolio-description" style="">
+                        <?php include($description_path); ?>
                     </div>
                 </div>
             </div>
