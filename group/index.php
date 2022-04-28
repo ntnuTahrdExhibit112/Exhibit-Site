@@ -55,21 +55,21 @@
                 <li><a class="nav-link scrollto" href="../#concept">專展理念</a></li>
                 <li class="dropdown"><a class="nav-link scrollto active" href="../#portfolio"><span>作品廊</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <?php include("./group_title.php"); ?>
-                        <li><a class="nav-link scrollto" href="?group=demo"><?php echo $demo; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g01"><?php echo $g01; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g02"><?php echo $g02; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g03"><?php echo $g03; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g04"><?php echo $g04; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g05"><?php echo $g05; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g06"><?php echo $g06; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g07"><?php echo $g07; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g08"><?php echo $g08; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g09"><?php echo $g09; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g10"><?php echo $g10; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g11"><?php echo $g11; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g12"><?php echo $g12; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g13"><?php echo $g13; ?></a></li>
+                        <?php include("group_info.php"); ?>
+                        <li><a class="nav-link scrollto" href="?group=demo"><?php echo $demo_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g01"><?php echo $g01_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g02"><?php echo $g02_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g03"><?php echo $g03_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g04"><?php echo $g04_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g05"><?php echo $g05_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g06"><?php echo $g06_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g07"><?php echo $g07_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g08"><?php echo $g08_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g09"><?php echo $g09_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g10"><?php echo $g10_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g11"><?php echo $g11_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g12"><?php echo $g12_title; ?></a></li>
+                        <li><a class="nav-link scrollto" href="?group=g13"><?php echo $g13_title; ?></a></li>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="../#visit">參觀資訊</a></li>
