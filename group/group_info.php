@@ -2,47 +2,63 @@
     //Title of each group
     $demo_title = "Demo - BEE THE LIGHT";
     $g01_title = "第1組 - 見紅就收";
-    $g02_title = "第2組 - 2";
-    $g03_title = "第3組 - 3";
-    $g04_title = "第4組 - 4";
-    $g05_title = "第5組 - 5";
-    $g06_title = "第6組 - 6";
-    $g07_title = "第7組 - 7";
-    $g08_title = "第8組 - 8";
-    $g09_title = "第9組 - 9";
-    $g10_title = "第10組 - 10";
-    $g11_title = "第11組 - 11";
-    $g12_title = "第12組 - 12";
-    $g13_title = "第13組 - 13";
+    $g02_title = "第2組 - 新式黑膠唱片機";
+    $g03_title = "第3組 - 體感互動遊戲輔助自閉症動作學習系統";
+    $g04_title = "第4組 - Westpath 西境山海";   //生活科技多人數位密室逃脫遊戲
+    $g05_title = "第5組 - 當科技與星星相遇";    //科技教育與特殊教育之整合探討
+    $g06_title = "第6組 - 結合實體機械手臂與虛擬動畫的機電整合教材";
+    $g07_title = "第7組 - 快陶唄杯";    //特殊杯型咖啡保溫杯
+    $g08_title = "第8組 - Mini Escape"; //桌上型密室逃脫
+    $g09_title = "第9組 - VR無人機模擬器";
+    $g10_title = "第10組 - 進位制轉換AR桌遊";
+    $g11_title = "第11組 - 療癒互動盆栽";
+    $g12_title = "第12組 - Mycto 自行車安全帽";
+    $g13_title = "第13組 - 高中生AI模擬面試系統";
+
+    //Subtitle of each group
+    $demo_subtitle = "";
+    $g01_subtitle = "";
+    $g02_subtitle = "";
+    $g03_subtitle = "";
+    $g04_subtitle = "生活科技多人數位密室逃脫遊戲";
+    $g05_subtitle = "科技教育與特殊教育之整合探討";
+    $g06_subtitle = "";
+    $g07_subtitle = "特殊杯型咖啡保溫杯";
+    $g08_subtitle = "桌上型密室逃脫";
+    $g09_subtitle = "";
+    $g10_subtitle = "";
+    $g11_subtitle = "";
+    $g12_subtitle = "";
+    $g13_subtitle = "";
 
     //Categories of each group
     $demo_category = "教學發展";
-    $g01_category = "教學發展";
-    $g02_category = "教學發展";
+    $g01_category = "產品設計";
+    $g02_category = "產品設計";
     $g03_category = "教學發展";
     $g04_category = "教學發展";
     $g05_category = "教學發展";
-    $g06_category = "產品設計";
+    $g06_category = "教學發展";
     $g07_category = "產品設計";
     $g08_category = "產品設計";
     $g09_category = "產品設計";
-    $g10_category = "產品設計";
+    $g10_category = "教學發展";
     $g11_category = "產品設計";
     $g12_category = "產品設計";
     $g13_category = "產品設計";
 
     //Tag Filter
     $demo_filter = "education";
-    $g01_filter = "education";
-    $g02_filter = "education";
+    $g01_filter = "design";
+    $g02_filter = "design";
     $g03_filter = "education";
     $g04_filter = "education";
     $g05_filter = "education";
-    $g06_filter = "design";
+    $g06_filter = "education";
     $g07_filter = "design";
     $g08_filter = "design";
     $g09_filter = "design";
-    $g10_filter = "design";
+    $g10_filter = "education";
     $g11_filter = "design";
     $g12_filter = "design";
     $g13_filter = "design";

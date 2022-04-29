@@ -726,6 +726,9 @@ section {
   color: #fff;
   font-weight: 600;
 }
+.portfolio .portfolio-wrap .portfolio-info h6 {
+  color: #fff;
+}
 .portfolio .portfolio-wrap .portfolio-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;

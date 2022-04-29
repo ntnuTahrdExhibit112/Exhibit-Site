@@ -21,6 +21,7 @@
                         <img src="<?php echo($demo_cover); ?>" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4><?php echo($demo_title); ?></h4>
+                            <h6><?php echo($demo_subtitle); ?></h6>
                             <p><?php echo($demo_category); ?></p>
                         </div>
                     </a>
@@ -32,6 +33,7 @@
                         <img src="<?php echo($g01_cover); ?>" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4><?php echo($g01_title); ?></h4>
+                            <h6><?php echo($g01_subtitle); ?></h6>
                             <p><?php echo($g01_category); ?></p>
                         </div>
                     </a>
@@ -42,6 +44,7 @@
                     <img src="<?php echo($g02_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g02_title); ?></h4>
+                        <h6><?php echo($g02_subtitle); ?></h6>
                         <p><?php echo($g02_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g02_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g02_title); ?>">
@@ -59,6 +62,7 @@
                     <img src="<?php echo($g03_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g03_title); ?></h4>
+                        <h6><?php echo($g03_subtitle); ?></h6>
                         <p><?php echo($g03_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g03_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g03_title); ?>">
@@ -76,6 +80,7 @@
                     <img src="<?php echo($g04_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g04_title); ?></h4>
+                        <h6><?php echo($g04_subtitle); ?></h6>
                         <p><?php echo($g04_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g04_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g04_title); ?>">
@@ -93,6 +98,7 @@
                     <img src="<?php echo($g05_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g05_title); ?></h4>
+                        <h6><?php echo($g05_subtitle); ?></h6>
                         <p><?php echo($g05_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g05_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g05_title); ?>">
@@ -110,6 +116,7 @@
                     <img src="<?php echo($g06_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g06_title); ?></h4>
+                        <h6><?php echo($g06_subtitle); ?></h6>
                         <p><?php echo($g06_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g06_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g06_title); ?>">
@@ -127,6 +134,7 @@
                     <img src="<?php echo($g07_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g07_title); ?></h4>
+                        <h6><?php echo($g07_subtitle); ?></h6>
                         <p><?php echo($g07_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g07_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g07_title); ?>">
@@ -144,6 +152,7 @@
                     <img src="<?php echo($g08_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g08_title); ?></h4>
+                        <h6><?php echo($g08_subtitle); ?></h6>
                         <p><?php echo($g08_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g08_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g08_title); ?>">
@@ -161,6 +170,7 @@
                     <img src="<?php echo($g09_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g09_title); ?></h4>
+                        <h6><?php echo($g09_subtitle); ?></h6>
                         <p><?php echo($g09_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g09_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g09_title); ?>">
@@ -178,6 +188,7 @@
                     <img src="<?php echo($g10_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g10_title); ?></h4>
+                        <h6><?php echo($g10_subtitle); ?></h6>
                         <p><?php echo($g10_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g10_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g10_title); ?>">
@@ -195,6 +206,7 @@
                     <img src="<?php echo($g11_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g11_title); ?></h4>
+                        <h6><?php echo($g11_subtitle); ?></h6>
                         <p><?php echo($g11_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g11_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g11_title); ?>">
@@ -212,6 +224,7 @@
                     <img src="<?php echo($g12_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g12_title); ?></h4>
+                        <h6><?php echo($g12_subtitle); ?></h6>
                         <p><?php echo($g12_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g12_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g12_title); ?>">
@@ -229,6 +242,7 @@
                     <img src="<?php echo($g13_cover); ?>" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4><?php echo($g13_title); ?></h4>
+                        <h6><?php echo($g13_subtitle); ?></h6>
                         <p><?php echo($g13_category); ?></p>
                         <div class="portfolio-links"> 
                             <a href="<?php echo($g13_cover); ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="<?php echo($g13_title); ?>">

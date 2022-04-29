@@ -89,8 +89,10 @@
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
-                <div></div>
-                <h1><?php echo($title); ?></h1>
+                <div>
+                    <h1><?php echo($title); ?></h1>
+                    <h3><?php echo($subtitle); ?></h3>
+                </div>
                 <h6><a href="../#portfolio">作品廊</a> / <?php echo($breadcrumb); ?></h6>
             </div>
         </div>
