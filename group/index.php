@@ -1,6 +1,7 @@
 <?php 
     $groupID = $_GET['group'];
     include("./". $groupID . "/basic_info.php"); 
+    include("./group_path.php"); 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -90,7 +91,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <div></div>
                 <h1><?php echo($title); ?></h1>
-                <h6><a href="../#portfolio">作品廊</a>／<?php echo($breadcrumb); ?></h6>
+                <h6><a href="../#portfolio">作品廊</a> / <?php echo($breadcrumb); ?></h6>
             </div>
         </div>
     </section>
@@ -100,7 +101,7 @@
     <section id="portfolio-details" class="portfolio-details">
         <div class="container">
             <div class="row gy-4 gx-5">
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="display: flex; align-items: center;">
                     <div class="portfolio-details-slider swiper">
                         <?php include($photoSlide_path); ?>
                         <div class="swiper-pagination"></div>

@@ -1,5 +1,5 @@
 <?php 
-    $title = "空間邏輯思維教具";
-    $breadcrumb = "Demo - 空間邏輯思維教具";
+    $title = "蜂迴路轉 BEE THE LIGHT";
+    $breadcrumb = "Demo - 蜂迴路轉 BEE THE LIGHT";
     $root_path = "./demo/";
 ?>
