@@ -59,27 +59,38 @@
                 <div class="icon-box"> <i class="bi bi-info-circle"></i>
                     <h3>關於科技系</h3>
                 </div>
-                </a> </div>
+                </a> 
+            </div>
             <div class="col-xl-2 col-md-4"> <a class="scrollto" href="#concept">
                 <div class="icon-box"> <i class="bi bi-lightbulb"></i>
                     <h3>專展理念</h3>
                 </div>
-                </a> </div>
+                </a> 
+            </div>
             <div class="col-xl-2 col-md-4"> <a class="scrollto" href="#portfolio">
                 <div class="icon-box"> <i class="bi bi-images"></i>
                     <h3>作品廊</h3>
                 </div>
-                </a> </div>
+                </a> 
+            </div>
+            <div class="col-xl-2 col-md-4"> <a class="scrollto" href="./onlineExhibit">
+                <div class="icon-box"> <i class="bi bi-globe2"></i>
+                    <h3>線上展</h3>
+                </div>
+                </a> 
+            </div>
             <div class="col-xl-2 col-md-4"> <a class="scrollto" href="#visit">
                 <div class="icon-box"> <i class="bi bi-map"></i>
                     <h3>參觀資訊</h3>
                 </div>
-                </a> </div>
+                </a> 
+            </div>
             <div class="col-xl-2 col-md-4"> <a class="scrollto" href="#contact">
                 <div class="icon-box"> <i class="bi bi-phone"></i>
                     <h3>聯絡我們</h3>
                 </div>
-                </a> </div>
+                </a> 
+            </div>
         </div>
     </div>
 </section>

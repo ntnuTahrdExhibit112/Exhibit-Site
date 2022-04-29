@@ -9,6 +9,7 @@
                 <li><a class="nav-link scrollto active" href="#hero">首頁</a></li>
                 <li><a class="nav-link scrollto" href="#about">關於科技系</a></li>
                 <li><a class="nav-link scrollto" href="#concept">專展理念</a></li>
+                <li><a class="nav-link scrollto" href="./onlineExhibit">線上展</a></li>
                 <li class="dropdown"><a class="nav-link scrollto" href="#portfolio"><span>作品廊</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <?php include("./group/group_info.php"); ?>
