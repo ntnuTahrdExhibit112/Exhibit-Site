@@ -46,4 +46,20 @@ $g10_filter = "design";
 $g11_filter = "design";
 $g12_filter = "design";
 $g13_filter = "design";
+
+//Cover Image of each group
+$demo_cover = "./group/portfolio/demo.jpg";
+$g01_cover = "./group/portfolio/g01.jpg";
+$g02_cover = "./group/portfolio/g02.jpg";
+$g03_cover = "./group/portfolio/g03.jpg";
+$g04_cover = "./group/portfolio/g04.jpg";
+$g05_cover = "./group/portfolio/g05.jpg";
+$g06_cover = "./group/portfolio/g06.jpg";
+$g07_cover = "./group/portfolio/g07.jpg";
+$g08_cover = "./group/portfolio/g08.jpg";
+$g09_cover = "./group/portfolio/g09.jpg";
+$g10_cover = "./group/portfolio/g10.jpg";
+$g11_cover = "./group/portfolio/g11.jpg";
+$g12_cover = "./group/portfolio/g12.jpg";
+$g13_cover = "./group/portfolio/g13.jpg";
 ?>

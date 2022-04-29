@@ -11,7 +11,7 @@
                 <li><a class="nav-link scrollto" href="#concept">專展理念</a></li>
                 <li class="dropdown"><a class="nav-link scrollto" href="#portfolio"><span>作品廊</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <?php include("./group/group_title.php"); ?>
+                        <?php include("./group/group_info.php"); ?>
                         <li><a class="nav-link scrollto" href="./group?group=demo"><?php echo $demo_title; ?></a></li>
                         <li><a class="nav-link scrollto" href="./group?group=g01"><?php echo $g01_title; ?></a></li>
                         <li><a class="nav-link scrollto" href="./group?group=g02"><?php echo $g02_title; ?></a></li>
