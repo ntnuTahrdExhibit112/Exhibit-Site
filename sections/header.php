@@ -37,8 +37,8 @@
         <!-- .navbar -->
 
         <div>
-            <a href="https://www.instagram.com" target="_blank" class="get-started-btn scrollto"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.facebook.com" target="_blank" class="get-started-btn scrollto"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="get-started-btn scrollto"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn scrollto"><i class="bi bi-facebook"></i></a>
         </div>
     </div>
 </header>
