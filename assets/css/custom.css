@@ -5,4 +5,21 @@
 /* Contact */
 .member-info {
     text-align: center;
+<<<<<<< Updated upstream
+=======
+}
+
+@font-face {
+    font-family: "Cyberpunk";
+    src: url(../fonts/Cyberwar-Regular.ttf) format("truetype");
+}
+#hero h1 {
+    font-family: "Cyberpunk";
+    letter-spacing: 0.5rem !important;
+}
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 38px;
+    }
+>>>>>>> Stashed changes
 }
