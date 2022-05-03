@@ -8,7 +8,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title><?php echo($title); ?> - 專展標題</title>
+<title><?php echo($title); ?> - TECH PUNK</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
@@ -45,9 +45,9 @@
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-lg-between">
-        <h1 class="logo me-auto me-lg-0"><a href="../">Logo</a></h1>
+        <!-- <h1 class="logo me-auto me-lg-0"><a href="../">Logo</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo --> 
-        <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="../" class="logo me-auto me-lg-0"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>
         
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>

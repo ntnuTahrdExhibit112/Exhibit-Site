@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>首頁 - 專展標題</title>
+<title>首頁 - TECH PUNK</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
@@ -47,7 +47,7 @@
     <div class="container" data-aos="fade-up">
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
             <div class="col-xl-6 col-lg-8">
-                <h1>專展標題</h1>
+                <h1>TECH PUNK</h1>
                 <h2 style="line-height: 1.5;"> 2022 國立臺灣師範大學<br>
                     科技應用與人力資源發展學系<br>
                     112級畢業專題成果展<br>

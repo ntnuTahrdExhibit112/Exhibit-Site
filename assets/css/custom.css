@@ -6,3 +6,12 @@
 .member-info {
     text-align: center;
 }
+
+@font-face {
+    font-family: "Cyberpunk";
+    src: url(../fonts/Cyberwar-Regular.ttf) format("truetype");
+}
+#hero h1 {
+    font-family: "Cyberpunk";
+    letter-spacing: 0.5rem !important;
+}
