@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .get-started-btn:hover {
   background: rgb(225,64,237);
-  color: #343a40;
+  color: rgb(112,239,239);
 }
 @media (max-width: 992px) {
   .get-started-btn {
