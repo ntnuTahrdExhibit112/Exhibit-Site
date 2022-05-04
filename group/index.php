@@ -73,6 +73,7 @@
                         <li><a class="nav-link scrollto" href="?group=g13"><?php echo $g13_title; ?></a></li>
                     </ul>
                 </li>
+                <li><a class="nav-link scrollto" href="../onlineExhibit">線上展</a></li>
                 <li><a class="nav-link scrollto" href="../#visit">參觀資訊</a></li>
                 <li><a class="nav-link scrollto" href="../#contact">聯絡我們</a></li>
             </ul>

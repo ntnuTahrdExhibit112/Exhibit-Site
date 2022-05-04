@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #ffd584;
+  color: rgb(225,62,237);
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #151515;
+  background: rgb(225,64,237);
 }
 .back-to-top:hover i {
   color: rgb(112,239,239);
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid rgb(112,239,239);
 }
 .get-started-btn:hover {
-  background: #ffbb38;
+  background: rgb(225,64,237);
   color: #343a40;
 }
 @media (max-width: 992px) {
