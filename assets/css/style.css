@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   padding: 10px 0;
 }
-#header.header-scrolled, #header.header-inner-pages {
+#header, #header.header-scrolled, #header.header-inner-pages {
   background: rgba(0, 0, 0, 1);
 }
 #header .logo {
