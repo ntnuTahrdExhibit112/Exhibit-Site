@@ -28,6 +28,12 @@
                 </div>
                 </a> 
             </div>
+            <div class="col-xl-2 col-md-4"> <a class="scrollto" href="./ARinteract">
+                <div class="icon-box"> <i class="bi bi-box"></i>
+                    <h3>展場AR互動</h3>
+                </div>
+                </a> 
+            </div>
             <div class="col-xl-2 col-md-4"> <a class="scrollto" href="#visit">
                 <div class="icon-box"> <i class="bi bi-map"></i>
                     <h3>參觀資訊</h3>

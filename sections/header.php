@@ -28,6 +28,7 @@
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="./onlineExhibit">線上展</a></li>
+                <li><a class="nav-link scrollto" href="./ARinteract">展場AR互動</a></li>
                 <li><a class="nav-link scrollto" href="#visit">參觀資訊</a></li>
                 <li><a class="nav-link scrollto" href="#about">關於科技系</a></li>
                 <li><a class="nav-link scrollto" href="#contact">聯絡我們</a></li>
