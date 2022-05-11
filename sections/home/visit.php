@@ -1,3 +1,9 @@
+<style>
+    #visit p {
+        font-size: 1.1rem;
+    }
+</style>
+
 <section id="visit" class="contact">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -9,15 +15,19 @@
                 <div class="info">
                     <div class="time"> <i class="bi bi-clock"></i>
                         <h4>時間</h4>
-                        <p>xx月xx日 上午8:00 – xx月xx日 下午5:00</p>
+                        <p>2022年12月02日(五) 上午8:00 ~ 12月03日(六) 下午5:00</p>
                     </div>
                     <div class="address"> <i class="bi bi-geo-alt"></i>
                         <h4>地點</h4>
-                        <p>106 台灣台北市大安區和平東路一段129號 綜210展覽廳</p>
+                        <p>
+                            國立臺灣師範大學圖書館校區綜合大樓綜 210 展覽廳<br>
+                            地址：<a href="https://goo.gl/maps/TcPsciVNS8SEQDLCA" target="_blank">106 台灣台北市大安區和平東路一段129號</a>
+                        </p>
                     </div>
                     <div class="traffic"> <i class="bi bi-stoplights"></i>
                         <h4>交通資訊</h4>
-                        <p> 1. <b>捷運古亭站</b>：中和新蘆線〈橘線〉、松山新店線〈綠線〉於『古亭站』五號出口直行約八分鐘即可到達。<br>
+                        <p> 
+                            1. <b>捷運古亭站</b>：中和新蘆線〈橘線〉、松山新店線〈綠線〉於『古亭站』五號出口直行約八分鐘即可到達。<br>
                             <br>
                             2. <b>捷運台電大樓站</b>：松山新店線〈綠線〉於『台電大樓站』三號出口，師大路直行約十分鐘即可到達。<br>
                             <br>

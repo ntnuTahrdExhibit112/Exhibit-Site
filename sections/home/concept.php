@@ -1,10 +1,17 @@
+<style>
+    #concept .p-5 {
+        line-height: 2.3 !important;
+        font-size: 1.1rem !important;
+    }
+</style>
+
 <section id="concept" class="features">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>活動理念 & 活動宗旨</h2>
             <p>專展理念</p>
         </div>
-        <div class="row flex align-items-center"> <!--活動理念-->
+        <div class="row flex align-items-center mt-2"> <!--活動理念-->
             <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> 
                 <img src="assets/img/hero-bg.png" class="img-fluid" alt=""> 
             </div>
@@ -17,7 +24,7 @@
             </div>
         </div>
         <hr>
-        <div class="row flex align-items-center"> <!--活動宗旨-->
+        <div class="row flex align-items-center mt-5"> <!--活動宗旨-->
             <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-right" data-aos-delay="100">
                 <img src="assets/img/logo.png" class="img-fluid" alt="">
             </div>

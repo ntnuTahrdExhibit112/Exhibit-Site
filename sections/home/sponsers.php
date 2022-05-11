@@ -1,3 +1,8 @@
+<style>
+    #sponsers {
+        padding: 20px 0 !important;
+    }
+</style>
 <section id="sponsers" class="clients">
     <div class="container" data-aos="zoom-in">
         <div class="clients-slider swiper">
