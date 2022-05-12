@@ -19,15 +19,15 @@
 
 #hero {
     background: url("../img/hero-bg.png") top center;
-    background-color: #000;
+    background-color: #000 !important;
     background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 @media screen and (max-width: 768px) {
     #hero {
         background: url("../img/hero-bg-mobile.png") top center;
-        background-size: cover;
+        background-size: 100%;
     }
 }
 
