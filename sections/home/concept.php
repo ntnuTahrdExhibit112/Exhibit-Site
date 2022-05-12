@@ -13,7 +13,7 @@
         </div>
         <div class="row flex align-items-center mt-2"> <!--活動理念-->
             <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> 
-                <img src="assets/img/hero-bg.png" class="img-fluid" alt=""> 
+                <img src="assets/img/mainBG.png" class="img-fluid" alt=""> 
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <h3>活動理念</h3>
