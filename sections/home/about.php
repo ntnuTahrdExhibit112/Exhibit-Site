@@ -1,5 +1,5 @@
 <style>
-    #about p {
+    #history p {
         line-height: 2.3 !important;
         font-size: 1.1rem !important;
     }
@@ -11,7 +11,7 @@
             <h2>歷史沿革 & 系所特色</h2>
             <p>關於科技系</p>
         </div>
-        <div class="row flex align-items-center"> <!--歷史沿革-->
+        <div class="row flex align-items-center" id="history"> <!--歷史沿革-->
             <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> 
                 <img src="./assets/img/about_tahrd.png" class="img-fluid" alt=""> 
             </div>

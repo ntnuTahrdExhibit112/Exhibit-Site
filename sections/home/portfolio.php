@@ -1,3 +1,9 @@
+<style>
+    #portfolio .filter-active {
+        color: #000 !important;
+    }
+</style>
+
 <?php include("./group/group_info.php"); ?>
 <section id="portfolio" class="portfolio">
     <div class="container" data-aos="fade-up">

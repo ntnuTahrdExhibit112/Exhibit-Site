@@ -15,6 +15,10 @@ body *, h1, h2, h3, h4, h5, h6 {
 hr {
     color: #000 !important;
 }
+.section-title h2::after {
+    height: 2px !important;
+    background-color: rgb(228, 51, 238);
+}
 
 /* hero */
 @font-face {
@@ -41,5 +45,5 @@ hr {
 }
 
 #hero:before {
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.4);
 }
