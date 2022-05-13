@@ -1,3 +1,10 @@
+<style>
+    #about p {
+        line-height: 2.3 !important;
+        font-size: 1.1rem !important;
+    }
+</style>
+
 <section id="about" class="about">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -6,7 +13,7 @@
         </div>
         <div class="row flex align-items-center"> <!--歷史沿革-->
             <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> 
-                <img src="https://static.wixstatic.com/media/bd5b11_f46149f57ff84d3eb8f75746dc073125~mv2.jpg/v1/fill/w_828,h_522,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bd5b11_f46149f57ff84d3eb8f75746dc073125~mv2.jpg" class="img-fluid" alt=""> 
+                <img src="./assets/img/about_tahrd.png" class="img-fluid" alt=""> 
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <p>本系根源於民國 42 年所成立的工業教育系「工藝教育組」，專責培育我國中學「工藝」課程之師資，配合課程內涵之調整與修訂，在民國 61 年更名為「工業技術教育組」，並於民國 71 年正式獨立設系為「工藝教育學系」，為配合學校藝術學院成立，本系隸屬於藝術學院。</p>

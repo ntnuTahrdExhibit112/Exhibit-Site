@@ -2,6 +2,11 @@
     #sponsers {
         padding: 20px 0 !important;
     }
+    #sponsers .clients-slider {
+        background-color: rgba(255, 255, 255, 1);
+        padding: 1.5rem 5rem;
+        border-radius: 50px;
+    }
 </style>
 <section id="sponsers" class="clients">
     <div class="container" data-aos="zoom-in">

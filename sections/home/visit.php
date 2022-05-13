@@ -1,6 +1,12 @@
 <style>
+    #visit .info {
+        background-color: #000 !important;
+    }
     #visit .info p {
         font-size: 1.1rem;
+    }
+    #visit iframe {
+        border-radius: 15px;
     }
 </style>
 
@@ -21,7 +27,7 @@
                         <h4>地點</h4>
                         <p>
                             國立臺灣師範大學圖書館校區綜合大樓綜 210 展覽廳<br>
-                            地址：<a href="https://goo.gl/maps/TcPsciVNS8SEQDLCA" target="_blank">106 台灣台北市大安區和平東路一段129號</a>
+                            地址：<a id="address" href="https://goo.gl/maps/TcPsciVNS8SEQDLCA" target="_blank">106 台灣台北市大安區和平東路一段129號</a>
                         </p>
                     </div>
                     <div class="traffic"> <i class="bi bi-stoplights"></i>
