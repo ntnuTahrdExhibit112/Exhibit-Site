@@ -16,19 +16,16 @@
                     <ul>
                         <?php include("./group/group_info.php"); ?>
                         <li><a class="nav-link scrollto" href="./group?group=demo"><?php echo $demo_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g01"><?php echo $g01_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g02"><?php echo $g02_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g03"><?php echo $g03_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g04"><?php echo $g04_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g05"><?php echo $g05_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g06"><?php echo $g06_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g07"><?php echo $g07_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g08"><?php echo $g08_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g09"><?php echo $g09_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g10"><?php echo $g10_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g11"><?php echo $g11_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g12"><?php echo $g12_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="./group?group=g13"><?php echo $g13_title; ?></a></li>
+                        <?php
+                            $i = 0;
+                            while ($i != 13) {
+                                //echo($groups[$i]);
+                                include("./group/g" . $groups[$i] . "/basic_info.php");
+                                include("./sections/header_item.php");
+            
+                                $i++;
+                            }
+                        ?>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="./onlineExhibit">線上展</a></li>

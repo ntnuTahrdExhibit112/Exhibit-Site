@@ -14,7 +14,7 @@
 </style>
 
 <?php 
-    $groupID = $_GET['group'];
+    $groupID = $_GET['g'];
     include("./". $groupID . "/basic_info.php"); 
     include("./group_path.php"); 
 ?>

@@ -2,5 +2,10 @@
     $title = "VR無人機模擬器";
     $subtitle = "";
     $breadcrumb = "第9組 - VR無人機模擬器";
-    $root_path = "./g09/";
+    $root_path = "./g9/";
+
+    $category = "產品設計";
+    $filter = "design";
+    $cover = "./group/portfolio/g09.jpg";
+    $link = "./group?g=g9";
 ?>

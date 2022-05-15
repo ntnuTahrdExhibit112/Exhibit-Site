@@ -4,7 +4,7 @@
     }
 </style>
 
-<?php include("./group/group_info.php"); ?>
+<?php //include("./group/group_info.php"); ?>
 <section id="portfolio" class="portfolio">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
@@ -33,7 +33,16 @@
                     </a>
                 </div>
             </div>
-            
+            <?php
+                $i = 0;
+                while ($i != 13) {
+                    //echo($groups[$i]);
+                    include("./group/g" . $groups[$i] . "/basic_info.php");
+                    include("./sections/home/portfolio_item.php");
+
+                    $i++;
+                }
+            ?>
         </div>
     </div>
 </section>

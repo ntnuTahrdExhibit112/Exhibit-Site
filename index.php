@@ -36,7 +36,10 @@
 </head>
 
 <body>
-
+<?php
+  $groups = range(1, 13);
+  shuffle($groups);
+?>
 <!-- ======= Header ======= -->
 <?php include("./sections/header.php"); ?>
 
