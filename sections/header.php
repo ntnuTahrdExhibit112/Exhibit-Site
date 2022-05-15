@@ -1,3 +1,9 @@
+<style>
+    .navbar .dropdown ul {
+        background-color: #000 !important;
+    }
+</style>
+
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
         <!-- <h1 class="logo me-auto me-lg-0"><a href="./">Logo</a></h1>-->
@@ -38,8 +44,8 @@
         <!-- .navbar -->
 
         <div>
-            <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="get-started-btn scrollto"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn scrollto"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="get-started-btn scrollto" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn scrollto" title="Facebook"><i class="bi bi-facebook"></i></a>
         </div>
     </div>
 </header>

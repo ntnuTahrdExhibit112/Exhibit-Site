@@ -19,6 +19,9 @@ hr {
     height: 2px !important;
     background-color: rgb(228, 51, 238);
 }
+.p-5 {
+    padding: 1rem 3rem !important;
+}
 
 /* hero */
 @font-face {

@@ -11,7 +11,10 @@
                             <strong>電話：</strong><a href="tel:+886-2-7749-3439">+886-2-7749-3439</a><br>
                             <strong>傳真：</strong><a href="fax:+886-2-2392-1015">+886-2-2392-1015</a><br>
                         </p>
-                        <div class="social-links mt-3"> <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> </div>
+                        <div class="social-links mt-3"> 
+                            <a href="https://www.instagram.com/ntnutahrdexhibit112" class="instagram" title="Instagram"><i class="bx bxl-instagram"></i></a> 
+                            <a href="https://www.facebook.com/tahrdgraduationexhibition" class="facebook" title="Facebook"><i class="bx bxl-facebook"></i></a> 
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 footer-links">

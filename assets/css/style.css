@@ -205,6 +205,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: rgb(112,239,239);
 }
+.navbar .active {
+  color: rgb(112,239,239) !important;
+}
 .navbar .dropdown ul {
   display: block;
   position: absolute;

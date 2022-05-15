@@ -5,6 +5,10 @@
     #contact .member-info * {
         color: #000 !important;
     }
+    .contact .info i, .back-to-top {
+        background: transparent;
+        border: 2px solid rgb(112,239,239);
+    }
 </style>
 
 <section id="contact" class="team">
