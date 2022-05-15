@@ -5,10 +5,6 @@
     #contact .member-info * {
         color: #000 !important;
     }
-    .contact .info i, .back-to-top {
-        background: transparent;
-        border: 2px solid rgb(112,239,239);
-    }
 </style>
 
 <section id="contact" class="team">
@@ -20,7 +16,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up" data-aos-delay="100">
-                    <div class="member-img"> <img src="assets/img/contact/William_Chang.png" class="img-fluid" alt="">
+                    <div class="member-img"> <img src="assets/img/contact/William_Chang.png" class="img-fluid" alt="" loading="lazy">
                         <div class="social hider"> <a href="#tel:"><i class="bi bi-phone-fill"></i></a> <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> </div>
                     </div>
                     <div class="member-info">
@@ -30,7 +26,7 @@
             </div>
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up" data-aos-delay="100">
-                    <div class="member-img"> <img src="assets/img/contact/Stefan_Lee.png" class="img-fluid" alt="">
+                    <div class="member-img"> <img src="assets/img/contact/Stefan_Lee.png" class="img-fluid" alt="" loading="lazy">
                         <div class="social hider"> <a href="#tel:"><i class="bi bi-phone-fill"></i></a> <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> </div>
                     </div>
                     <div class="member-info">

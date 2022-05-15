@@ -1,7 +1,5 @@
 <style>
-    .navbar .dropdown ul {
-        background-color: #000 !important;
-    }
+    
 </style>
 
 <header id="header" class="fixed-top ">

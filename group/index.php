@@ -1,3 +1,18 @@
+<style>
+    .breadcrumbs {
+        background-color: inherit !important;
+    }
+    #portfolio-details .swiper-slide {
+        display: flex;
+        align-items: center;
+    }
+    #portfolio-details .portfolio-details-slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+
 <?php 
     $groupID = $_GET['group'];
     include("./". $groupID . "/basic_info.php"); 
@@ -30,7 +45,7 @@
 
 <!-- Template Main CSS File -->
 <link href="../assets/css/style.css" rel="stylesheet">
-<link href="assets/css/custom.css" rel="stylesheet">
+<link href="../assets/css/custom.css" rel="stylesheet">
 
 <!-- =======================================================
   * Template Name: Gp - v4.7.0
@@ -53,7 +68,7 @@
             <ul>
                 <li><a class="nav-link scrollto" href="../">首頁</a></li>
                 <li><a class="nav-link scrollto" href="../#concept">專展理念</a></li>
-                <li class="dropdown"><a class="nav-link scrollto active" href="../#portfolio"><span>作品廊</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown nav-link scrollto active"><a class="nav-link scrollto active" href="../#portfolio"><span>作品廊</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <?php include("group_info.php"); ?>
                         <li><a class="nav-link scrollto" href="?group=demo"><?php echo $demo_title; ?></a></li>
@@ -95,7 +110,7 @@
                     <h1><?php echo($title); ?></h1>
                     <h3><?php echo($subtitle); ?></h3>
                 </div>
-                <h6><a href="../#portfolio">作品廊</a> / <?php echo($breadcrumb); ?></h6>
+                <h6><a class="nav-link scrollto" href="../#portfolio">作品廊</a> / <?php echo($breadcrumb); ?></h6>
             </div>
         </div>
     </section>
