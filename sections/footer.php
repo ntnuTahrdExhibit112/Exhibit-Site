@@ -18,15 +18,25 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 footer-links">
-                    <h4>快速連結</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">首頁</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#about">關於科技系</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#concept">專展理念</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">作品廊</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#visit">參觀資訊</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#contact">聯絡我們</a></li>
-                    </ul>
+                    <h3 class="mb-4">快速連結</h3>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 footer-links">
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#hero">首頁</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#concept">專展理念</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#portfolio">作品廊</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="./onlineExhibit">線上展</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 footer-links">
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="./ARinteract">展場AR互動</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#visit">參觀資訊</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#about">關於科技系</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#contact">聯絡我們</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
