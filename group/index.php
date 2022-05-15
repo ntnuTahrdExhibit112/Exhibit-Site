@@ -110,7 +110,7 @@
                     <h1><?php echo($title); ?></h1>
                     <h3><?php echo($subtitle); ?></h3>
                 </div>
-                <h6><a class="nav-link scrollto" href="../#portfolio">作品廊</a> / <?php echo($breadcrumb); ?></h6>
+                <h6><a href="../#portfolio" style="display: inline;">作品廊</a> / <?php echo($breadcrumb); ?></h6>
             </div>
         </div>
     </section>
