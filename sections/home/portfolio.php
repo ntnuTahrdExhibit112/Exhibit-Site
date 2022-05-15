@@ -21,18 +21,6 @@
             </div>
         </div>
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-<?php echo($demo_filter); ?>">
-                <div class="portfolio-wrap"> 
-                    <a href="<?php echo($demo_link) ?>">
-                        <img src="<?php echo($demo_cover); ?>" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4><?php echo($demo_title); ?></h4>
-                            <h6><?php echo($demo_subtitle); ?></h6>
-                            <p><?php echo($demo_category); ?></p>
-                        </div>
-                    </a>
-                </div>
-            </div>
             <?php
                 $i = 0;
                 while ($i != 13) {

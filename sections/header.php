@@ -14,8 +14,6 @@
                 <li><a class="nav-link scrollto" href="#concept">專展理念</a></li>
                 <li class="dropdown"><a class="nav-link scrollto" href="#portfolio"><span>作品廊</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <?php include("./group/group_info.php"); ?>
-                        <li><a class="nav-link scrollto" href="./group?group=demo"><?php echo $demo_title; ?></a></li>
                         <?php
                             $i = 0;
                             while ($i != 13) {

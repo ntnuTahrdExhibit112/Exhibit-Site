@@ -58,6 +58,10 @@
 <body>
 
 <!-- ======= Header ======= -->
+<?php
+  $groups = range(1, 13);
+  shuffle($groups);
+?>
 <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-lg-between">
         <!-- <h1 class="logo me-auto me-lg-0"><a href="../">Logo</a></h1>-->
@@ -70,21 +74,17 @@
                 <li><a class="nav-link scrollto" href="../#concept">專展理念</a></li>
                 <li class="dropdown nav-link scrollto active"><a class="nav-link scrollto active" href="../#portfolio"><span>作品廊</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <?php include("group_info.php"); ?>
-                        <li><a class="nav-link scrollto" href="?group=demo"><?php echo $demo_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g01"><?php echo $g01_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g02"><?php echo $g02_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g03"><?php echo $g03_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g04"><?php echo $g04_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g05"><?php echo $g05_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g06"><?php echo $g06_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g07"><?php echo $g07_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g08"><?php echo $g08_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g09"><?php echo $g09_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g10"><?php echo $g10_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g11"><?php echo $g11_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g12"><?php echo $g12_title; ?></a></li>
-                        <li><a class="nav-link scrollto" href="?group=g13"><?php echo $g13_title; ?></a></li>
+                        <?php
+                            $i = 0;
+                            while ($i != 13) {
+                                //echo($groups[$i]);
+                                include("./g" . $groups[$i] . "/basic_info.php");
+                                $link;
+                                include("../sections/header_item.php");
+            
+                                $i++;
+                            }
+                        ?>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="../onlineExhibit">線上展</a></li>
@@ -102,6 +102,9 @@
 <!-- End Header -->
 
 <main id="main"> 
+    <?php
+        include("./". $groupID . "/basic_info.php"); 
+    ?>
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
@@ -110,7 +113,7 @@
                     <h1><?php echo($title); ?></h1>
                     <h3><?php echo($subtitle); ?></h3>
                 </div>
-                <h6><a href="../#portfolio" style="display: inline;">作品廊</a> / <?php echo($breadcrumb); ?></h6>
+                <h6><a href="../#portfolio" style="display: inline;">作品廊</a> / <?php echo($title); ?></h6>
             </div>
         </div>
     </section>

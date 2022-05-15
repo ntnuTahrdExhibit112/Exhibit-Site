@@ -59,3 +59,8 @@ hr {
 #hero:before {
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+/* group.breadcrumb */
+.breadcrumbs a {
+    color: rgb(112,239,239) !important;
+}
