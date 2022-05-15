@@ -80,7 +80,7 @@
                                 //echo($groups[$i]);
                                 include("./g" . $groups[$i] . "/basic_info.php");
                                 $link;
-                                include("../sections/header_item.php");
+                                include("./header_item.php");
             
                                 $i++;
                             }
