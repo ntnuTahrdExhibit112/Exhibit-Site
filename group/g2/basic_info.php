@@ -7,5 +7,5 @@
     $category = "產品設計";
     $filter = "design";
     $cover = "./group/portfolio/g02.jpg";
-    $link = "./group?g=g2";
+    $link = "./group?project=g2";
 ?>

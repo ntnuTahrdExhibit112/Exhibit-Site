@@ -7,5 +7,5 @@
     $category = "教學發展";
     $filter = "education";
     $cover = "./group/portfolio/g05.jpg";
-    $link = "./group?g=g5";
+    $link = "./group?project=g5";
 ?>

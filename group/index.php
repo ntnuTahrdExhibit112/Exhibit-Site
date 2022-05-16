@@ -14,7 +14,7 @@
 </style>
 
 <?php 
-    $input = $_GET['g'];
+    $input = $_GET['project'];
     include("./group_info.php"); 
     include("./". $groupID . "/basic_info.php"); 
     include("./group_path.php"); 
@@ -103,9 +103,7 @@
 <!-- End Header -->
 
 <main id="main"> 
-    <?php
-        include("./". $groupID . "/basic_info.php"); 
-    ?>
+    <?php include("./". $groupID . "/basic_info.php"); ?>
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
