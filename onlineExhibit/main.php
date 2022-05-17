@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 <title>Project Title</title>
@@ -7,7 +7,7 @@
 <style> @-ms-viewport { width: device-width; } </style>
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
-</head>
+</head> -->
 <body class="single-scene ">
 
 <div id="pano"></div>
@@ -68,4 +68,5 @@
 <script src="index.js"></script>
 
 </body>
-</html>
+<!-- </html>
+ -->
