@@ -43,7 +43,7 @@ hr {
 }
 
 #hero {
-    background: url("../img/hero-bg.png") top center;
+    background: url("../img/hero-bg.jpg") top center;
     background-color: #000 !important;
     background-size: contain;
     background-position: center !important;
@@ -51,7 +51,7 @@ hr {
 }
 @media screen and (max-width: 768px) {
     #hero {
-        background: url("../img/hero-bg-mobile.png") top center;
+        background: url("../img/hero-bg-mobile.jpg") top center;
         background-size: 100%;
     }
 }
