@@ -43,7 +43,10 @@
     </div>
     <div class="container">
         <div class="location"> <a href="https://goo.gl/maps/Vr3MGFQixfdhTz8h8" target="_blank">106 台北市大安區和平東路一段129號</a> </div>
-        <div class="copyright"> &copy; 2022 臺灣師範大學 科技應用與人力資源發展學系 <br>
-            <strong><span>112級畢業專題成果展</span></strong> </div>
+        <div class="copyright"> 
+            &copy; 2022 臺灣師範大學 科技應用與人力資源發展學系 <br>
+            <strong><span>112級畢業專題成果展</span></strong> <br>
+            <span>目前瀏覽次數：<strong><?php echo $browseCount; ?></strong></span>
+        </div>
     </div>
 </footer>

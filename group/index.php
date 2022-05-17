@@ -54,6 +54,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <?php include("./sections/counter.php") ?>
 </head>
 
 <body>
