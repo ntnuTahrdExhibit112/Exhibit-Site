@@ -4,8 +4,8 @@
     $breadcrumb = "第4組 - Westpath 西境山海";
     $root_path = "./g4/";
 
-    $category = "教學發展";
-    $filter = "education";
+    $category = "教育／教材／學習系統";
+    $filter = "Edu-Learning";
     $category2 = "";
     $filter2 = "";
     
