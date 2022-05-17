@@ -28,7 +28,7 @@ hr {
 }
 
 /* header */
-.navbar .dropdown ul {
+.navbar .dropdown ul, .navbar-mobile ul {
     background-color: #000 !important;
 }
 
@@ -58,6 +58,11 @@ hr {
 
 #hero:before {
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* portfolio */
+#portfolio .filter-active , .navbar-mobile .active{
+    color: #000 !important;
 }
 
 /* group.breadcrumb */

@@ -1,6 +1,19 @@
 <style>
-    #portfolio .filter-active {
-        color: #000 !important;
+    @media screen and (min-width: 769px) {
+        #portfolio .portfolio-desktop {
+            display: block !important;
+        }
+        #portfolio .portfolio-mobile {
+            display: none !important;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        #portfolio .portfolio-desktop {
+            display: none !important;
+        }
+        #portfolio .portfolio-mobile {
+            display: block !important;
+        }
     }
 </style>
 
@@ -22,16 +35,54 @@
             </div>
         </div>
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-            <?php
-                $i = 0;
-                while ($i != 13) {
-                    //echo($groups[$i]);
-                    include("./group/g" . $groups[$i] . "/basic_info.php");
-                    include("./sections/home/portfolio_item.php");
+            <div class="portfolio-desktop row">
+                <?php
+                    $i = 0;
+                    while ($i != 13) {
+                        //echo($groups[$i]);
+                        include("./group/g" . $groups[$i] . "/basic_info.php");
+                        include("./sections/home/portfolio_item.php");
 
-                    $i++;
-                }
-            ?>
+                        $i++;
+                    }
+                ?>
+            </div>
+            <div class="portfolio-mobile">
+                <style>
+                    .portfolio-mobile .portfolio-item {
+                        margin-bottom: 2% !important;
+                    }
+                    .portfolio-mobile .divider {
+                        border-top: 1px solid white;
+                        width: 50%;
+                        margin-top: 6% !important;
+                        margin-bottom: 2% !important;
+                    }
+                    .portfolio-item_mobile {
+                        width: 96%;
+                        *border-bottom: 2px solid white;
+                        *border-radius: 15px;
+                        margin: 2%;
+                        *padding-bottom:2%;
+                    }
+                    .portfolio-table_mobile td{
+                        padding: 2%;
+                    }
+                    .portfolio-table_mobile .h5, .portfolio-table_mobile .h6 {
+                        margin-top: 0.5rem;
+                    }
+                </style>
+                <?php
+                    $i = 0;
+                    while ($i != 13) {
+                        //echo($groups[$i]);
+                        include("./group/g" . $groups[$i] . "/basic_info.php");
+                        include("./sections/home/portfolio_item_mobile.php");
+
+                        $i++;
+                    }
+                ?>
+            </div>
         </div>
     </div>
 </section>
