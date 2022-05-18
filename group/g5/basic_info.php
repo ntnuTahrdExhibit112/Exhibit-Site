@@ -4,8 +4,8 @@
     $breadcrumb = "第5組 - 當科技與星星相遇";
     $root_path = "./g5/";
 
-    $category = "教學發展";
-    $filter = "education";
+    $category = "教育／教材／學習系統";
+    $filter = "Edu-Learning";
     $category2 = "";
     $filter2 = "";
     
