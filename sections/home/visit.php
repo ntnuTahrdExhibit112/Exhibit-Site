@@ -14,7 +14,7 @@
     <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>參觀資訊</h2>
-            <p>2022 台師大科技系112級畢業專展</p>
+            <p>2022 台師大科技系<br class="mobile-br">112級畢業專展</p>
         </div>
         <div class="row mb-5">
             <div class="col-lg-12">

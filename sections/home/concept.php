@@ -3,6 +3,12 @@
         line-height: 2.3 !important;
         font-size: 1.1rem !important;
     }
+    @media screen and (max-width:768px) {
+        #concept .p-5 {
+            line-height: 1.8 !important;
+            color: rgba(255,255,255,0.8) !important;
+        }
+    }
 </style>
 
 <section id="concept" class="features">

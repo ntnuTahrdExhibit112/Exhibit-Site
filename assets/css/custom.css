@@ -2,6 +2,11 @@
 .hider {
     display: none !important;
 }
+@media screen and (min-width: 769px) {
+    .mobile-br {
+        display: none !important;
+    }
+}
 /* Contact */
 .member-info {
     text-align: center;
