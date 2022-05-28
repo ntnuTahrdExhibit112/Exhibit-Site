@@ -10,5 +10,5 @@
     $filter2 = "BoardGame";
 
     $cover = "./group/portfolio/g10.jpg";
-    $link = "./group?project=Deciverse";
+    $link = "./group/?project=Deciverse";
 ?>
