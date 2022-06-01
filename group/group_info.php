@@ -4,7 +4,7 @@
         "g2" => "g2", 
         "g3" => "g3", 
         "Westpath" => "g4", 
-        "g5" => "g5", 
+        "techspestar" => "g5", 
         "JGFRA" => "g6", 
         "KuaiTaoBeiBei" => "g7", 
         "MiniEscape" => "g8", 

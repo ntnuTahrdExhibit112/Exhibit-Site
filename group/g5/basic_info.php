@@ -10,5 +10,5 @@
     $filter2 = "";
     
     $cover = "./group/portfolio/g05.jpg";
-    $link = "./group/?project=g5";
+    $link = "./group/?project=techspestar";
 ?>
