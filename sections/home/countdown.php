@@ -12,6 +12,7 @@
     #countdown #countdown_counter {
         display: flex;
         flex-direction: row;
+        margin-bottom: 2rem;
     }
     #countdown .countdown_block {
         border: 3px solid rgb(112,239,239);
@@ -31,18 +32,31 @@
         font-size: 200% !important;
         color: rgb(112,239,239) !important;
     }
+
+    #countdown #vote_CallToAction {
+        padding: 1% 3%;
+        line-height:auto;
+        border: 3px solid rgb(112,239,239);
+        border-radius: 5px;
+        background-color: rgb(112,239,239);
+    }
+    #countdown #vote_CallToAction span {
+        color: rgb(228, 51, 238) !important;
+    }
 </style>
 
 <section id="countdown" class="features">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>專題票選</h2>
-            <p>開票倒數</p>
+            <p><span id="countdown_section_title">開票</span>倒數</p>
         </div>
         <div class="row flex align-items-center mt-2"> <!--活動理念-->
             <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="zoom-in" data-aos-delay="100">
                 <center>
-                    <h3>距離開票時間還有</h3>
+                    <h3>
+                        距離<span id="countdown_title"></span>時間還有
+                    </h3>
                     <div id="countdown_counter" class="h2 col-lg-10 col-12">
                         <div class="countdown_block h4">
                             <div class="countdown_digits" id="countdown_days"></div>
@@ -60,45 +74,85 @@
                             <div class="countdown_digits" id="countdown_secs"></div>
                             秒
                         </div>
+                        <script>
+                            var timer = null;
+                            var today;
+                            var countdown_section_title = document.getElementById("countdown_section_title");
+                            var countdown_title = document.getElementById("countdown_title");
+                            countdown_section_title.innerHTML = "投票";
+                            countdown_title.innerHTML = "投票";
+                            var countdown_days = document.getElementById("countdown_days");
+                            var countdown_hours = document.getElementById("countdown_hours");
+                            var countdown_mins = document.getElementById("countdown_mins");
+                            var countdown_secs = document.getElementById("countdown_secs");
+                            var vote_started = 0;
+                            function countdown_counter() {   
+                                // Y, M, D, h, m, s
+                                var startVote = new Date(2022, 12-1, 2, 8, 0, 0);
+                                var endVote = new Date(2022, 12-1, 3, 12, 0, 0);
+                                today = new Date();
+                                var toStart = (startVote.getTime() - today.getTime());
+                                var toEnd = (endVote.getTime() - today.getTime());
+                                //test
+                                /* var testTime = new Date(2022, 7-1, 3, 22, 40, 0);
+                                var toTest = (testTime.getTime() - today.getTime()); */
+                                //end test
+                                var calcTime = toStart;
+                                if (toStart <= 0) {
+                                    //show vote btn
+                                    vote_started = 1;
+                                    showVoteBtn();
+                                    
+                                    //calcTime switch
+                                    calcTime = toEnd;
+                                    countdown_section_title.innerHTML = "開票";
+                                    countdown_title.innerHTML = "開票";
+                                }
+                                // var sectimeold = toEnd / 1000;
+                                // var secondsold = Math.floor(sectimeold);
+                                var msPerDay = 24 * 60 * 60 * 1000;
+                                var e_daysold = calcTime / msPerDay;
+                                var daysold = Math.floor(e_daysold);
+                                var e_hrsold = (e_daysold - daysold) * 24;
+                                var hrsold = Math.floor(e_hrsold);
+                                var e_minsold = (e_hrsold - hrsold) * 60;
+                                var minsold = Math.floor((e_hrsold - hrsold) * 60);
+                                var seconds = Math.floor((e_minsold - minsold) * 60);
+                                if (daysold < 0) {
+                                    countdown_days.innerHTML = "0";
+                                    countdown_hours.innerHTML = "00";
+                                    countdown_mins.innerHTML = "00";
+                                    countdown_secs.innerHTML = "00";
+                                    clearInterval(timer);
+                                }
+                                else{
+                                    if (daysold < 10) {daysold = "0" + daysold;}
+                                    if (hrsold < 10) {hrsold = "0" + hrsold;}
+                                    if (minsold < 10) {minsold = "0" + minsold;}
+                                    if (seconds < 10) {seconds="0" + seconds;}
+                                    //show.innerHTML = daysold + "天, " + hrsold + "時" + minsold + "分" + seconds + "秒";
+                                    countdown_days.innerHTML = daysold;
+                                    countdown_hours.innerHTML = hrsold;
+                                    countdown_mins.innerHTML = minsold;
+                                    countdown_secs.innerHTML = seconds;
+                                }
+                            }
+                            timer = setInterval(countdown_counter, 1000);
+                        </script>
                     </div>
-                    <script>
-                        var timer = null;
-                        var countdown_days = document.getElementById("countdown_days");
-                        var countdown_hours = document.getElementById("countdown_hours");
-                        var countdown_mins = document.getElementById("countdown_mins");
-                        var countdown_secs = document.getElementById("countdown_secs");
-                        function show_date_time() {   
-                            var target = new Date(2022, 12-1, 3, 12, 0, 0);  // Y/M/D/h/m/s
-                            var today = new Date();
-                            var timeold = (target.getTime()-today.getTime());
-                            var sectimeold = timeold / 1000;
-                            var secondsold = Math.floor(sectimeold);
-                            var msPerDay = 24 * 60 * 60 * 1000;
-                            var e_daysold = timeold / msPerDay;
-                            var daysold = Math.floor(e_daysold);
-                            var e_hrsold = (e_daysold - daysold) * 24;
-                            var hrsold = Math.floor(e_hrsold);
-                            var e_minsold = (e_hrsold - hrsold) * 60;
-                            var minsold = Math.floor((e_hrsold - hrsold) * 60);
-                            var seconds = Math.floor((e_minsold - minsold) * 60);
-                            if (daysold < 0) {
-                                document.getElementById("time").innerHTML="逾期,倒數計時已經失效";
-                                clearInterval(timer);
+                    <div class="col-12">
+                        <a href="#vote" id="vote_CallToAction" class="btn" style="display: none;">
+                            <span class="h3">我要投票</span>
+                        </a>
+                        <script>
+                            var vote_btn = document.getElementById("vote_CallToAction");
+                            function showVoteBtn() {
+                                if (vote_started == 1) {
+                                    vote_btn.style.display = "inline-block";
+                                }
                             }
-                            else{
-                                if (daysold < 10) {daysold = "0" + daysold;}
-                                if (hrsold < 10) {hrsold = "0" + hrsold;}
-                                if (minsold < 10) {minsold = "0" + minsold;}
-                                if (seconds < 10) {seconds="0" + seconds;}
-                                //show.innerHTML = daysold + "天, " + hrsold + "時" + minsold + "分" + seconds + "秒";
-                                countdown_days.innerHTML = daysold;
-                                countdown_hours.innerHTML = hrsold;
-                                countdown_mins.innerHTML = minsold;
-                                countdown_secs.innerHTML = seconds;
-                            }
-                        }
-                        timer = setInterval(show_date_time, 1000);
-                    </script>
+                        </script>
+                    </div>
                 </center>
             </div>
         </div>
