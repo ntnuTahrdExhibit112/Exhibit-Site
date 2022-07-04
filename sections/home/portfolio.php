@@ -71,6 +71,9 @@
                     .portfolio-table_mobile .h5, .portfolio-table_mobile .h6 {
                         margin-top: 0.5rem;
                     }
+                    .portfolio-item_mobile .portfolio-item_mobile_link {
+                        display: block !important;
+                    }
                 </style>
                 <?php
                     $i = 0;
