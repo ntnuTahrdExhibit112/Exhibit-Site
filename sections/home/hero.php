@@ -1,6 +1,26 @@
 <style>
-    #title_img {
+    #hero #title_img {
         width: 100%;
+    }
+    #hero h1 {
+        font-family: "Cyberpunk";
+        letter-spacing: 0.5rem !important;
+    }
+    #hero {
+        /* background: url("../img/hero-bg.jpg") top center; */
+        background-color: #000 !important;
+        background-size: contain;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+    @media screen and (max-width: 768px) {
+        #hero {
+            background: url("../img/hero-bg-mobile.jpg") top center;
+            background-size: 100%;
+        }
+    }
+    #hero:before {
+        background-color: rgba(0, 0, 0, 0.4);
     }
 </style>
 
@@ -8,7 +28,7 @@
     <div class="container" data-aos="fade-up">
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
             <div class="col-xl-8 col-lg-10">
-                <h1 class="hider">TECH PUNK</h1>
+                <!-- <h1 class="hider">TECH PUNK</h1> -->
                 <img src="assets/img/title.png" id="title_img">
                 <h2 style="line-height: 1.5;"> 
                     2022 國立臺灣師範大學<br>

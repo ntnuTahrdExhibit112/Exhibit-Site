@@ -3,9 +3,15 @@
         padding: 20px 0 !important;
     }
     #sponsers .clients-slider {
-        background-color: rgba(255, 255, 255, 1);
-        padding: 1.5rem 5rem;
-        border-radius: 50px;
+        /* background-color: rgba(255, 255, 255, 1); */
+        background-image: url("assets/img/clients/sponsor_frame.png");
+        padding: 2rem 2rem;
+        /* border-radius: 50px; */
+        background-position: center;
+        background-size: cover;
+    }
+    #sponsers .swiper-slide img {
+        filter: unset;
     }
 </style>
 <section id="sponsers" class="clients">

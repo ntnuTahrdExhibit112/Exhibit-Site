@@ -42,28 +42,7 @@ hr {
     font-family: "Cyberpunk";
     src: url(../fonts/Cyberwar-Regular.ttf) format("truetype");
 }
-#hero h1 {
-    font-family: "Cyberpunk";
-    letter-spacing: 0.5rem !important;
-}
 
-#hero {
-    background: url("../img/hero-bg.jpg") top center;
-    background-color: #000 !important;
-    background-size: contain;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-}
-@media screen and (max-width: 768px) {
-    #hero {
-        background: url("../img/hero-bg-mobile.jpg") top center;
-        background-size: 100%;
-    }
-}
-
-#hero:before {
-    background-color: rgba(0, 0, 0, 0.4);
-}
 
 /* portfolio */
 #portfolio .filter-active , .navbar-mobile .active{
