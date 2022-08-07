@@ -9,7 +9,7 @@
     }
 </style>
 <section id="sponsers" class="clients">
-    <div class="container" data-aos="zoom-in">
+    <div class="container" data-aos="">
         <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>

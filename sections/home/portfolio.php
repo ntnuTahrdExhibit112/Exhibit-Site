@@ -19,12 +19,12 @@
 
 <?php //include("./group/group_info.php"); ?>
 <section id="portfolio" class="portfolio">
-    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="">
         <div class="section-title">
             <h2>作品廊</h2>
             <p>各專題組 製作成果</p>
         </div>
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="row" data-aos="" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                     <li data-filter="*" class="filter-active">全部</li>
@@ -34,7 +34,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row portfolio-container" data-aos="" data-aos-delay="200">
             <div class="portfolio-desktop row">
                 <?php
                     $i = 0;

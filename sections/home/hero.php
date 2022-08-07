@@ -17,7 +17,7 @@
                 </h2>
             </div>
         </div>
-        <div class="row gy-4 mt-5 justify-content-center hider" data-aos="zoom-in" data-aos-delay="250">
+        <!-- <div class="row gy-4 mt-5 justify-content-center hider" data-aos="zoom-in" data-aos-delay="250">
             <div class="col-xl-2 col-md-3"> <a class="scrollto" href="#concept">
                 <div class="icon-box"> <i class="bi bi-lightbulb"></i>
                     <h3>專展理念</h3>
@@ -62,6 +62,6 @@
                 </div>
                 </a> 
             </div>
-        </div>
+        </div> -->
     </div>
 </section>

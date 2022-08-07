@@ -12,16 +12,16 @@
 </style>
 
 <section id="concept" class="features">
-    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="">
         <div class="section-title">
             <h2>活動理念 & 活動宗旨</h2>
             <p>專展理念</p>
         </div>
         <div class="row flex align-items-center mt-2"> <!--活動理念-->
-            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> 
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="" data-aos-delay="100"> 
                 <img src="assets/img/mainBG.png" class="img-fluid" alt=""> 
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="" data-aos-delay="100">
                 <h3>活動理念</h3>
                 <p class="p-5">
                     本次主題為「科技龐克TechPunk」，由 科技(Technology) 與 龐克(Punk) 兩個單字所組成。
@@ -31,10 +31,10 @@
         </div>
         <hr>
         <div class="row flex align-items-center mt-5"> <!--活動宗旨-->
-            <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-right" data-aos-delay="100">
+            <div class="col-lg-6 order-1 order-lg-1" data-aos="" data-aos-delay="100">
                 <img src="assets/img/logo.png" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-2 content" data-aos="fade-left" data-aos-delay="100">
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-2 content" data-aos="" data-aos-delay="100">
                 <h3>活動宗旨</h3>
                 <p class="p-5"> 
                     本次畢業展覽之籌劃，除了呈現四年學習過程中的成長，更能看見學生創意激盪的成果，也期望透過本次展覽向大眾介紹本系的發展方向，並提高知名度，同時也提供一個本系師生和外界直接交流的機會，使本系更加進步、成熟，也能有豐富的收獲。
