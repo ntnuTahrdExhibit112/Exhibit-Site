@@ -1,5 +1,9 @@
 <style>
-    
+    @media screen and (max-width: 769px) {
+        #header-logo {
+            margin-left: auto !important;
+        }
+    }
 </style>
 
 <header id="header" class="fixed-top ">
@@ -7,7 +11,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
         <!-- <h1 class="logo me-auto me-lg-0"><a href="./">Logo</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="./" class="logo ms-auto me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <a id="header-logo" href="./" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
