@@ -6,6 +6,10 @@
 <title>command</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
+<meta http-equiv="refresh" content="0; url=./demo.pdf">
+<script type="text/javascript">
+    window.location.href = "./demo.pdf"
+</script>
 
 <!-- Favicons -->
 <link href="../../assets/img/favicon.png" rel="icon">
