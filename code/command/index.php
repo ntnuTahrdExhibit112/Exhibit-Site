@@ -6,10 +6,10 @@
 <title>command</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
-<meta http-equiv="refresh" content="0; url=./demo.pdf">
+<!-- <meta http-equiv="refresh" content="0; url=./command.pdf">
 <script type="text/javascript">
-    window.location.href = "./demo.pdf"
-</script>
+    window.location.href = "./command.pdf"
+</script> -->
 
 <!-- Favicons -->
 <link href="../../assets/img/favicon.png" rel="icon">
@@ -20,6 +20,13 @@
 <body>
     demo<br>
     command
+    <a href="./command.pdf" id="command" download></a>
+    <script type="text/javascript">
+        var command = document.getElementById('command');
+        window.onload = function() {
+            command.click();
+        };
+    </script>
 </body>
 
 </html>
