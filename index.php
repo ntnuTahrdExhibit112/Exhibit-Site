@@ -56,6 +56,10 @@
     <!-- End Clients Section --> 
     <hr>
     <!-- ======= Features Section ======= -->
+    <?php include("./sections/home/countdown.php"); ?>
+    <!-- End Features Section -->
+    <hr>
+    <!-- ======= Features Section ======= -->
     <?php include("./sections/home/concept.php"); ?>
     <!-- End Features Section -->
     <hr>

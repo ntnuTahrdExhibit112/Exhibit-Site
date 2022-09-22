@@ -1,6 +1,6 @@
 <?php 
     $title = "Mycto 自行車安全帽";
-    $subtitle = "";
+    $subtitle = "MYCTO HELMET";
     $breadcrumb = "第12組 - Mycto 自行車安全帽";
     $root_path = "./g12/";
 
@@ -10,5 +10,5 @@
     $filter2 = "";
     
     $cover = "./group/portfolio/g12.jpg";
-    $link = "./group?project=g12";
+    $link = "./group/?project=MYCTO_HELMET";
 ?>

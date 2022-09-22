@@ -1,6 +1,6 @@
 <?php 
     $title = "見紅就收";
-    $subtitle = "";
+    $subtitle = "Wing Folder";
     $breadcrumb = "第1組 - 見紅就收";
     $root_path = "./g1/";
 
@@ -10,5 +10,5 @@
     $filter2 = "";
 
     $cover = "./group/portfolio/g01.jpg";
-    $link = "./group?project=g1";
+    $link = "./group/?project=wingfolder";
 ?>
