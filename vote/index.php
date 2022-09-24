@@ -1,13 +1,12 @@
-<?php
-    $isroot = 0;
+<?php 
+    
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>首頁 - TECH PUNK</title>
+<title>專題票選 - TECH PUNK</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
@@ -37,23 +36,21 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <?php include("../browseCount/counter.php") ?>
+  <?php include("./sections/counter.php") ?>
 </head>
 
 <body>
-<?php
-  $groups = range(1, 13);
-  shuffle($groups);
-?>
-<!-- ======= Header ======= -->
-<?php include("../sections/header.php"); ?>
-<!-- End Header --> 
 
-vote page
+<!-- ======= Header ======= -->
+<?php include("./sections/header.php"); ?>
+<!-- End Header -->
+
+
+<!-- End #main --> 
 
 <!-- ======= Footer ======= -->
-<?php include("../sections/footer.php"); ?>
-<!-- End Footer --> 
+<?php include("./sections/footer.php"); ?>
+<!-- End Footer -->
 
 <div id="preloader"></div>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> 
