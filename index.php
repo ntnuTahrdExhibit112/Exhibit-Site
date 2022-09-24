@@ -1,7 +1,3 @@
-<?php
-  $isroot = 1;
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +5,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>首頁 - TECH PUNK</title>
 <meta content="" name="description">
-<meta content="" name="keywords">
+<meta content="techpunk, 科技應用與人力資源發展學系, 科技系, 畢業專題成果展, 112級" name="keywords">
 
 <!-- Favicons -->
 <link href="assets/img/favicon.png" rel="icon">
@@ -41,10 +37,6 @@
 </head>
 
 <body>
-<?php
-  $groups = range(1, 13);
-  shuffle($groups);
-?>
 <!-- ======= Header ======= -->
 <?php include("./sections/header.php"); ?>
 
