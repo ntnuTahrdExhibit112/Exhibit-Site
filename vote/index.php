@@ -61,7 +61,7 @@
                     $vote_msg = "Countdown";
                     include("./sections/countdown.php");
                 }
-                echo $vote_msg;
+                // echo $vote_msg;
             ?>
         </div>
     </section>
