@@ -1,3 +1,13 @@
+<style>
+    @media screen and (max-width: 769px) {
+        #header-logo {
+            margin-left: auto !important;
+        }
+    }
+    .container {
+        padding: 0;
+    }
+</style>
 <?php
   $groups = range(1, 13);
   shuffle($groups);
