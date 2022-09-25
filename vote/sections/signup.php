@@ -32,7 +32,7 @@
 ?>
 
 <div class="section-title">
-    <h2>入場＆專題票選資格</h2>
+    <h2>專題展入場</h2>
     <p>取得號碼牌</p>
 </div>
 <div class="row flex align-items-center" id="history"> <!--歷史沿革-->
