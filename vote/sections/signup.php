@@ -30,7 +30,6 @@
         $showID = "0000";
     }
 ?>
-
 <div class="section-title">
     <h2>專題展入場</h2>
     <p>取得號碼牌</p>
@@ -38,7 +37,7 @@
 <div class="row flex align-items-center" id="history"> <!--歷史沿革-->
     <div class="col-12 pt-4 pt-lg-0 content" data-aos="" data-aos-delay="100">
         <center>
-            <h1><?php echo $showID ?></h1>
+            <h1 ><?php echo $showID ?></h1>
             <form method="POST" action="./sections/signup_action.php">
                 <input class="btn get-started-btn" type="submit" value="領取號碼牌">
             </form>

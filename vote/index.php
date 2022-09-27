@@ -46,22 +46,18 @@
 <!-- End Header -->
 
 <main id="main" style="margin-top: 10vh;">
-    <section id="countdown" class="features">
+    <section id="vote" class="features">
         <div class="container" data-aos="">
             <?php
                 if ($vote_action == 'signup') {
-                    $vote_msg = "You are No.0";
                     include("./sections/signup.php");
                 }
                 else if ($vote_action == 'vote') {
-                    $vote_msg = "Vote, motherfucker";
                     include("./sections/vote.php");
                 }
                 else if ($vote_action == 'countdown' || $vote_action == 'done') {
-                    $vote_msg = "Countdown";
                     include("./sections/countdown.php");
                 }
-                // echo $vote_msg;
             ?>
         </div>
     </section>
