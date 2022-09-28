@@ -4,9 +4,6 @@
             margin-left: auto !important;
         }
     }
-    .container {
-        padding: 0;
-    }
 </style>
 <?php
   $groups = range(1, 13);
