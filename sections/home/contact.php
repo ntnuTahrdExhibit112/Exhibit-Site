@@ -8,14 +8,14 @@
 </style>
 
 <section id="contact" class="team">
-    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="">
         <div class="section-title">
             <h2>聯絡我們</h2>
             <p>專展總籌</p>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="member" data-aos="" data-aos-delay="100">
                     <div class="member-img"> <img src="assets/img/contact/William_Chang.png" class="img-fluid" alt="" loading="lazy">
                         <div class="social hider"> <a href="#tel:"><i class="bi bi-phone-fill"></i></a> <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> </div>
                     </div>
@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="member" data-aos="" data-aos-delay="100">
                     <div class="member-img"> <img src="assets/img/contact/Stefan_Lee.png" class="img-fluid" alt="" loading="lazy">
                         <div class="social hider"> <a href="#tel:"><i class="bi bi-phone-fill"></i></a> <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> </div>
                     </div>

@@ -11,7 +11,7 @@
 </style>
 
 <section id="visit" class="contact">
-    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="">
         <div class="section-title">
             <h2>參觀資訊</h2>
             <p>2022 台師大科技系<br class="mobile-br">112級畢業專展</p>
