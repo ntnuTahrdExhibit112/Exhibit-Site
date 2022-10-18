@@ -10,5 +10,4 @@
         fclose($fp);
     }
     $browseCount = $count;
-    //echo $count;
 ?>
