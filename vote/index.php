@@ -1,5 +1,10 @@
 <?php 
+    session_start();
     $vote_action = $_GET['vote'];
+
+    if ((isset($_SESSION['entryID']))) {
+        echo "<script>console.log('entryID = " . $_SESSION['entryID'] . "');</script>";
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,6 +42,37 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <?php include("./sections/counter.php") ?>
+  <style>
+    input, select, option, .form_multiple_root *, .select2-results * {
+        color: black !important;
+    }
+    label {
+        font-size: 1em;
+    }
+    #vote_form .col-25p {
+        width: 25% !important;
+    }
+    #vote_form .col-75p {
+        width: 75% !important;
+    }
+    #vote_form .inline-block {
+        display: inline-block !important;
+    }
+    #vote_form .group_flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    .select2-search {
+        display: flex;
+    }
+  </style>
+
+  <!-- select2 -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.slim.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script defer src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 </head>
 
 <body>
