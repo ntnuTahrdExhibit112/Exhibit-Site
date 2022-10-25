@@ -12,14 +12,15 @@
         $cmd_isVoted = "SELECT * FROM signup WHERE code = '$entryID' AND voted IS NULL";
         $isVoted = mysqli_query($db, $cmd_isVoted);
         
-        if (mysqli_num_rows($verify) == 1) {
+        if (mysqli_num_rows($isVoted) == 1) {
             $_SESSION['entryID'] = $entryID;
             $_SESSION['status'] = "verified";
             // echo "verified";
             header("Location: ../?vote=vote");
         }
         else {
-            
+            $_SESSION['status'] = "is_voted";
+            header("Location: ../?vote=done");
         }
     }
     else {

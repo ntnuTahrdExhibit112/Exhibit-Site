@@ -30,5 +30,6 @@
     $cmd_markAsVoted = "UPDATE signup SET voted=1 WHERE code='$entryID'";
     $markAsVoted = mysqli_query($db, $cmd_markAsVoted);
 
-    echo "done";
+    header("Location: ../?vote=lottery");
+
 ?>
