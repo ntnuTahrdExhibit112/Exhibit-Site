@@ -36,7 +36,7 @@
 </div>
 <div class="row flex align-items-center" id="vote_form">
     <div class="col-10 col-lg-6 col-md-8 pt-4 pt-lg-0 container" data-aos="" data-aos-delay="100">
-        <form class="form-horizontal" method="POST" action="./sections/test_action.php">
+        <form class="form-horizontal" method="POST" action="./sections/vote_action.php">
             <div class="flex form_container" id="form_container">
                 <div class="form-group group_flex h3">
                     <label for="entryID" class="control-label col-6"><center>入場號碼</center></label>
