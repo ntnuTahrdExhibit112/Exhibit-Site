@@ -6,7 +6,7 @@
         if (isset($_SESSION['entryID'])) {
             echo "<script>window.location.href = './?vote=vote';</script>";
         }
-        // unset($_SESSION['entryID']);
+        unset($_SESSION['entryID']);
     }
 ?>
 <div class="section-title">

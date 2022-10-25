@@ -66,6 +66,7 @@
     }
     .select2-search {
         display: flex;
+        line-height: 20px;
     }
   </style>
 
@@ -90,6 +91,9 @@
                 }
                 else if ($vote_action == 'vote') {
                     include("./sections/vote.php");
+                }
+                else if ($vote_action == 'lottery') {
+                    include("./sections/lottery.php");
                 }
                 else if ($vote_action == 'countdown' || $vote_action == 'done') {
                     include("./sections/countdown.php");
