@@ -9,10 +9,10 @@
     $verify = mysqli_query($db, $cmd_verify);
 
     if (mysqli_num_rows($verify) == 1) {
-        $cmd_isVoted = "SELECT * FROM signup WHERE code = '$entryID' AND voted IS NULL";
-        $isVoted = mysqli_query($db, $cmd_isVoted);
+        $cmd_notVoted = "SELECT * FROM signup WHERE code = '$entryID' AND voted IS NULL";
+        $notVoted = mysqli_query($db, $cmd_notVoted);
         
-        if (mysqli_num_rows($isVoted) == 1) {
+        if (mysqli_num_rows($notVoted) == 1) {
             $_SESSION['entryID'] = $entryID;
             $_SESSION['status'] = "verified";
             // echo "verified";

@@ -1,8 +1,10 @@
 <?php 
     session_start();
     $vote_action = $_GET['vote'];
-
-    if ((isset($_SESSION['entryID']))) {
+    if (!isset($_SESSION['status'])) {
+        $_SESSION['status'] = "unset";
+    }
+    if (isset($_SESSION['entryID'])) {
         echo "<script>console.log('entryID = " . $_SESSION['entryID'] . "');</script>";
     }
 ?>
@@ -41,13 +43,16 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <?php include("./sections/counter.php") ?>
+  <?php include("./sections/counter.php") ?> 
   <style>
     input, select, option, .form_multiple_root *, .select2-results * {
         color: black !important;
     }
     label {
         font-size: 1em;
+    }
+    .btn-success {
+        color: #fff !important;
     }
     #vote_form .col-25p {
         width: 25% !important;
@@ -64,6 +69,18 @@
         align-items: center;
         margin-bottom: 3%;
     }
+    #vote_form .form_btn {
+        padding: 1% !important;
+        background-color: #0d6efd;
+        cursor: pointer;
+    }
+    #vote_form .form_flex {
+        display: flex;
+    }
+    #vote_form .form-group {
+        margin-bottom: 5% !important;
+    }
+
     .select2-search {
         display: flex;
         line-height: 20px;
@@ -86,6 +103,10 @@
     <section id="vote" class="features">
         <div class="container" data-aos="">
             <?php
+                date_default_timezone_set('Asia/Taipei');
+                $resetter = 'reset_' . date("mdHi");
+                // echo "<script>console.log('" . $resetter . "');</script>";
+
                 if ($vote_action == 'signup') {
                     include("./sections/signup.php");
                 }
@@ -97,6 +118,12 @@
                 }
                 else if ($vote_action == 'countdown' || $vote_action == 'done') {
                     include("./sections/countdown.php");
+                }
+                else if ($vote_action == $resetter) {
+                    include("./sections/test_cleaner.php");
+                }
+                else {
+                    include("./sections/error.php");
                 }
             ?>
         </div>

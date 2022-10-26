@@ -3,20 +3,13 @@
         $_SESSION['status'] = "not_verified";
         echo "<script>window.location.href = './?vote=signup';</script>";
     }
+    if ($_SESSION['status'] == "info_filled") {
+        echo "<script>window.location.href = './?vote=done';</script>";
+    }
+    else if ($_SESSION['status'] == "voted") {
+        echo "<script>window.location.href = './?vote=lottery';</script>";
+    }
 ?>
-<style>
-    #vote_form .form_btn {
-        padding: 1% !important;
-        background-color: #0d6efd;
-        cursor: pointer;
-    }
-    #vote_form .form_flex {
-        display: flex;
-    }
-    #vote_form .form-group {
-        margin-bottom: 5% !important;
-    }
-</style>
 <script>
     $(document).ready(function() {
         $('.form_multiple').select2({
@@ -39,7 +32,7 @@
         <form class="form-horizontal" method="POST" action="./sections/vote_action.php">
             <div class="flex form_container" id="form_container">
                 <div class="form-group group_flex h3">
-                    <label for="entryID" class="control-label col-6"><center>入場號碼</center></label>
+                    <label for="entryID" class="control-label col-6"><center>叛軍ID</center></label>
                     <div class="inline-block col-6">
                         <center><b class="h2" style="color: rgb(225,64,237) !important;"><?php echo $_SESSION['entryID'] ?></b></center>
                     </div>
@@ -47,7 +40,7 @@
                 <hr><hr>
                 <!-- q01 -->
                 <div class="form-group">
-                    <label for="q01" class="control-label">您是如何得知「TECHPUNK」展覽活動？</label>
+                    <label for="q01" class="control-label h5">您是如何得知「TECHPUNK」展覽活動？</label>
                     <div class="form_multiple_root">
                         <select class="form-select form_multiple" id="q01" name="q01[]" multiple required>
                             <option value="粉絲專頁">粉絲專頁</option>
@@ -60,7 +53,7 @@
                 </div>
                 <!-- q02 -->
                 <div class="form-group">
-                    <label for="q02" class="control-label">請問本次展覽令您滿意的地方？</label>
+                    <label for="q02" class="control-label h5">請問本次展覽令您滿意的地方？</label>
                     <div class="form_multiple_root">
                         <select class="form-select form_multiple" id="q02" name="q02[]" multiple required>
                             <option value="動線規劃">動線規劃</option>
@@ -76,8 +69,8 @@
                     </div>
                 </div>
                 <!-- q03 -->
-                <div class="form-group">
-                    <label for="q03" class="control-label">您參觀此展覽動機為？</label>
+                <div class="form-group h5">
+                    <label for="q03" class="control-label h5">您參觀此展覽動機為？</label>
                     <div class="form_multiple_root">
                         <select class="form-select form_multiple" id="q03" name="q03[]" multiple required>
                             <option value="課堂參觀">課堂參觀</option>
@@ -90,7 +83,7 @@
                 </div>
                 <!-- q04 -->
                 <div class="form-group">
-                    <label for="q04" class="control-label">您希望在未來舉辦的展覽活動中可了解到的資訊？</label>
+                    <label for="q04" class="control-label h5">您希望在未來舉辦的展覽活動中可了解到的資訊？</label>
                     <div class="form_multiple_root">
                         <select class="form-select form_multiple" id="q04" name="q04[]" multiple required>
                             <option value="最新科技">最新科技</option>
@@ -103,7 +96,7 @@
                 </div>
                 <!-- q05 -->
                 <div class="form-group">
-                    <label for="q05" class="control-label">你是否知道本次展覽活動「TECHPUNK」有線上展覽的方式？</label>
+                    <label for="q05" class="control-label h5">你是否知道本次展覽活動「TECHPUNK」有線上展覽的方式？</label>
                     <div class="form_multiple_root">
                         <select class="form-select form_single" id="q05" name="q05[]" required>
                             <option value="0" disabled selected>請選擇您的答案</option>
@@ -115,14 +108,14 @@
                 </div>
                 <!-- q06 -->
                 <div class="form-group">
-                    <label for="q06" class="control-label">對於本次展覽是否有其他建議供我們改進？</label>
+                    <label for="q06" class="control-label h5">對於本次展覽是否有其他建議供我們改進？</label>
                     <div class="form_multiple_root">
                         <input type="text" class="form-control" id="q06" name="q06[]" placeholder="請填寫建議" required>
                     </div>
                 </div>
                 <!-- q07 -->
                 <div class="form-group">
-                    <label for="q07" class="control-label">您最喜歡的作品</label>
+                    <label for="q07" class="control-label h5">您最喜歡的作品</label>
                     <div class="form_multiple_root">
                         <select class="form-select form_single" id="q07" name="q07[]" required>
                             <option value="0" disabled selected>請選擇一個專題組別</option>
@@ -144,7 +137,7 @@
                 </div>
                 <!-- q08 -->
                 <div class="form-group">
-                    <label for="q08" class="control-label">你最喜歡的攤位空間佈置</label>
+                    <label for="q08" class="control-label h5">你最喜歡的攤位空間佈置</label>
                     <div class="form_multiple_root">
                         <select class="form-select form_single" id="q08" name="q08[]" required>
                             <option value="0" disabled selected>請選擇一個專題組別</option>
