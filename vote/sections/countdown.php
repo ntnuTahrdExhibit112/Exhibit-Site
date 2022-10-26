@@ -1,14 +1,160 @@
+<?php 
+    if ($_SESSION['status'] == "unset" || $_SESSION['status'] == "not_verified" || $_SESSION['status'] == "verified" || $_SESSION['status'] == "voted") {
+        echo "<script>showVoteBtn();</script>";
+    }
+?>
+<style>
+    /* #countdown .p-5 {
+        line-height: 2.3 !important;
+        font-size: 1.1rem !important;
+    }
+    @media screen and (max-width:768px) {
+        #countdown .p-5 {
+            line-height: 1.8 !important;
+            color: rgba(255,255,255,0.8) !important;
+        }
+    } */
+    #countdown #countdown_counter {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+    #countdown .countdown_block {
+        border: 3px solid rgb(112,239,239);
+        color: rgb(112,239,239) !important;
+        border-radius: 15px;
+        height: 18vh;
+        width: 23%;
+        margin: 1% 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #countdown .countdown_block .countdown_digits {
+        color: rgb(228, 51, 238) !important;
+    }
+    #countdown .countdown_block div {
+        font-size: 200% !important;
+        color: rgb(112,239,239) !important;
+    }
+
+    #countdown #vote_CallToAction {
+        padding: 1% 3%;
+        line-height:auto;
+        border: 3px solid rgb(112,239,239);
+        border-radius: 5px;
+        background-color: rgb(112,239,239);
+    }
+    #countdown #vote_CallToAction span {
+        color: rgb(228, 51, 238) !important;
+    }
+</style>
 <div class="section-title">
-    <h2>歷史沿革 & 系所特色</h2>
-    <p>關於科技系</p>
+    <h2>專題票選</h2>
+    <p><span id="countdown_section_title">開票</span>倒數</p>
 </div>
-<div class="row flex align-items-center" id="history"> <!--歷史沿革-->
-    <div class="col-lg-6 order-1 order-lg-2" data-aos="" data-aos-delay="100"> 
-        <img src="./assets/img/about_tahrd.png" class="img-fluid" alt=""> 
-    </div>
-    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="" data-aos-delay="100">
-        <p>本系根源於民國 42 年所成立的工業教育系「工藝教育組」，專責培育我國中學「工藝」課程之師資，配合課程內涵之調整與修訂，在民國 61 年更名為「工業技術教育組」，並於民國 71 年正式獨立設系為「工藝教育學系」，為配合學校藝術學院成立，本系隸屬於藝術學院。</p>
-        <p>隨著社會環境的變遷與課程改革的需求，外加上師資培育多元化的衝擊，在民國 83 年正式將系名更改為「工業科技教育學系」，專責培育中學「生活科技」課程之師資，民國 87 年本系改隸屬於當年新成立的科技學院。為符合本系培育科技產業教育訓練人才之目標，本系獲教育部同意，自 98 學年度起更名為「科技應用與人力資源發展學系」，簡稱為科技系。</p>
-        <p>目前的大學部課程則分為「學習與科技組」及「設計與科技組」，以培養科技產業界所需之人力資源人才。</p>
+<div id="countdown" class="row flex align-items-center mt-2">
+    <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="" data-aos-delay="100">
+        <center>
+            <h3>
+                距離<span id="countdown_title"></span>時間還有
+            </h3>
+            <div id="countdown_counter" class="h2 col-lg-10 col-12">
+                <div class="countdown_block h4">
+                    <div class="countdown_digits" id="countdown_days"></div>
+                    日
+                </div>
+                <div class="countdown_block h4">
+                    <div class="countdown_digits" id="countdown_hours"></div>
+                    時
+                </div>
+                <div class="countdown_block h4">
+                    <div class="countdown_digits" id="countdown_mins"></div>
+                    分
+                </div>
+                <div class="countdown_block h4">
+                    <div class="countdown_digits" id="countdown_secs"></div>
+                    秒
+                </div>
+                <script>
+                    var timer = null;
+                    var today;
+                    var countdown_section_title = document.getElementById("countdown_section_title");
+                    var countdown_title = document.getElementById("countdown_title");
+                    countdown_section_title.innerHTML = "投票";
+                    countdown_title.innerHTML = "投票";
+                    var countdown_days = document.getElementById("countdown_days");
+                    var countdown_hours = document.getElementById("countdown_hours");
+                    var countdown_mins = document.getElementById("countdown_mins");
+                    var countdown_secs = document.getElementById("countdown_secs");
+                    var vote_started = 0;
+                    function countdown_counter() {   
+                        // Y, M, D, h, m, s
+                        var startVote = new Date(2022, 12-1, 2, 8, 0, 0);
+                        var endVote = new Date(2022, 12-1, 3, 12, 0, 0);
+                        today = new Date();
+                        var toStart = (startVote.getTime() - today.getTime());
+                        var toEnd = (endVote.getTime() - today.getTime());
+                        //test
+                        /* var testTime = new Date(2022, 7-1, 3, 22, 40, 0);
+                        var toTest = (testTime.getTime() - today.getTime()); */
+                        //end test
+                        var calcTime = toStart;
+                        if (toStart <= 0) {
+                            //show vote btn
+                            vote_started = 1;
+                            // showVoteBtn();
+                            
+                            //calcTime switch
+                            calcTime = toEnd;
+                            countdown_section_title.innerHTML = "開票";
+                            countdown_title.innerHTML = "開票";
+                        }
+                        // var sectimeold = toEnd / 1000;
+                        // var secondsold = Math.floor(sectimeold);
+                        var msPerDay = 24 * 60 * 60 * 1000;
+                        var e_daysold = calcTime / msPerDay;
+                        var daysold = Math.floor(e_daysold);
+                        var e_hrsold = (e_daysold - daysold) * 24;
+                        var hrsold = Math.floor(e_hrsold);
+                        var e_minsold = (e_hrsold - hrsold) * 60;
+                        var minsold = Math.floor((e_hrsold - hrsold) * 60);
+                        var seconds = Math.floor((e_minsold - minsold) * 60);
+                        if (daysold < 0) {
+                            countdown_days.innerHTML = "0";
+                            countdown_hours.innerHTML = "00";
+                            countdown_mins.innerHTML = "00";
+                            countdown_secs.innerHTML = "00";
+                            clearInterval(timer);
+                        }
+                        else{
+                            if (daysold < 10) {daysold = "0" + daysold;}
+                            if (hrsold < 10) {hrsold = "0" + hrsold;}
+                            if (minsold < 10) {minsold = "0" + minsold;}
+                            if (seconds < 10) {seconds="0" + seconds;}
+                            //show.innerHTML = daysold + "天, " + hrsold + "時" + minsold + "分" + seconds + "秒";
+                            countdown_days.innerHTML = daysold;
+                            countdown_hours.innerHTML = hrsold;
+                            countdown_mins.innerHTML = minsold;
+                            countdown_secs.innerHTML = seconds;
+                        }
+                    }
+                    timer = setInterval(countdown_counter, 1000);
+                </script>
+            </div>
+            <div class="col-12">
+                <a href="./?vote=signup" id="vote_CallToAction" class="btn" style="display: none;">
+                    <span class="h3">我要投票</span>
+                </a>
+                <script>
+                    var vote_btn = document.getElementById("vote_CallToAction");
+                    function showVoteBtn() {
+                        if (vote_started == 1) {
+                            vote_btn.style.display = "inline-block";
+                        }
+                    }
+                </script>
+            </div>
+        </center>
     </div>
 </div>

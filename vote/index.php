@@ -1,5 +1,12 @@
 <?php 
+    session_start();
     $vote_action = $_GET['vote'];
+    if (!isset($_SESSION['status'])) {
+        $_SESSION['status'] = "unset";
+    }
+    if (isset($_SESSION['entryID'])) {
+        echo "<script>console.log('entryID = " . $_SESSION['entryID'] . "');</script>";
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,7 +43,54 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <?php include("./sections/counter.php") ?>
+  <?php include("./sections/counter.php") ?> 
+  <style>
+    input, select, option, .form_multiple_root *, .select2-results * {
+        color: black !important;
+    }
+    label {
+        font-size: 1em;
+    }
+    .btn-success {
+        color: #fff !important;
+    }
+    #vote_form .col-25p {
+        width: 25% !important;
+    }
+    #vote_form .col-75p {
+        width: 75% !important;
+    }
+    #vote_form .inline-block {
+        display: inline-block !important;
+    }
+    #vote_form .group_flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    #vote_form .form_btn {
+        padding: 1% !important;
+        background-color: #0d6efd;
+        cursor: pointer;
+    }
+    #vote_form .form_flex {
+        display: flex;
+    }
+    #vote_form .form-group {
+        margin-bottom: 5% !important;
+    }
+
+    .select2-search {
+        display: flex;
+        line-height: 20px;
+    }
+  </style>
+
+  <!-- select2 -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.slim.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script defer src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 </head>
 
 <body>
@@ -49,14 +103,27 @@
     <section id="vote" class="features">
         <div class="container" data-aos="">
             <?php
+                date_default_timezone_set('Asia/Taipei');
+                $resetter = 'reset_' . date("mdHi");
+                // echo "<script>console.log('" . $resetter . "');</script>";
+
                 if ($vote_action == 'signup') {
                     include("./sections/signup.php");
                 }
                 else if ($vote_action == 'vote') {
                     include("./sections/vote.php");
                 }
+                else if ($vote_action == 'lottery') {
+                    include("./sections/lottery.php");
+                }
                 else if ($vote_action == 'countdown' || $vote_action == 'done') {
                     include("./sections/countdown.php");
+                }
+                else if ($vote_action == $resetter) {
+                    include("./sections/test_cleaner.php");
+                }
+                else {
+                    include("./sections/error.php");
                 }
             ?>
         </div>

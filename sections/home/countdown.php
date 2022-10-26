@@ -141,7 +141,7 @@
                         </script>
                     </div>
                     <div class="col-12">
-                        <a href="#vote" id="vote_CallToAction" class="btn" style="display: none;">
+                        <a href="./vote/?vote=signup" id="vote_CallToAction" class="btn" style="display: none;">
                             <span class="h3">我要投票</span>
                         </a>
                         <script>

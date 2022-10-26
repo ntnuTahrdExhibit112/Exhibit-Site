@@ -2,23 +2,37 @@
     session_start();
     include("../../db/db_connect.php");
     
-    $name = $_POST['name'];
-    $phone = $_POST['phone'];
+    $entryID = $_POST['entryID'];
+    echo $entryID;
 
-    // check if name and phone exists
-    $cmd_CheckExist = "SELECT * FROM signup WHERE (name = '$name' OR phone = '$phone')";
-    $CheckExist = mysqli_query($db, $cmd_CheckExist);
+    $cmd_verify = "SELECT * FROM signup WHERE code = '$entryID'";
+    $verify = mysqli_query($db, $cmd_verify);
 
-    if (mysqli_num_rows($CheckExist) >= 1) {
-        
+    if (mysqli_num_rows($verify) == 1) {
+        $_SESSION['entryID'] = $entryID;
+
+        $cmd_notVoted = "SELECT * FROM signup WHERE code = '$entryID' AND voted IS NULL";
+        $notVoted = mysqli_query($db, $cmd_notVoted);
+        if (mysqli_num_rows($notVoted) == 1) {
+            $_SESSION['status'] = "verified";
+            header("Location: ../?vote=vote");
+        }
+        else {
+            $cmd_notFilled = "SELECT * FROM signup WHERE code = '$entryID' AND info_filled IS NULL";
+            $notFilled = mysqli_query($db, $cmd_notFilled);
+            if (mysqli_num_rows($notFilled) == 1) {
+                $_SESSION['status'] = "voted";
+                header("Location: ../?vote=lottery");
+            }
+            else {
+                $_SESSION['status'] = "info_filled";
+                header("Location: ../?vote=done");
+            }
+        }
     }
     else {
-        $CurTime = date("Y-m-d H:i:s", time() + 8 * 60 * 60);
-        $cmd_signup = "INSERT INTO signup (name, phone, time) VALUES ('$name', '$phone', '$CurTime')";
-        $signup = mysqli_query($db, $cmd_signup);
-        
-        $_SESSION['ID'] = 
+        $_SESSION['status'] = "error";
+        // echo "error";
+        header("Location: ../?vote=signup");
     }
-
-    header("Location: ../?vote=signup");
 ?>
