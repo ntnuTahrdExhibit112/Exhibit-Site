@@ -96,10 +96,15 @@
 
 <!-- Template Main JS File --> 
 <script defer src="assets/js/main.js"></script>
-<div class="preloader hider">
-  <img src="./code/2222222222222222/hidden_end.jpg" alt="">
-  <img src="./code/endConscious/true_end.jpg" alt="">
-  <img src="./code/endSurrender/bad_end.jpg" alt="">
-</div>
+<!-- <div class="preloader hider" id="preloader">
+  <script>
+    var root = document.getElementById('preloader');
+    function load_preload_items() {
+      var imgs = '<img class="preload_items" src="./code/2222222222222222/hidden_end.jpg" alt=""><img class="preload_items" src="./code/endConscious/true_end.jpg" alt=""><img class="preload_items" src="./code/endSurrender/bad_end.jpg" alt="">';
+      root.innerHTML = imgs;
+    }
+    // window.onload = load_preload_items;
+  </script>
+</div> -->
 </body>
 </html>
