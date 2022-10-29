@@ -10,12 +10,26 @@
 <!-- Favicons -->
 <link href="../../assets/img/favicon.png" rel="icon">
 <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="../../assets/css/code.css" rel="stylesheet">
+<script src="../../assets/js/code.js"></script>
+<style>
+    body {
+        background-image: url(./true_end.jpg) !important;
+    }
+    @media screen and (max-width: 769px) {
+        body {
+            background-image: url(./true_end.jpg) !important;
+        }
+    }
+</style>
 
 </head>
 
 <body>
-    demo<br>
-    endConscious
+    <!-- demo<br>
+    endConscious -->
+    <img id="page_img" src="./true_end.jpg">
+    <img id="page_img_mobile" src="./true_end.jpg">
 </body>
 
 </html>

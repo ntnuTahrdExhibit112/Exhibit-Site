@@ -1,0 +1,24 @@
+body {
+    margin: 0 !important;
+    background-color: black !important;
+    overflow: hidden;
+    background-size: cover !important;
+}
+#page_img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+#page_img_mobile {
+    display: none;
+    width: 100%;
+    height: 100vh;
+}
+@media screen and (max-width: 769px) {
+    #page_img {
+        display: none;
+    }
+    #page_img_mobile {
+        display: block;
+    }
+}

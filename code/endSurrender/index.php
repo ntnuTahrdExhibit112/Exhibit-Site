@@ -10,12 +10,26 @@
 <!-- Favicons -->
 <link href="../../assets/img/favicon.png" rel="icon">
 <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="../../assets/css/code.css" rel="stylesheet">
+<script src="../../assets/js/code.js"></script>
+<style>
+    body {
+        background-image: url(./bad_end.jpg) !important;
+    }
+    @media screen and (max-width: 769px) {
+        body {
+            background-image: url(./bad_end.jpg) !important;
+        }
+    }
+</style>
 
 </head>
 
 <body>
-    demo<br>
-    endSurrender
+    <!-- demo<br>
+    endSurrender -->
+    <img id="page_img" src="./bad_end.jpg">
+    <img id="page_img_mobile" src="./bad_end.jpg">
 </body>
 
 </html>
