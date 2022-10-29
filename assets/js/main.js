@@ -52,8 +52,10 @@
       if (!section) return
       if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
         navbarlink.classList.add('active')
+        navbarlink.nextElementSibling.classList.add('space_active')
       } else {
         navbarlink.classList.remove('active')
+        navbarlink.nextElementSibling.classList.remove('space_active')
       }
     })
   }

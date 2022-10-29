@@ -20,9 +20,17 @@
         
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a class="nav-link scrollto" href="../">首頁</a></li>
-                <li><a class="nav-link scrollto" href="../#concept">專展理念</a></li>
-                <li class="dropdown nav-link scrollto active"><a class="nav-link scrollto active" href="../#portfolio"><span>作品廊</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="nav-li">
+                    <a class="nav-link scrollto" href="../">首頁</a>
+                    <div class="space"></div>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link scrollto" href="../#concept">專展理念</a>
+                    <div class="space"></div>
+                </li>
+                <li class="dropdown nav-link scrollto nav-li active">
+                    <a class="nav-link scrollto active" href="../#portfolio">作品廊 <i class="bi bi-chevron-down"></i></a>
+                    <div class="space space_active"></div>
                     <ul>
                         <?php
                             $i = 0;
@@ -37,11 +45,26 @@
                         ?>
                     </ul>
                 </li>
-                <li><a class="nav-link scrollto" href="../online_exhibit/">線上展</a></li>
-                <li><a class="nav-link scrollto" href="../AR_interact/">展場AR互動</a></li>
-                <li><a class="nav-link scrollto" href="../#visit">參觀資訊</a></li>
-                <li><a class="nav-link scrollto" href="../#about">關於科技系</a></li>
-                <li><a class="nav-link scrollto" href="../#contact">聯絡我們</a></li>
+                <li class="nav-li">
+                    <a class="nav-link scrollto" href="../online_exhibit/">線上展</a>
+                    <div class="space"></div>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link scrollto" href="../AR_interact/">展場AR互動</a>
+                    <div class="space"></div>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link scrollto" href="../#visit">參觀資訊</a>
+                    <div class="space"></div>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link scrollto" href="../#about">關於科技系</a>
+                    <div class="space"></div>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-link scrollto" href="../#contact">聯絡我們</a>
+                    <div class="space"></div>
+                </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i> </nav>
         <!-- .navbar -->
