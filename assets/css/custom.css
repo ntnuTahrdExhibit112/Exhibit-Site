@@ -81,6 +81,8 @@ hr {
     border-radius: 5px;
     margin-left: 1%;
 }
-.space_active {
-    background-color: rgb(112,239,239); 
+@media screen and (min-width: 769px) {
+    .space_active {
+        background-color: rgb(112,239,239); 
+    }
 }
