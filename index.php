@@ -96,5 +96,10 @@
 
 <!-- Template Main JS File --> 
 <script defer src="assets/js/main.js"></script>
+<div class="preloader hider">
+  <img src="./code/2222222222222222/hidden_end.jpg" alt="">
+  <img src="./code/endConscious/true_end.jpg" alt="">
+  <img src="./code/endSurrender/bad_end.jpg" alt="">
+</div>
 </body>
 </html>
