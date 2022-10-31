@@ -64,25 +64,42 @@ hr {
 }
 
 /* custom indicator */
-.nav-link {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    padding-bottom: 5px !important;
-}
-.nav-li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.space {
-    width: 24px; 
-    height: 4px; 
-    *background-color: rgb(112,239,239); 
-    border-radius: 5px;
-    margin-left: 1%;
-}
 @media screen and (min-width: 769px) {
+    .nav-link {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-bottom: 5px !important;
+    }
+    .nav-li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .space {
+        width: 24px; 
+        height: 4px; 
+        *background-color: rgb(112,239,239); 
+        border-radius: 5px;
+        margin-left: 1%;
+    }
     .space_active {
         background-color: rgb(112,239,239); 
+    }
+}
+/* portfolio link separation */
+@media screen and (max-width: 769px) {
+    .mobile_nav {
+        display: flex !important;
+    }
+    .desktop_nav {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 769px) {
+    .desktop_nav {
+        display: flex !important;
+    }
+    .mobile_nav {
+        display: none !important;
     }
 }

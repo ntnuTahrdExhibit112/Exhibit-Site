@@ -12,7 +12,7 @@
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
         <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
-        <a class="mobile-nav-toggle" href="#mobile-nav-toggle"><img src="./assets/img/menu_logo.png" alt="" width="28" height="28"></a>
+        <a class="mobile-nav-toggle" href="#"><img src="./assets/img/menu_logo.png" alt="" width="28" height="28"></a>
         <!-- <h1 class="logo me-auto me-lg-0"><a href="./">Logo</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
         <a id="header-logo" href="./" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
@@ -28,8 +28,9 @@
                     <div class="space"></div>
                 </li>
                 <li class="dropdown nav-li">
-                    <a class="nav-link scrollto" href="#portfolio">作品廊 <i class="bi bi-chevron-down"></i></a>
+                    <a class="nav-link scrollto desktop_nav" href="#portfolio">作品廊 <i class="bi bi-chevron-down"></i></a>
                     <div class="space"></div>
+                    <a class="nav-link mobile_nav" href="#">作品廊 <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <?php
                             $i = 0;
@@ -37,7 +38,7 @@
                                 //echo($groups[$i]);
                                 include("./group/g" . $groups[$i] . "/basic_info.php");
                                 include("./sections/header_item.php");
-            
+                                
                                 $i++;
                             }
                         ?>

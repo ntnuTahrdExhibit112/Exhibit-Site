@@ -4,42 +4,41 @@
             margin-left: auto !important;
         }
     }
-    .container {
-        padding: 0;
-    }
 </style>
 <?php
   $groups = range(1, 13);
   shuffle($groups);
 ?>
-<header id="header" class="fixed-top header-inner-pages">
+<header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
-        <!-- <h1 class="logo me-auto me-lg-0"><a href="../">Logo</a></h1>-->
-        <!-- Uncomment below if you prefer to use an image logo --> 
-        <a href="../" class="logo me-auto me-lg-0"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>
-        
+        <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
+        <a class="mobile-nav-toggle" href="#"><img src="../assets/img/menu_logo.png" alt="" width="28" height="28"></a>
+        <!-- <h1 class="logo me-auto me-lg-0"><a href="./">Logo</a></h1>-->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a id="header-logo" href="./" class="logo me-auto me-lg-0"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>
+
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
                 <li class="nav-li">
-                    <a class="nav-link scrollto" href="../">首頁</a>
+                    <a class="nav-link scrollto" href="../#hero">首頁</a>
                     <div class="space"></div>
                 </li>
                 <li class="nav-li">
                     <a class="nav-link scrollto" href="../#concept">專展理念</a>
                     <div class="space"></div>
                 </li>
-                <li class="dropdown nav-link scrollto nav-li active">
-                    <a class="nav-link scrollto active" href="../#portfolio">作品廊 <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown nav-li">
+                    <a class="nav-link scrollto desktop_nav active" href="#portfolio">作品廊 <i class="bi bi-chevron-down"></i></a>
                     <div class="space space_active"></div>
+                    <a class="nav-link mobile_nav active" href="#">作品廊 <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <?php
                             $i = 0;
                             while ($i != 13) {
                                 //echo($groups[$i]);
                                 include("./g" . $groups[$i] . "/basic_info.php");
-                                $link;
                                 include("./sections/header_item.php");
-            
+                                
                                 $i++;
                             }
                         ?>
@@ -66,9 +65,12 @@
                     <div class="space"></div>
                 </li>
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i> </nav>
+        </nav>
         <!-- .navbar -->
-        
-        <div> <a href="https://www.instagram.com" target="_blank" class="get-started-btn scrollto"><i class="bi bi-instagram"></i></a> <a href="https://www.facebook.com" target="_blank" class="get-started-btn scrollto"><i class="bi bi-facebook"></i></a> </div>
+
+        <div>
+            <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="get-started-btn scrollto" title="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn scrollto" title="Facebook"><i class="bi bi-facebook"></i></a>
+        </div>
     </div>
 </header>
