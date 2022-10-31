@@ -103,3 +103,8 @@ hr {
         display: none !important;
     }
 }
+.bi-x::before {
+    z-index: 9999;
+    position: absolute;
+    color: rgb(112,239,239) !important;
+}

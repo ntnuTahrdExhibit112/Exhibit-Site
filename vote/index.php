@@ -105,7 +105,7 @@
             <?php
                 date_default_timezone_set('Asia/Taipei');
                 $resetter = 'reset_' . date("mdHi");
-                // echo "<script>console.log('" . $resetter . "');</script>";
+                echo "<script>console.log('" . $resetter . "');</script>";
 
                 if ($vote_action == 'signup') {
                     include("./sections/signup.php");
