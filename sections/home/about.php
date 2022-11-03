@@ -8,6 +8,7 @@
 <section id="about" class="about">
     <div class="container" data-aos="">
         <div class="section-title">
+            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
             <h2>歷史沿革 & 系所特色</h2>
             <p>關於科技系</p>
         </div>

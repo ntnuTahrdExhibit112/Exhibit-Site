@@ -21,6 +21,7 @@
 <section id="portfolio" class="portfolio">
     <div class="container" data-aos="">
         <div class="section-title">
+            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
             <h2>作品廊</h2>
             <p>各專題組 製作成果</p>
         </div>

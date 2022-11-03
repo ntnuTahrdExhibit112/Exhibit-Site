@@ -14,6 +14,7 @@
 <section id="concept" class="features">
     <div class="container" data-aos="">
         <div class="section-title">
+            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
             <h2>活動理念 & 活動宗旨</h2>
             <p>專展理念</p>
         </div>

@@ -10,6 +10,7 @@
 <section id="contact" class="team">
     <div class="container" data-aos="">
         <div class="section-title">
+            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
             <h2>聯絡我們</h2>
             <p>專展總籌</p>
         </div>

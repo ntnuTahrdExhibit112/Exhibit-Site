@@ -7,6 +7,10 @@
         display: none !important;
     }
 }
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 /* Contact */
 .member-info {
@@ -107,4 +111,15 @@ hr {
     z-index: 9999;
     position: absolute;
     color: rgb(112,239,239) !important;
+}
+
+/* section title deco */
+.section-title h2, .section-title p {
+    margin-left: 15px !important;
+}
+.section_title_deco {
+    width: 15%;
+    position: relative;
+    top: 20px;
+    left: -10px;
 }
