@@ -4,7 +4,8 @@
     }
     #sponsers .clients-slider {
         /* background-color: rgba(255, 255, 255, 1); */
-        background-image: url("assets/img/clients/sponsor_frame.png");
+        /* background-image: url("assets/img/clients/sponsor_frame.png"); */
+        border-image: url(assets/img/clients/sponsor_frame.png) 0 fill;
         padding: 2rem 2rem;
         /* border-radius: 50px; */
         background-position: center;
