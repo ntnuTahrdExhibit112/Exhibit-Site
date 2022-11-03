@@ -1086,7 +1086,7 @@ section {
   line-height: 1.5;
   color: #484848;
 }
-.contact .info .traffic, .contact .info .time, .contact .info .address {
+.contact .info .traffic, .contact .info .time, .contact .info .address, .contact .info .map {
   margin-top: 40px;
 }
 .contact .php-email-form {

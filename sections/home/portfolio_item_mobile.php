@@ -10,5 +10,4 @@
             </tr>
         </table>
     </a>
-    <center><div class="divider"></div></center>
 </div>

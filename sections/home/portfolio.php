@@ -50,6 +50,11 @@
             </div>
             <div class="portfolio-mobile">
                 <style>
+                    .portfolio-mobile .portfolio-item { /* item style */
+                        background-color: rgb(27, 40, 42);
+                        border-radius: 15px;
+                        padding: 1%;
+                    }
                     .portfolio-mobile .portfolio-item {
                         margin-bottom: 2% !important;
                     }
@@ -61,10 +66,7 @@
                     }
                     .portfolio-item_mobile {
                         width: 96%;
-                        *border-bottom: 2px solid white;
-                        *border-radius: 15px;
                         margin: 2%;
-                        *padding-bottom:2%;
                     }
                     .portfolio-table_mobile td{
                         padding: 2%;

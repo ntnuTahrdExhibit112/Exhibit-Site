@@ -50,27 +50,27 @@
     <!-- ======= Clients Section ======= -->
     <?php include("./sections/home/sponsors.php"); ?>
     <!-- End Clients Section --> 
-    <hr>
+
     <!-- ======= Features Section ======= -->
     <?php include("./sections/home/countdown.php"); ?>
     <!-- End Features Section -->
-    <hr>
+
     <!-- ======= Features Section ======= -->
     <?php include("./sections/home/concept.php"); ?>
     <!-- End Features Section -->
-    <hr>
+
     <!-- ======= Portfolio Section ======= -->
     <?php include("./sections/home/portfolio.php"); ?>
     <!-- End Portfolio Section --> 
-    <hr>
+
     <!-- ======= Contact Section ======= -->
     <?php include("./sections/home/visit.php"); ?>
     <!-- End Contact Section --> 
-    <hr>
+
     <!-- ======= About Section ======= -->
     <?php include("./sections/home/about.php"); ?>
     <!-- End About Section --> 
-    <hr>
+
     <!-- ======= Team Section ======= -->
     <?php include("./sections/home/contact.php"); ?>
     <!-- End Team Section --> 
