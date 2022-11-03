@@ -2,8 +2,30 @@
     #contact {
         background-color: #000;
     }
+    #contact .sub_container {
+        width: 60% !important;
+    }
+    #contact .member {
+        overflow: hidden; */
+        border-radius: unset !important;
+        background: unset !important;
+        box-shadow: unset !important;
+    }
     #contact .member-info * {
-        color: #000 !important;
+        *color: #000 !important;
+    }
+    #contact .contact_img {
+        border-radius: 100%;
+        border: rgb(70, 249, 253) solid 6px;
+        width: 70%;
+    }
+    @media screen and (max-width: 768px) {
+        #contact .sub_container {
+            flex-direction: column;
+        }
+        #contact .member_parent {
+            width: 100% !important;
+        }
     }
 </style>
 
@@ -14,27 +36,31 @@
             <h2>聯絡我們</h2>
             <p>專展總籌</p>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                <div class="member" data-aos="" data-aos-delay="100">
-                    <div class="member-img"> <img src="assets/img/contact/William_Chang.png" class="img-fluid" alt="" loading="lazy">
-                        <div class="social hider"> <a href="#tel:"><i class="bi bi-phone-fill"></i></a> <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> </div>
+        <center>
+            <div class="sub_container row justify-content-center">
+                <div class="member_parent col-sm-6 col-12 d-flex align-items-stretch justify-content-center">
+                    <div class="member">
+                        <div class="member-img d-flex justify-content-center">
+                            <img src="assets/img/contact/William_Chang.png" class="img-fluid contact_img" alt="" loading="lazy">
+                        </div>
+                        <div class="member-info">
+                            <h3>張子濰</h3>
+                            <span><a href="mailto:tzuwei0116@gmail.com" target="_blank">tzuwei0116@gmail.com</a></span> 
+                        </div>
                     </div>
-                    <div class="member-info">
-                        <h3>張子濰</h3>
-                        <span><a href="mailto:tzuwei0116@gmail.com" target="_blank">tzuwei0116@gmail.com</a></span> </div>
+                </div>
+                <div class="member_parent col-sm-6 col-12 d-flex align-items-stretch justify-content-center">
+                    <div class="member">
+                        <div class="member-img d-flex justify-content-center">
+                            <img src="assets/img/contact/Stefan_Lee.png" class="img-fluid contact_img" alt="" loading="lazy">
+                        </div>
+                        <div class="member-info">
+                            <h3>李軒騰</h3>
+                            <span><a href="mailto:stefanlee1221@gmail.com" target="_blank">stefanlee1221@gmail.com</a></span> 
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                <div class="member" data-aos="" data-aos-delay="100">
-                    <div class="member-img"> <img src="assets/img/contact/Stefan_Lee.png" class="img-fluid" alt="" loading="lazy">
-                        <div class="social hider"> <a href="#tel:"><i class="bi bi-phone-fill"></i></a> <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> </div>
-                    </div>
-                    <div class="member-info">
-                        <h3>李軒騰</h3>
-                        <span><a href="mailto:stefanlee1221@gmail.com" target="_blank">stefanlee1221@gmail.com</a></span> </div>
-                </div>
-            </div>
-        </div>
+        </center>
     </div>
 </section>
