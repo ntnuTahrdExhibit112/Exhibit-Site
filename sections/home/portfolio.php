@@ -23,7 +23,7 @@
         <div class="section-title">
             <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
             <h2>作品廊</h2>
-            <p>各專題組 製作成果</p>
+            <p>專題製作成果</p>
         </div>
         <div class="row" data-aos="" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
