@@ -1,7 +1,23 @@
 <style>
-    @media screen and (max-width: 769px) {
+    @media screen and (max-width: 768px) {
         #header-logo {
             margin-left: auto !important;
+        }
+    }
+    @media screen and (min-width: 769px) {
+        .desktop_share-btn {
+            display: block;
+        }
+        .mobile_share-btn {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .desktop_share-btn {
+            display: none;
+        }
+        .mobile_share-btn {
+            display: block;
         }
     }
 </style>
@@ -20,7 +36,7 @@
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
                 <li class="nav-li">
-                    <a class="nav-link scrollto" href="../#hero">首頁</a>
+                    <a class="nav-link scrollto" href="../">首頁</a>
                     <div class="space"></div>
                 </li>
                 <li class="nav-li">
@@ -45,14 +61,6 @@
                     </ul>
                 </li>
                 <li class="nav-li">
-                    <a class="nav-link scrollto" href="../online_exhibit/">線上展</a>
-                    <div class="space"></div>
-                </li>
-                <li class="nav-li">
-                    <a class="nav-link scrollto" href="../AR_interact/">展場AR互動</a>
-                    <div class="space"></div>
-                </li>
-                <li class="nav-li">
                     <a class="nav-link scrollto" href="../#visit">參觀資訊</a>
                     <div class="space"></div>
                 </li>
@@ -64,13 +72,37 @@
                     <a class="nav-link scrollto" href="../#contact">聯絡我們</a>
                     <div class="space"></div>
                 </li>
+                <li class="dropdown nav-li">
+                    <a class="nav-link scrollto desktop_nav" href="#special_event">特別活動 <i class="bi bi-chevron-down"></i></a>
+                    <div class="space"></div>
+                    <a class="nav-link mobile_nav" href="#">特別活動 <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li>
+                            <a class="nav-link scrollto" href="../online_exhibit/">線上展</a>
+                            <div class="space"></div>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="../AR_interact/">展場AR互動</a>
+                            <div class="space"></div>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="../vote/?vote=countdown">專題票選</a>
+                            <div class="space"></div>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </nav>
         <!-- .navbar -->
 
-        <div>
+        <div class="desktop_share-btn">
             <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="get-started-btn scrollto" title="Instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn scrollto" title="Facebook"><i class="bi bi-facebook"></i></a>
+        </div>
+        <div class="mobile_share-btn">
+            <a href="#" target="_blank" class="get-started-btn scrollto" title="mobile-links" style="padding: 1px 7px; margin-right: unset; ">
+                <i class="bi bi-link-45deg" style="font-size: 25px; "></i>
+            </a>
         </div>
     </div>
 </header>
