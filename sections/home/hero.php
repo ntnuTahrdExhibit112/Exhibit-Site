@@ -1,8 +1,6 @@
 <style>
     #hero {
-        height: unset;
-        min-height: unset;
-        padding-bottom: 0;
+        height: 100vh;
     }
     #hero #title_img {
         width: 100%;
@@ -18,9 +16,16 @@
         background-position: 100% !important;
         background-repeat: no-repeat !important;
     }
-    #hero .container {
-        padding-top: 5vh;
-    }
+    @media screen and (max-width: 768px) {
+        #hero {
+            height: unset;
+            min-height: unset;
+            /* padding-bottom: 2vh; */
+        }
+        #hero .container {
+            padding-top: 5vh;
+        }
+    }  
     /* @media screen and (max-width: 768px) {
         #hero {
             background: url("../img/hero-bg-mobile.jpg") top center;
@@ -59,7 +64,7 @@
 
 <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container" data-aos="fade-up">
-        <div id="title_container" class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div id="title_container" class="row justify-content-center" data-aos="" data-aos-delay="">
             <div class="col-xl-8 col-lg-10 desktop_bg" style="z-index: 999;">
                 <!-- <h1 class="hider">TECH PUNK</h1> -->
                 <img src="assets/img/title.png" id="title_img">
