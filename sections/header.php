@@ -1,7 +1,23 @@
 <style>
-    @media screen and (max-width: 769px) {
+    @media screen and (max-width: 768px) {
         #header-logo {
             margin-left: auto !important;
+        }
+    }
+    @media screen and (min-width: 769px) {
+        .desktop_share-btn {
+            display: block;
+        }
+        .mobile_share-btn {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .desktop_share-btn {
+            display: none;
+        }
+        .mobile_share-btn {
+            display: block;
         }
     }
 </style>
@@ -69,9 +85,12 @@
         </nav>
         <!-- .navbar -->
 
-        <div>
+        <div class="desktop_share-btn">
             <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="get-started-btn scrollto" title="Instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn scrollto" title="Facebook"><i class="bi bi-facebook"></i></a>
+        </div>
+        <div class="mobile_share-btn">
+            <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class=" scrollto" title="Instagram"><img src="assets/img/share_logo.png" width="30" height="30"></a>
         </div>
     </div>
 </header>
