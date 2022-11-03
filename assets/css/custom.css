@@ -118,8 +118,30 @@ hr {
     margin-left: 15px !important;
 }
 .section_title_deco {
-    width: 15%;
+    width: 50px;
     position: relative;
     top: 20px;
-    left: -10px;
+    left: -5px;
 }
+/* @media screen and (min-width: 769px) {
+    .section-title h2, .section-title p {
+        margin-left: 15px !important;
+    }
+    .section_title_deco {
+        width: 50px;
+        position: relative;
+        top: 20px;
+        left: -5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section-title h2, .section-title p {
+        margin-left: 15px !important;
+    }
+    .section_title_deco {
+        width: 50px;
+        position: relative;
+        top: 20px;
+        left: -5px;
+    }
+} */

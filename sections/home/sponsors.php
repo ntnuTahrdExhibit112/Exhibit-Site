@@ -11,6 +11,11 @@
         background-position: center;
         background-size: cover;
     }
+    @media screen and (max-width: 768px) {
+        #sponsers .clients-slider {
+            border-image: url(assets/img/clients/sponsor_frame_mobile.png) 0 fill;
+        }
+    }
     #sponsers .swiper-slide img {
         filter: unset;
     }

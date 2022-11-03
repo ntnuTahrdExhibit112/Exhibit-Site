@@ -421,11 +421,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero .icon-box:hover {
   border-color: rgb(112,239,239);
 }
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
-}
+} */
 @media (max-width: 768px) {
   #hero {
     height: auto;

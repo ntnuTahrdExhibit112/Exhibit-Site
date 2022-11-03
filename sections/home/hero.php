@@ -16,7 +16,7 @@
         background-position: 100% !important;
         background-repeat: no-repeat !important;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 667px) {
         #hero {
             height: unset;
             min-height: unset;
@@ -65,7 +65,7 @@
 <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container" data-aos="fade-up">
         <div id="title_container" class="row justify-content-center" data-aos="" data-aos-delay="">
-            <div class="col-xl-8 col-lg-10 desktop_bg" style="z-index: 999;">
+            <div class="col-xl-8 col-lg-8 desktop_bg" style="z-index: 999;">
                 <!-- <h1 class="hider">TECH PUNK</h1> -->
                 <img src="assets/img/title.png" id="title_img">
                 <h2 style="line-height: 1.5;"> 
@@ -74,7 +74,7 @@
                     112級畢業專題成果展
                 </h2>
             </div>
-            <div class="col-xl-4 col-lg-10">
+            <div class="col-xl-4 col-lg-4">
                 <!-- <h1 class="hider">TECH PUNK</h1> -->
                 <img class="desktop_bg" src="assets/img/hero-bg.jpg" id="hero-bg" width="200%">
                 <img class="mobile_bg" src="assets/img/hero-bg-mobile.png" id="hero-bg-mobile" width="100%">

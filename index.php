@@ -48,7 +48,7 @@
 
 <main id="main"> 
     <!-- ======= Clients Section ======= -->
-    <?php include("./sections/home/sponsers.php"); ?>
+    <?php include("./sections/home/sponsors.php"); ?>
     <!-- End Clients Section --> 
     <hr>
     <!-- ======= Features Section ======= -->
@@ -74,7 +74,7 @@
     <!-- ======= Team Section ======= -->
     <?php include("./sections/home/contact.php"); ?>
     <!-- End Team Section --> 
-    
+
 </main>
 <!-- End #main --> 
 
