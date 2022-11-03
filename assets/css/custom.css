@@ -145,3 +145,8 @@ hr {
         left: -5px;
     }
 } */
+
+/* glightbox title */
+.gdesc-inner * {
+    color: #000 !important;
+}

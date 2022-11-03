@@ -14,7 +14,9 @@
         </div>
         <div class="row flex align-items-center" id="history"> <!--歷史沿革-->
             <div class="col-lg-6 order-1 order-lg-2" data-aos="" data-aos-delay="100"> 
-                <img src="./assets/img/about_tahrd.png" class="img-fluid" alt=""> 
+                <a href="./assets/img/about_tahrd.png" data-gallery="about_tahrd" class="portfolio-lightbox" title="<h3>關於科技系</h3><p>學制與分組</p>">
+                    <img src="./assets/img/about_tahrd.png" class="img-fluid" alt=""> 
+                </a>
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="" data-aos-delay="100">
                 <p>本系根源於民國 42 年所成立的工業教育系「工藝教育組」，專責培育我國中學「工藝」課程之師資，配合課程內涵之調整與修訂，在民國 61 年更名為「工業技術教育組」，並於民國 71 年正式獨立設系為「工藝教育學系」，為配合學校藝術學院成立，本系隸屬於藝術學院。</p>
