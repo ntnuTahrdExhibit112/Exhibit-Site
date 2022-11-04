@@ -102,8 +102,8 @@
             <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn scrollto" title="Facebook"><i class="bi bi-facebook"></i></a>
         </div>
         <div class="mobile_share-btn">
-            <a href="#" target="_blank" class="get-started-btn scrollto" title="mobile-links" style="padding: 1px 7px; margin-right: unset; ">
-                <i class="bi bi-link-45deg" style="font-size: 25px; "></i>
+            <a href="#" target="_blank" class="get-started-btn scrollto" title="mobile-links" style="padding: 3px 3px 0px; margin-right: unset;">
+                <i class="bi bi-link-45deg" style="font-size: 20px; line-height: 20px !important;"></i>
             </a>
         </div>
     </div>

@@ -41,7 +41,7 @@
         background-color: rgb(112,239,239);
     }
     #countdown #vote_CallToAction span {
-        color: rgb(228, 51, 238) !important;
+        color: black !important;
     }
 </style>
 

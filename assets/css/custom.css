@@ -153,3 +153,13 @@ hr {
 .gdesc-inner * {
     color: #000 !important;
 }
+
+/* get-started-btn icon */
+.get-started-btn i {
+    color: rgb(112,239,239) !important;
+}
+
+/* footer image */
+#footer .footer-center img {
+    border-radius: 10px;
+}
