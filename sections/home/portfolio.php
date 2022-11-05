@@ -47,7 +47,20 @@
     }
 </style>
 
-<?php //include("./group/group_info.php"); ?>
+<?php
+    //include("./group/group_info.php"); 
+
+    if (!isset($_SESSION['portfolio_visited'])) {
+        $_SESSION['portfolio_visited'] = false;
+        echo "<script>function firstVisit() {alert('點擊圖片進入專題介紹！');}</script>";
+    }
+    if (!$_SESSION['portfolio_visited']) {
+        echo "<script>var portfolio_visited = 0;</script>";
+    }
+    else {
+        echo "<script>var portfolio_visited = 1;</script>";
+    }
+?>
 <section id="portfolio" class="portfolio">
     <div class="container" data-aos="">
         <div class="section-title">
@@ -112,9 +125,13 @@
                         link.append(cur_img);
                         img_root.append(link);
                         console.log(img_root);
+
+                        if (!portfolio_visited) {
+                            firstVisit();
+                            portfolio_visited = 1;
+                        }
                     })
                 }
-                
             </script>
         </div>
     </div>
