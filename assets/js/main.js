@@ -4,6 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+var portfolioLightbox;
 (function() {
   "use strict";
 
@@ -235,7 +236,7 @@
   /**
    * Initiate portfolio lightbox 
    */
-  const portfolioLightbox = GLightbox({
+  portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
