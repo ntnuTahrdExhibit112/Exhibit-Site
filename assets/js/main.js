@@ -237,7 +237,9 @@ var portfolioLightbox;
    * Initiate portfolio lightbox 
    */
   portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+    selector: '.portfolio-lightbox',
+    touchNavigation: false, 
+    touchFollowAxis: false
   });
 
   /**
