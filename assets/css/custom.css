@@ -217,7 +217,7 @@ hr {
 }
 
 /* get-started-btn icon */
-.get-started-btn i {
+.get-started-btn i, .back-to-top i {
     color: rgb(112,239,239) !important;
 }
     /* mobile */
