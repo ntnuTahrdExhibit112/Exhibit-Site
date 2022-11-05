@@ -1,34 +1,3 @@
-<style>
-    #footer .footer-center {
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    #footer .footer-center img {
-        width: 55%;
-    }
-    @media screen and (min-width: 769px) {
-        #footer .footer_desktop {
-            display: flex !important;
-        }
-        #footer .footer_mobile {
-            display: none !important;
-        }
-        #footer .footer-center {
-            flex-direction: column;
-        }
-    }
-    @media screen and (max-width: 768px) {
-        #footer .footer_desktop {
-            display: none !important;
-        }
-        #footer .footer_mobile {
-            display: flex !important;
-        }
-        #footer .footer-center {
-            flex-direction: row;
-        }
-    }
-</style>
 <footer id="footer">
     <div class="footer-top">
         <div class="container">
@@ -102,7 +71,7 @@
                 <div class="col-10 footer-links">
                     <h3 class="mb-4">快速連結</h3>
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 footer-links">
+                        <div class="col-6 footer-links">
                             <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../">首頁</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#concept">專展理念</a></li>
@@ -112,7 +81,7 @@
                                 <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#contact">聯絡我們</a></li>
                             </ul>
                         </div>
-                        <div class="col-lg-6 col-md-6 footer-links">
+                        <div class="col-6 footer-links">
                             <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../onlineExhibit">線上展</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../ARinteract">展場AR互動</a></li>
