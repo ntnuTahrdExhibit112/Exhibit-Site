@@ -67,10 +67,10 @@
         </div>
         <div class="row portfolio-container" data-aos="" data-aos-delay="200">
             <script>
-                function setListener(id) {
-                    link = document.getElementById(id);
+                function setListener(s_id, s_link) {
+                    link = document.getElementById(s_id);
                     link.addEventListener('click', function(){
-                        setTimeout(load_image_link('<?php echo($link) ?>'), 1000)
+                        setTimeout(load_image_link(s_link), 1000)
                     });
                 }
             </script>

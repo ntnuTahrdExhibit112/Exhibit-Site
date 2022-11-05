@@ -24,6 +24,7 @@
     </div>
     <script>
         l_id = "portfolio-link-<?php echo $i ?>";
-        setListener(l_id);
+        l_link = "<?php echo($link) ?>";
+        setListener(l_id, l_link);
     </script>
 </div>
