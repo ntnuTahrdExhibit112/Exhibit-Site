@@ -1,26 +1,3 @@
-<style>
-    @media screen and (max-width: 992px) {
-        #header-logo {
-            margin-left: auto !important;
-        }
-    }
-    @media screen and (min-width: 993px) {
-        .desktop_share-btn {
-            display: block;
-        }
-        .mobile_share-btn {
-            display: none;
-        }
-    }
-    @media screen and (max-width: 992px) {
-        .desktop_share-btn {
-            display: none;
-        }
-        .mobile_share-btn {
-            display: block;
-        }
-    }
-</style>
 <?php
   $groups = range(1, 13);
   shuffle($groups);
@@ -28,7 +5,7 @@
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
         <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
-        <a class="mobile-nav-toggle" href="#"><img src="./assets/img/menu_logo.png" alt="" width="28" height="28"></a>
+        <a class="mobile-nav-toggle" href="#"><img src="./assets/img/menu_logo.png" alt="" width="35" height="35"></a>
         <!-- <h1 class="logo me-auto me-lg-0"><a href="./">Logo</a></h1>-->
         <!-- Uncomment below if you prefer to use an image logo -->
         <a id="header-logo" href="./" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
@@ -102,9 +79,18 @@
             <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn scrollto" title="Facebook"><i class="bi bi-facebook"></i></a>
         </div>
         <div class="mobile_share-btn">
-            <a href="#" target="_blank" class="get-started-btn scrollto" title="mobile-links" style="padding: 3px 3px 0px; margin-right: unset;">
-                <i class="bi bi-link-45deg" style="font-size: 20px; line-height: 20px !important;"></i>
+            <a href="#mobile_share_btn" class="get-started-btn scrollto" title="mobile-links" onClick="mobile_share_toggle()">
+                <i class="bi bi-link-45deg"></i>
             </a>
+            <div class="shareBtn_root">
+                <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="shareBtn get-started-btn scrollto" title="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="shareBtn get-started-btn scrollto" title="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+            <script src="./assets/js/custom.js"></script>
         </div>
     </div>
 </header>

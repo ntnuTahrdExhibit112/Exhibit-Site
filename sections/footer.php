@@ -1,34 +1,3 @@
-<style>
-    #footer .footer-center {
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    #footer .footer-center img {
-        width: 55%;
-    }
-    @media screen and (min-width: 769px) {
-        #footer .footer_desktop {
-            display: flex !important;
-        }
-        #footer .footer_mobile {
-            display: none !important;
-        }
-        #footer .footer-center {
-            flex-direction: column;
-        }
-    }
-    @media screen and (max-width: 768px) {
-        #footer .footer_desktop {
-            display: none !important;
-        }
-        #footer .footer_mobile {
-            display: flex !important;
-        }
-        #footer .footer-center {
-            flex-direction: row;
-        }
-    }
-</style>
 <footer id="footer">
     <div class="footer-top">
         <div class="container">

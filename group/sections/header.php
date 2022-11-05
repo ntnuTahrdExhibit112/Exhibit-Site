@@ -1,26 +1,3 @@
-<style>
-    @media screen and (max-width: 768px) {
-        #header-logo {
-            margin-left: auto !important;
-        }
-    }
-    @media screen and (min-width: 769px) {
-        .desktop_share-btn {
-            display: block;
-        }
-        .mobile_share-btn {
-            display: none;
-        }
-    }
-    @media screen and (max-width: 768px) {
-        .desktop_share-btn {
-            display: none;
-        }
-        .mobile_share-btn {
-            display: block;
-        }
-    }
-</style>
 <?php
   $groups = range(1, 13);
   shuffle($groups);
@@ -100,9 +77,18 @@
             <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn scrollto" title="Facebook"><i class="bi bi-facebook"></i></a>
         </div>
         <div class="mobile_share-btn">
-            <a href="#" target="_blank" class="get-started-btn scrollto" title="mobile-links" style="padding: 1px 7px; margin-right: unset; ">
-                <i class="bi bi-link-45deg" style="font-size: 25px; "></i>
+            <a href="#mobile_share_btn" class="get-started-btn scrollto" title="mobile-links" onClick="mobile_share_toggle()">
+                <i class="bi bi-link-45deg"></i>
             </a>
+            <div class="shareBtn_root">
+                <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="shareBtn get-started-btn scrollto" title="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="shareBtn get-started-btn scrollto" title="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+            <script src="../assets/js/custom.js"></script>
         </div>
     </div>
 </header>
