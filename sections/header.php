@@ -1,10 +1,10 @@
 <style>
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 992px) {
         #header-logo {
             margin-left: auto !important;
         }
     }
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 993px) {
         .desktop_share-btn {
             display: block;
         }
@@ -12,7 +12,7 @@
             display: none;
         }
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 992px) {
         .desktop_share-btn {
             display: none;
         }

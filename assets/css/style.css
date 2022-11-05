@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -872,7 +872,7 @@ section {
   background-size: cover;
   min-height: 400px;
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .counts .image {
     text-align: center;
   }

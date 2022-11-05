@@ -16,7 +16,7 @@
         background-position: 100% !important;
         background-repeat: no-repeat !important;
     }
-    @media screen and (max-width: 667px) {
+    @media screen and (max-width: 992px) {
         #hero {
             height: unset;
             min-height: unset;
@@ -44,7 +44,7 @@
         justify-content: center;
         align-items: center;
     }
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 993px) {
         .mobile_bg {
             display: none !important;
         }
@@ -52,7 +52,7 @@
             display: block !important;
         }
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 992px) {
         .mobile_bg {
             display: block !important;
         }

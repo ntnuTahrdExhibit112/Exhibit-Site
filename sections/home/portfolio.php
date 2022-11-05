@@ -1,5 +1,5 @@
 <style>
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 993px) {
         #portfolio .portfolio-desktop {
             display: block !important;
         }
@@ -7,7 +7,7 @@
             display: none !important;
         }
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 992px) {
         #portfolio .portfolio-desktop {
             display: none !important;
         }
