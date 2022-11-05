@@ -78,10 +78,10 @@
                 <i class="bi bi-link-45deg"></i>
             </a>
             <div class="shareBtn_root">
-                <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="shareBtn get-started-btn scrollto" title="Instagram">
+                <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="shareBtn get-started-btn scrollto" title="Instagram" onClick="mobile_share_toggle()">
                     <i class="bi bi-instagram"></i>
                 </a>
-                <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="shareBtn get-started-btn scrollto" title="Facebook">
+                <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="shareBtn get-started-btn scrollto" title="Facebook" onClick="mobile_share_toggle()">
                     <i class="bi bi-facebook"></i>
                 </a>
             </div>
