@@ -5,11 +5,11 @@ body * {
 .hider {
     display: none !important;
 }
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) {
     .mobile-br {
         display: none !important;
     }
-}
+} */
 main {
     margin-left: 30px;
     margin-right: 30px;
@@ -71,7 +71,7 @@ hr {
 }
 
 /* custom indicator */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 993px) {
     .nav-link {
         padding-left: 15px !important;
         padding-right: 15px !important;
@@ -94,7 +94,7 @@ hr {
     }
 }
 /* portfolio link separation */
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 992px) {
     .mobile_nav {
         display: flex !important;
     }
@@ -102,7 +102,7 @@ hr {
         display: none !important;
     }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 993px) {
     .desktop_nav {
         display: flex !important;
     }
