@@ -152,7 +152,7 @@ hr {
         height: 4px; 
         /* background-color: rgb(112,239,239);  */
         /* border-radius: 5px; */
-        transform: skew(30deg);
+        transform: skew(40deg);
         margin-left: 1%;
     }
     .space_active {
@@ -195,28 +195,11 @@ hr {
     left: -50px;
     z-index: -100;
 }
-/* @media screen and (min-width: 769px) {
-    .section-title h2, .section-title p {
-        margin-left: 15px !important;
-    }
+@media screen and (max-width: 992px) {
     .section_title_deco {
-        width: 50px;
-        position: relative;
-        top: 20px;
-        left: -5px;
+        left: -30px;
     }
 }
-@media screen and (max-width: 768px) {
-    .section-title h2, .section-title p {
-        margin-left: 15px !important;
-    }
-    .section_title_deco {
-        width: 50px;
-        position: relative;
-        top: 20px;
-        left: -5px;
-    }
-} */
 
 /* glightbox title */
 .gdesc-inner * {
@@ -227,6 +210,28 @@ hr {
 .get-started-btn i, .back-to-top i, .time i, .address i, .traffic i  {
     color: rgb(112,239,239) !important;
 }
+    /* social-links */
+    .social-links .get-started-btn {
+        padding: 5px 6px !important;
+        margin-right: unset !important;
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .social-links .get-started-btn i {
+        font-size: 20px; 
+        line-height: 20px !important;
+    }
+    /* desktop */
+    .desktop_share .get-started-btn {
+        padding: 5px 6px;
+        margin-right: unset;
+        width: 36px;
+        height: 35px;
+    }
+    .desktop_share-btn .get-started-btn i {
+        font-size: 20px; 
+        line-height: 20px !important;
+    }
     /* mobile */
     .mobile_share-btn .get-started-btn {
         padding: 3px 3px 0px; 
