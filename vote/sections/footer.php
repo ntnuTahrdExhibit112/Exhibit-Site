@@ -12,9 +12,9 @@
                             <strong>傳真：</strong><a href="fax:+886-2-2392-1015">+886-2-2392-1015</a><br>
                         </p>
                         <div class="social-links mt-3"> 
-                            <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="instagram" title="Instagram"><i class="bx bxl-instagram"></i></a> 
-                            <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="facebook" title="Facebook"><i class="bx bxl-facebook"></i></a> 
-                            <a href="mailto:contact@ntnutechpunk112.ml" target="_blank" class="email" title="email"><i class='bx bx-envelope'></i></a> 
+                            <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="get-started-btn instagram" title="Instagram"><i class="bx bxl-instagram"></i></a> 
+                            <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn facebook" title="Facebook"><i class="bx bxl-facebook"></i></a> 
+                            <a href="mailto:contact@ntnutechpunk112.ml" target="_blank" class="get-started-btn email" title="email"><i class='bx bx-envelope'></i></a> 
                         </div>
                     </div>
                 </div>
@@ -62,9 +62,9 @@
                             <strong>傳真：</strong><a href="fax:+886-2-2392-1015">+886-2-2392-1015</a><br>
                         </p>
                         <div class="social-links mt-3"> 
-                            <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="instagram" title="Instagram"><i class="bx bxl-instagram"></i></a> 
-                            <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="facebook" title="Facebook"><i class="bx bxl-facebook"></i></a> 
-                            <a href="mailto:contact@ntnutechpunk112.ml" target="_blank" class="email" title="email"><i class='bx bx-envelope'></i></a> 
+                            <a href="https://www.instagram.com/ntnutahrdexhibit112" target="_blank" class="get-started-btn instagram" title="Instagram"><i class="bx bxl-instagram"></i></a> 
+                            <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="get-started-btn facebook" title="Facebook"><i class="bx bxl-facebook"></i></a> 
+                            <a href="mailto:contact@ntnutechpunk112.ml" target="_blank" class="get-started-btn email" title="email"><i class='bx bx-envelope'></i></a> 
                         </div>
                     </div>
                 </div>
