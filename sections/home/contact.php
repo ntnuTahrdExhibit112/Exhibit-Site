@@ -16,8 +16,12 @@
     }
     #contact .contact_img {
         border-radius: 100%;
-        border: rgb(70, 249, 253) solid 6px;
+        /* border: rgb(70, 249, 253) solid 6px; */
+        border-image: url(./assets/img/person_frame.png) 0 fill;
         width: 70%;
+        padding: 25px;
+        padding-left: 35px;
+        padding-right: 20px;
     }
     @media screen and (max-width: 768px) {
         #contact .sub_container {
@@ -41,7 +45,7 @@
                 <div class="member_parent col-sm-6 col-12 d-flex align-items-stretch justify-content-center">
                     <div class="member">
                         <div class="member-img d-flex justify-content-center">
-                            <img src="assets/img/contact/William_Chang.png" class="img-fluid contact_img" alt="" loading="lazy">
+                            <img src="assets/img/contact/William_Chang.jpg" class="img-fluid contact_img" alt="" loading="lazy">
                         </div>
                         <div class="member-info">
                             <h3>張子濰</h3>
@@ -52,7 +56,7 @@
                 <div class="member_parent col-sm-6 col-12 d-flex align-items-stretch justify-content-center">
                     <div class="member">
                         <div class="member-img d-flex justify-content-center">
-                            <img src="assets/img/contact/Stefan_Lee.png" class="img-fluid contact_img" alt="" loading="lazy">
+                            <img src="assets/img/contact/Stefan_Lee.jpg" class="img-fluid contact_img" alt="" loading="lazy">
                         </div>
                         <div class="member-info">
                             <h3>李軒騰</h3>
