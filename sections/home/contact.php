@@ -30,6 +30,10 @@
         #contact .member_parent {
             width: 100% !important;
         }
+        #contact .contact_img {
+            padding: 15px;
+            padding-right: 10px;
+        }
     }
 </style>
 
