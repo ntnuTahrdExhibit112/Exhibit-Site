@@ -9,7 +9,7 @@
         border-radius: 15px;
     }
     #visit .row {
-        align-items: center !important;
+        align-items: flex-start !important;
     }
 </style>
 
@@ -38,7 +38,7 @@
             </div>
             <div class="col-lg-12 row info">
                 <div class="traffic col-lg-6"> 
-                    <i class="bi bi-stoplights"></i>
+                    <i class="bi bi-sign-turn-right"></i>
                     <h4>交通資訊</h4>
                     <p> 
                         1. <b>捷運古亭站</b>：中和新蘆線〈橘線〉、松山新店線〈綠線〉於『古亭站』五號出口直行約八分鐘即可到達。<br>

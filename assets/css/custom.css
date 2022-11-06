@@ -2,6 +2,9 @@
 body * {
     font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
 }
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands" !important;
+}
 .hider {
     display: none !important;
 }
@@ -147,12 +150,15 @@ hr {
     .space {
         width: 24px; 
         height: 4px; 
-        *background-color: rgb(112,239,239); 
-        border-radius: 5px;
+        /* background-color: rgb(112,239,239);  */
+        /* border-radius: 5px; */
+        transform: skew(30deg);
         margin-left: 1%;
     }
     .space_active {
         background-color: rgb(112,239,239); 
+        /* background-image: url(../img/nav_underbar.png); */
+        /* background-size: contain; */
     }
 }
 /* portfolio link separation */
@@ -183,10 +189,11 @@ hr {
     margin-left: 15px !important;
 }
 .section_title_deco {
-    width: 50px;
+    width: 150px;
     position: relative;
-    top: 20px;
-    left: -5px;
+    top: 100px;
+    left: -50px;
+    z-index: -100;
 }
 /* @media screen and (min-width: 769px) {
     .section-title h2, .section-title p {
@@ -217,7 +224,7 @@ hr {
 }
 
 /* get-started-btn icon */
-.get-started-btn i, .back-to-top i {
+.get-started-btn i, .back-to-top i, .time i, .address i, .traffic i  {
     color: rgb(112,239,239) !important;
 }
     /* mobile */

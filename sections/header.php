@@ -87,7 +87,7 @@
                     <i class="bi bi-instagram"></i>
                 </a>
                 <a href="https://www.facebook.com/tahrdgraduationexhibition" target="_blank" class="shareBtn get-started-btn scrollto" title="Facebook" onClick="mobile_share_toggle()">
-                    <i class="bi bi-facebook"></i>
+                    <i class='bx bxl-facebook-square'></i>
                 </a>
             </div>
             <script src="./assets/js/custom.js"></script>
