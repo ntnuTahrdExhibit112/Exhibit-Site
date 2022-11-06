@@ -222,11 +222,11 @@ hr {
         line-height: 20px !important;
     }
     /* desktop */
-    .desktop_share .get-started-btn {
-        padding: 5px 6px;
-        margin-right: unset;
-        width: 36px;
-        height: 35px;
+    .desktop_share-btn .get-started-btn {
+        padding: 5px 6px !important;
+        margin-right: unset !important;
+        width: 36px !important;
+        height: 35px !important;
     }
     .desktop_share-btn .get-started-btn i {
         font-size: 20px; 
@@ -234,10 +234,10 @@ hr {
     }
     /* mobile */
     .mobile_share-btn .get-started-btn {
-        padding: 3px 3px 0px; 
-        margin-right: unset;
-        width: 35px;
-        height: 35px;
+        padding: 3px 3px 0px !important; 
+        margin-right: unset !important;
+        width: 35px !important;
+        height: 35px !important;
     }
     .mobile_share-btn .get-started-btn i {
         font-size: 25px; 
