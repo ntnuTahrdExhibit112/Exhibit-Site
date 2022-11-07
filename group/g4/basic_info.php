@@ -1,7 +1,7 @@
 <?php 
-    $title = "Westpath 西境山海";
+    $title = "04 - Westpath 西境山海";
     $subtitle = "生活科技多人數位密室逃脫遊戲";
-    $breadcrumb = "第4組 - Westpath 西境山海";
+    $breadcrumb = "04 - Westpath 西境山海";
     $root_path = "./g4/";
 
     $category = "教育／教材／學習系統";

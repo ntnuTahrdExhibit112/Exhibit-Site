@@ -1,7 +1,7 @@
 <?php 
-    $title = "體感互動遊戲輔助自閉症動作學習系統";
+    $title = "03 - 體感互動遊戲輔助自閉症兒童動作學習系統";
     $subtitle = "";
-    $breadcrumb = "第3組 - 體感互動遊戲輔助自閉症動作學習系統";
+    $breadcrumb = "03 - 體感互動遊戲輔助自閉症兒童動作學習系統";
     $root_path = "./g3/";
 
     $category = "教學發展";
@@ -10,5 +10,5 @@
     $filter2 = "";
     
     $cover = "./group/portfolio/g03.jpg";
-    $link = "./group/?project=g3";
+    $link = "./group/?project=MotionLearn";
 ?>

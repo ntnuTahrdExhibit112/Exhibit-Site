@@ -1,14 +1,14 @@
 <?php 
-    $title = "無人機虛擬實境STEM學習系統";
-    $subtitle = "RobotFly";
-    $breadcrumb = "第9組 - 無人機虛擬實境STEM學習系統";
+    $title = "09 - Mini Escape";
+    $subtitle = "桌上型密室逃脫";
+    $breadcrumb = "09 - Mini Escape";
     $root_path = "./g9/";
 
-    $category = "教育／教材／學習系統";
-    $filter = "Edu-Learning";
+    $category = "產品設計";
+    $filter = "design";
     $category2 = "";
     $filter2 = "";
     
     $cover = "./group/portfolio/g09.jpg";
-    $link = "./group/?project=robotfly";
+    $link = "./group/?project=MiniEscape";
 ?>

@@ -1,7 +1,7 @@
 <?php 
-    $title = "進位制轉換AR桌遊";
+    $title = "10 - 進位制轉換AR桌遊";
     $subtitle = "Deciverse";
-    $breadcrumb = "第10組 - 進位制轉換AR桌遊";
+    $breadcrumb = "10 - 進位制轉換AR桌遊";
     $root_path = "./g10/";
 
     $category = "教育／教材／學習系統";

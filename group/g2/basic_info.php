@@ -1,7 +1,7 @@
 <?php 
-    $title = "新式黑膠唱片機";
-    $subtitle = "";
-    $breadcrumb = "第2組 - 新式黑膠唱片機";
+    $title = "02 - Face to Virtual";
+    $subtitle = "高中生非同步模擬面試平台";
+    $breadcrumb = "02 - Face to Virtual";
     $root_path = "./g2/";
 
     $category = "產品設計";
@@ -10,5 +10,5 @@
     $filter2 = "";
     
     $cover = "./group/portfolio/g02.jpg";
-    $link = "./group/?project=g2";
+    $link = "./group/?project=Face2Virtual";
 ?>

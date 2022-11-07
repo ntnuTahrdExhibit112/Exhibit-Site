@@ -1,18 +1,18 @@
 <?php
     $convert = array(
-        "wingfolder" => "g1", 
-        "g2" => "g2", 
-        "g3" => "g3", 
+        "Wingfolder" => "g1", 
+        "Face2Virtual" => "g2", 
+        "MotionLearn" => "g3", 
         "Westpath" => "g4", 
         "techspestar" => "g5", 
         "JGFRA" => "g6", 
         "KuaiTaoBeiBei" => "g7", 
-        "MiniEscape" => "g8", 
-        "robotfly" => "g9", 
+        "robotfly" => "g8", 
+        "MiniEscape" => "g9", 
         "Deciverse" => "g10", 
-        "g11" => "g11", 
+        "forestplant" => "g11", 
         "MYCTO_HELMET" => "g12", 
-        "g13" => "g13"
+        "turntable" => "g13"
     );
 
     $groupID = $convert[$input];
