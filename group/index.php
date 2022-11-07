@@ -11,6 +11,12 @@
         flex-direction: column;
         align-items: center;
     }
+    #breadcrumbs .group_title_root {
+        position: relative;
+    }
+    #breadcrumbs .section_title_deco {
+        top: -30px !important;
+    }
 </style>
 
 <?php 
@@ -69,9 +75,10 @@
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
-                <div>
+                <div class="group_title_root">
                     <h1><?php echo($title); ?></h1>
                     <h3><?php echo($subtitle); ?></h3>
+                    <img src="../assets/img/lu_deco.png" alt="" class="section_title_deco">
                 </div>
                 <h6><a href="../#portfolio" style="display: inline;">作品廊</a> / <?php echo($title); ?></h6>
             </div>

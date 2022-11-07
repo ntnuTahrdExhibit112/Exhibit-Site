@@ -188,10 +188,13 @@ hr {
 .section-title h2, .section-title p {
     margin-left: 15px !important;
 }
+.section-title {
+    position: relative;
+}
 .section_title_deco {
     width: 150px;
-    position: relative;
-    top: -105px;
+    position: absolute;
+    top: -35px;
     left: -40px;
     z-index: -100;
 }
