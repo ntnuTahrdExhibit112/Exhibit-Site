@@ -15,7 +15,9 @@
         position: relative;
     }
     #breadcrumbs .section_title_deco {
-        top: -30px !important;
+        width: 90px !important;
+        top: -20px !important;
+        left: -25px !important;
     }
 </style>
 
