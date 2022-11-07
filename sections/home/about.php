@@ -8,9 +8,9 @@
 <section id="about" class="about">
     <div class="container" data-aos="">
         <div class="section-title">
-            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
             <h2>歷史沿革 & 系所特色</h2>
             <p>關於科技系</p>
+            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
         </div>
         <div class="row flex align-items-center" id="history"> <!--歷史沿革-->
             <div class="col-lg-6 order-1 order-lg-2" data-aos="" data-aos-delay="100"> 

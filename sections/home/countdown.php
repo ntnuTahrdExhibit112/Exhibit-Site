@@ -48,9 +48,9 @@
 <section id="countdown" class="features">
     <div class="container" data-aos="">
         <div class="section-title">
-            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
             <h2>專題票選</h2>
             <p><span id="countdown_section_title">開票</span>倒數</p>
+            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
         </div>
         <div class="row flex align-items-center mt-2"> <!--活動理念-->
             <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="" data-aos-delay="100">

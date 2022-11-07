@@ -191,8 +191,8 @@ hr {
 .section_title_deco {
     width: 150px;
     position: relative;
-    top: 100px;
-    left: -50px;
+    top: -105px;
+    left: -40px;
     z-index: -100;
 }
 @media screen and (max-width: 992px) {

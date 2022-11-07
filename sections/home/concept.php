@@ -27,9 +27,9 @@
 <section id="concept" class="features">
     <div class="container" data-aos="">
         <div class="section-title">
-            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
             <h2>活動理念 & 活動宗旨</h2>
             <p>專展理念</p>
+            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
         </div>
         <div class="row flex align-items-center mt-2"> <!--活動理念-->
             <div class="col-lg-6 order-1 order-lg-2" data-aos="" data-aos-delay="100"> 

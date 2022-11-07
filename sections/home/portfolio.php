@@ -64,9 +64,9 @@
 <section id="portfolio" class="portfolio">
     <div class="container" data-aos="">
         <div class="section-title">
-            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
             <h2>作品廊</h2>
             <p>專題製作成果</p>
+            <img src="assets/img/lu_deco.png" alt="" class="section_title_deco">
         </div>
         <div class="row" data-aos="" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
