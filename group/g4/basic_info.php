@@ -9,6 +9,6 @@
     $category2 = "";
     $filter2 = "";
     
-    $cover = "./group/portfolio/g04.jpg";
+    $cover = "./group/portfolio/g04.png";
     $link = "./group/?project=Westpath";
 ?>

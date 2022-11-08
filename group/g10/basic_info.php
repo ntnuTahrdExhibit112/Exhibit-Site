@@ -9,6 +9,6 @@
     $category2 = "桌遊";
     $filter2 = "BoardGame";
 
-    $cover = "./group/portfolio/g10.jpg";
+    $cover = "./group/portfolio/g10.png";
     $link = "./group/?project=Deciverse";
 ?>

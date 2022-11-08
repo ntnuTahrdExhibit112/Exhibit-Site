@@ -15,6 +15,10 @@
             display: block !important;
         }
     }
+    #portfolio .portfolio-wrap {
+        background-color: rgb(23,40,42) !important;
+        border-radius: 15px;
+    }
     #portfolio .portfolio-mobile .portfolio-item { /* item style */
         background-color: rgb(27, 40, 42);
         border-radius: 15px;
