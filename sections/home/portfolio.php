@@ -1,5 +1,8 @@
 <style>
     @media screen and (min-width: 993px) {
+        #portfolio .portfolio-container {
+            *width: 80% !important
+        }
         #portfolio .portfolio-desktop {
             display: block !important;
         }
@@ -16,8 +19,11 @@
         }
     }
     #portfolio .portfolio-wrap {
-        background-color: rgb(23,40,42) !important;
+        background-color: rgba(70, 249, 253, 0.3) !important;
+        background-image: url(../assets/img/lu_deco.png);
+        background-size: cover;
         border-radius: 15px;
+        backdrop-filter: blur(50px);
     }
     #portfolio .portfolio-mobile .portfolio-item { /* item style */
         background-color: rgb(27, 40, 42);
@@ -82,7 +88,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row portfolio-container" data-aos="" data-aos-delay="200">
+        <div class="row portfolio-container justify-content-center" data-aos="" data-aos-delay="200">
             <script>
                 function setListener(s_id, s_link) {
                     link = document.getElementById(s_id);
@@ -91,7 +97,7 @@
                     });
                 }
             </script>
-            <div class="portfolio-desktop row">
+            <div class="portfolio-desktop row" style="position: relative; width: 80%;">
                 <?php
                     $i = 0;
                     while ($i != 13) {

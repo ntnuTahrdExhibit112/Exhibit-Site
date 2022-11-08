@@ -171,11 +171,11 @@ var portfolioLightbox;
    * Clients Slider
    */
   new Swiper('.clients-slider', {
-    speed: 400,
+    speed: 600,
     loop: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: true
     },
     slidesPerView: 'auto',
     pagination: {
@@ -190,15 +190,15 @@ var portfolioLightbox;
       },
       480: {
         slidesPerView: 3,
-        spaceBetween: 60
+        spaceBetween: 40
       },
       640: {
         slidesPerView: 4,
-        spaceBetween: 80
+        spaceBetween: 40
       },
       992: {
         slidesPerView: 6,
-        spaceBetween: 120
+        spaceBetween: 60
       }
     }
   });
@@ -250,7 +250,7 @@ var portfolioLightbox;
     loop: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: true
     },
     pagination: {
       el: '.swiper-pagination',
