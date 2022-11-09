@@ -1,8 +1,5 @@
 <style>
     @media screen and (min-width: 993px) {
-        #portfolio .portfolio-container {
-            *width: 80% !important
-        }
         #portfolio .portfolio-desktop {
             display: block !important;
         }
@@ -19,11 +16,12 @@
         }
     }
     #portfolio .portfolio-wrap {
-        background-color: rgba(70, 249, 253, 0.3) !important;
+        background-color: rgba(255, 255, 255, 0.7) !important;
         background-image: url(../assets/img/lu_deco.png);
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
         border-radius: 15px;
-        backdrop-filter: blur(50px);
     }
     #portfolio .portfolio-mobile .portfolio-item { /* item style */
         background-color: rgb(27, 40, 42);
