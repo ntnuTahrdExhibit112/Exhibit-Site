@@ -15,6 +15,11 @@ async function mobile_share_toggle() {
             await sleep(50);
         }
         stat = 1;   //on
+        setTimeout(function (){
+            if (stat) {
+                mobile_share_toggle();
+            }
+        }, 5000);
     }
     else if (stat) {   //is on
         for (var i = btns.length - 1; i >= 0; i--) {

@@ -21,6 +21,12 @@ main {
 .navbar .dropdown ul, .navbar-mobile ul {
     background-color: #000 !important;
 }
+.nav-link:hover {
+    color:rgb(70,249,253) !important;
+}
+.dropdown .nav-link:hover {
+    color: white !important;
+}
 @media screen and (max-width: 992px) {
     #header-logo {
         margin-left: auto !important;
@@ -124,7 +130,7 @@ hr {
 
 /* group.breadcrumb */
 .breadcrumbs a {
-    color: rgb(112,239,239) !important;
+    color: rgb(70,249,253) !important;
 }
 
 /* sponsor slider */
@@ -190,17 +196,23 @@ hr {
 }
 .section-title {
     position: relative;
+    z-index: 100;
+}
+.section-title p, .section-title h2 {
+    z-index: 100;
 }
 .section_title_deco {
-    width: 150px;
+    width: 110px;
     position: absolute;
     top: -35px;
-    left: -40px;
-    z-index: -100;
+    left: -30px;
+    z-index: -1;
 }
 @media screen and (max-width: 992px) {
     .section_title_deco {
-        left: -30px;
+        width: 90px;
+        left: -20px;
+        top: -27px;
     }
 }
 
@@ -212,6 +224,9 @@ hr {
 /* get-started-btn icon */
 .get-started-btn i, .back-to-top i, .time i, .address i, .traffic i  {
     color: rgb(112,239,239) !important;
+}
+.get-started-btn:active i, .back-to-top:active i, .time i, .address i, .traffic i  {
+    color: white !important;
 }
     /* social-links */
     .social-links .get-started-btn {
@@ -251,3 +266,4 @@ hr {
 #footer .footer-center img {
     border-radius: 10px;
 }
+

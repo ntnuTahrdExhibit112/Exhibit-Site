@@ -80,7 +80,6 @@
                 <div class="group_title_root">
                     <h1><?php echo($title); ?></h1>
                     <h3><?php echo($subtitle); ?></h3>
-                    <img src="../assets/img/lu_deco.png" alt="" class="section_title_deco">
                 </div>
                 <h6><a href="../#portfolio" style="display: inline;">作品廊</a> / <?php echo($title); ?></h6>
             </div>

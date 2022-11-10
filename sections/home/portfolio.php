@@ -16,12 +16,13 @@
         }
     }
     #portfolio .portfolio-wrap {
-        background-color: rgba(255, 255, 255, 0.7) !important;
-        background-image: url(../assets/img/lu_deco.png);
+        background-color: rgba(255, 255, 255, 1) !important;
+        /* background-image: url(../assets/img/lu_deco.png); */
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 15px;
+        
     }
     #portfolio .portfolio-mobile .portfolio-item { /* item style */
         background-color: rgb(27, 40, 42);
@@ -95,7 +96,7 @@
                     });
                 }
             </script>
-            <div class="portfolio-desktop row" style="position: relative; width: 80%;">
+            <div class="portfolio-desktop row" style="position: relative; *width: 80%;">
                 <?php
                     $i = 0;
                     while ($i != 13) {
