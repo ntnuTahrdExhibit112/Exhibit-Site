@@ -67,7 +67,7 @@
                             var vote_ended = 0;
                         </script>
                     </h3>
-                    <div id="countdown_counter" class="h2 col-lg-10 col-12"></div>
+                    <div id="countdown_counter" class="h2 col-12"></div>
                     <div class="col-12">
                         <a href="./vote/?vote=signup" id="vote_CallToAction" class="btn" style="display: none;">
                             <span class="h3">我要投票</span>
