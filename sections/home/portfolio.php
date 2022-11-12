@@ -96,7 +96,7 @@
                     });
                 }
             </script>
-            <div class="portfolio-desktop row" style="position: relative; *width: 80%;">
+            <div class="portfolio-desktop row" style="position: relative; width: 80%;">
                 <?php
                     $i = 0;
                     while ($i != 13) {
