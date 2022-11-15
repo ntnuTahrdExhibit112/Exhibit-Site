@@ -72,3 +72,22 @@ body {
     src: url('../fonts/code.woff2') format('woff2'),
     url('../fonts/code1.TTF') format('truetype');
 }
+
+#nxedn2i1ttirhhu1tba .col-25p {
+    width: 25% !important;
+}
+#nxedn2i1ttirhhu1tba .col-75p {
+    width: 75% !important;
+}
+#nxedn2i1ttirhhu1tba .inline-block {
+    display: inline-block !important;
+}
+#nxedn2i1ttirhhu1tba .group_flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3%;
+}
+#nxedn2i1ttirhhu1tba input, #nxedn2i1ttirhhu1tba select {
+    color: black !important;
+}

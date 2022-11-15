@@ -1,3 +1,12 @@
+<?php
+    session_start();
+
+    date_default_timezone_set('Asia/Taipei');
+    $currentTime = date("Y/m/d H:i:s");
+    if (!isset($_SESSION['clear_time'])) {
+        $_SESSION['clear_time'] = $currentTime;
+    }
+?>
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
