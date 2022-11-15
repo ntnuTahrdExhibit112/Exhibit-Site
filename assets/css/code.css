@@ -22,3 +22,53 @@ body {
         display: block;
     }
 }
+
+#nxedn2i1ttirhhu1tba {
+    height: 100vh;
+    background-image: url(../img/mainBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+}
+#nxedn2i1ttirhhu1tba .row {
+    flex-direction: column;
+}
+#nxedn2i1ttirhhu1tba .row a {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-family: 'code_font', sans-serif !important;
+}
+#nxedn2i1ttirhhu1tba #form_root {
+    /* background-color: grey; */
+    background-color: rgba(128, 128, 128, 0.7);
+    height: 70vh;
+    border-radius: 15px;
+    margin-top: calc((30vh / 2) - 3rem);
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    backdrop-filter: blur(5px);
+
+    font-family: 'code_font', sans-serif !important;
+    text-align: center;
+    font-size: 3rem;
+}
+@media screen and (max-width: 992px) {
+    #nxedn2i1ttirhhu1tba {
+        background-size: contain;
+    }
+    #nxedn2i1ttirhhu1tba #form_root {
+        height: 55vh;
+        margin-top: calc((45vh / 2) - 3rem);
+        font-size: 6vw;
+    }
+    #nxedn2i1ttirhhu1tba .row a {
+        font-size: 6vw;
+    }
+}
+@font-face {
+    font-family: 'code_font';
+    /* src: url(../fonts/Cyberwar-Regular.ttf); */
+    src: url('../fonts/code.woff2') format('woff2'),
+    url('../fonts/code1.TTF') format('truetype');
+}
