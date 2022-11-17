@@ -63,6 +63,11 @@ body {
     text-align: center;
     font-size: 3rem;
 }
+#page_text #form_root {
+    height: 80vh;
+    margin-top: calc(20vh / 2);
+    font-size: 1.15rem !important;
+}
 @media screen and (max-width: 992px) {
     #nxedn2i1ttirhhu1tba {
         background-size: contain;
@@ -71,6 +76,11 @@ body {
         height: 55vh;
         margin-top: calc((45vh / 2) - 3rem);
         font-size: 6vw;
+    }
+    #page_text #form_root {
+        height: 80vh;
+        margin-top: calc(20vh / 2);
+        font-size: unset !important;
     }
     #nxedn2i1ttirhhu1tba .row a {
         font-size: 6vw;
