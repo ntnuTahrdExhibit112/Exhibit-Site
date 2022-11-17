@@ -1,3 +1,10 @@
+<?php 
+    session_start();
+    if (!isset($_SESSION['code_status'])) {
+        header("Location: ../");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -35,11 +42,22 @@
 <body>
     <div id="nxedn2i1ttirhhu1tba" class="container">
         <div class="row d-flex justify-content-center align-items-center mt-5">
-            <div id="form_root" class="col-12 col-lg-8 col-md-10 p-2 d-flex justify-content-center align-items-center">
-                2恭喜你完成本次逃脫<br>
-                下個頁面將填寫領獎資訊<br>
-                每人限填一次<br>
-                感謝大家配合
+            <div id="form_root" class="col-10 col-lg-6 col-md-8 p-2 d-flex justify-content-center align-items-center">
+                <?php
+                    $exist_msg = "您已填寫過此表單<br>以下為您的資料<br><br>";
+                    $done_msg = "已收到您的資料<br><br>";
+                    if ($_SESSION['code_status'] == 'exist') {
+                        echo $exist_msg;
+                    } 
+                    else if ($_SESSION['code_status'] == 'done') {
+                        echo $done_msg;
+                    }
+                ?>
+                姓名：<?php echo $_SESSION['code_name'];?><br>
+                領獎編號：<?php echo $_SESSION['code_id'];?><br>
+                <script>
+                    alert("領獎當日需出示此頁面的資訊，請記得截圖！\n 若不克前來，獎品將會回收！");
+                </script>
             </div>
         </div>
     </div>

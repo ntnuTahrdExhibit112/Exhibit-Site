@@ -23,6 +23,9 @@ body {
     }
 }
 
+#nxedn2i1ttirhhu1tba * {
+    font-family: 'code_font', sans-serif !important;
+}
 #nxedn2i1ttirhhu1tba {
     height: 100vh;
     background-image: url(../img/mainBG.png);
@@ -37,7 +40,6 @@ body {
 #nxedn2i1ttirhhu1tba .row a {
     font-size: 1.5rem;
     border-radius: 10px;
-    font-family: 'code_font', sans-serif !important;
 }
 #nxedn2i1ttirhhu1tba #form_root {
     /* background-color: grey; */
@@ -74,10 +76,10 @@ body {
 }
 
 #nxedn2i1ttirhhu1tba .col-25p {
-    width: 25% !important;
+    width: 35% !important;
 }
 #nxedn2i1ttirhhu1tba .col-75p {
-    width: 75% !important;
+    width: 65% !important;
 }
 #nxedn2i1ttirhhu1tba .inline-block {
     display: inline-block !important;
