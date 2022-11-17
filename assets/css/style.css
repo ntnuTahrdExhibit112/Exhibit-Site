@@ -239,6 +239,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   background-color: rgb(112,239,239);
 }
+.navbar .dropdown ul a.disabled:hover, .navbar .dropdown ul .disabled:hover, .navbar .dropdown ul li:hover > a.disabled {
+  background-color: grey !important;
+}
 .navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;

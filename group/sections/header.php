@@ -55,11 +55,11 @@
                     <a class="nav-link mobile_nav" href="#">特別活動 <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a class="nav-link scrollto" href="../online_exhibit/">線上展</a>
+                            <a class="nav-link scrollto disabled" href="../online_exhibit/">線上展</a>
                             <div class="space"></div>
                         </li>
                         <li>
-                            <a class="nav-link scrollto" href="../AR_interact/">展場AR互動</a>
+                            <a class="nav-link scrollto disabled" href="../AR_interact/">展場AR互動</a>
                             <div class="space"></div>
                         </li>
                         <li>
