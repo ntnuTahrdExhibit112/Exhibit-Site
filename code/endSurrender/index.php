@@ -18,7 +18,7 @@
     }
     @media screen and (max-width: 769px) {
         body {
-            background-image: url(./bad_end.jpg) !important;
+            background-image: url(./bad_end_mobile.jpg) !important;
         }
     }
 </style>
@@ -29,7 +29,7 @@
     <!-- demo<br>
     endSurrender -->
     <img id="page_img" src="./bad_end.jpg">
-    <img id="page_img_mobile" src="./bad_end.jpg">
+    <img id="page_img_mobile" src="./bad_end_mobile.jpg">
 </body>
 
 </html>

@@ -1,16 +1,9 @@
-<?php 
-    session_start();
-    if (!isset($_SESSION['code_status'])) {
-        header("Location: ../");
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>nxedn2i1ttirhhu1tba</title>
+<title>領獎查詢</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
@@ -42,25 +35,20 @@
 <body>
     <div id="nxedn2i1ttirhhu1tba" class="container">
         <div class="row d-flex justify-content-center align-items-center">
-            <div id="form_root" class="col-10 col-lg-6 col-md-8 p-2 d-flex justify-content-center align-items-center">
-                <?php
-                    $exist_msg = "您已填寫過此表單<br>以下為您的資料<br><br>";
-                    $done_msg = "已收到您的資料<br><br>";
-                    if ($_SESSION['code_status'] == 'exist') {
-                        echo $exist_msg;
-                    } 
-                    else if ($_SESSION['code_status'] == 'done') {
-                        echo $done_msg;
-                    }
-                ?>
-                姓名：<?php echo $_SESSION['code_name'];?><br>
-                領獎編號：<?php echo $_SESSION['code_id'];?><br>
-                <script>
-                    alert("領獎當日需出示此頁面的資訊，請記得截圖！\n 若不克前來，獎品將會回收！");
-                </script>
+            <div id="form_root" class="col-10 col-lg-6 col-md-8 p-2 d-flex justify-content-center align-items-center code_info" style="text-align: left;">
+                若想領取精美小品<br>
+                請於以下時段前來<br>
+                12/02 10:00-12:30<br>
+                12/03 09:00-14:30<br>
+                地點：<br>
+                國立台灣師範大學圖書館校區<br>
+                綜合大樓210<br>
+
+                可以代領<br>
+                請妥善填寫領獎人資訊
             </div>
             <div class="col-8 col-lg-4 col-md-6">
-                <a class="btn btn-success mt-5" href="../info/" style="display: block;">領獎資訊</a>
+                <a class="btn btn-success mt-5" href="../form/" style="display: block;">填寫表單</a>
             </div>
         </div>
     </div>

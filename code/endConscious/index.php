@@ -18,7 +18,7 @@
     }
     @media screen and (max-width: 769px) {
         body {
-            background-image: url(./true_end.jpg) !important;
+            background-image: url(./true_end_mobile.jpg) !important;
         }
     }
 </style>
@@ -29,7 +29,7 @@
     <!-- demo<br>
     endConscious -->
     <img id="page_img" src="./true_end.jpg">
-    <img id="page_img_mobile" src="./true_end.jpg">
+    <img id="page_img_mobile" src="./true_end_mobile.jpg">
 </body>
 
 </html>

@@ -4,15 +4,23 @@ body {
     overflow: hidden;
     background-size: cover !important;
 }
+#page_text {
+    position: absolute;
+    z-index: 999;
+}
 #page_img {
+    display: block;
     width: 100%;
     height: 100vh;
-    display: block;
+    position: absolute;
+    z-index: 0;
 }
 #page_img_mobile {
     display: none;
     width: 100%;
     height: 100vh;
+    position: absolute;
+    z-index: 0;
 }
 @media screen and (max-width: 992px) {
     #page_img {
@@ -23,7 +31,7 @@ body {
     }
 }
 
-#nxedn2i1ttirhhu1tba * {
+#nxedn2i1ttirhhu1tba *, #page_text * {
     font-family: 'code_font', sans-serif !important;
 }
 #nxedn2i1ttirhhu1tba {
@@ -32,16 +40,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: darken;
 }
-#nxedn2i1ttirhhu1tba .row {
+#nxedn2i1ttirhhu1tba .row, #page_text .row {
     flex-direction: column;
 }
 #nxedn2i1ttirhhu1tba .row a {
     font-size: 1.5rem;
     border-radius: 10px;
 }
-#nxedn2i1ttirhhu1tba #form_root {
+#nxedn2i1ttirhhu1tba #form_root, #page_text #form_root {
+    flex-direction: column;
     /* background-color: grey; */
     background-color: rgba(128, 128, 128, 0.7);
     height: 70vh;
@@ -59,7 +67,7 @@ body {
     #nxedn2i1ttirhhu1tba {
         background-size: contain;
     }
-    #nxedn2i1ttirhhu1tba #form_root {
+    #nxedn2i1ttirhhu1tba #form_root, #page_text #form_root {
         height: 55vh;
         margin-top: calc((45vh / 2) - 3rem);
         font-size: 6vw;
@@ -76,10 +84,18 @@ body {
 }
 
 #nxedn2i1ttirhhu1tba .col-25p {
-    width: 35% !important;
+    width: 25% !important;
 }
 #nxedn2i1ttirhhu1tba .col-75p {
-    width: 65% !important;
+    width: 75% !important;
+}
+@media screen and (max-width: 992px) {
+    #nxedn2i1ttirhhu1tba .col-25p {
+        width: 35% !important;
+    }
+    #nxedn2i1ttirhhu1tba .col-75p {
+        width: 65% !important;
+    }
 }
 #nxedn2i1ttirhhu1tba .inline-block {
     display: inline-block !important;
@@ -92,4 +108,18 @@ body {
 }
 #nxedn2i1ttirhhu1tba input, #nxedn2i1ttirhhu1tba select {
     color: black !important;
+}
+
+#nxedn2i1ttirhhu1tba .code_info {
+    font-size: 2rem !important;
+}
+@media screen and (max-width: 992px) {
+    #nxedn2i1ttirhhu1tba .code_info {
+        font-size: 2rem !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    #nxedn2i1ttirhhu1tba .code_info {
+        font-size: 1.5rem !important;
+    }
 }

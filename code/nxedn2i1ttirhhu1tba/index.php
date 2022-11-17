@@ -51,7 +51,7 @@
                 感謝大家配合
             </div>
             <div class="col-8 col-lg-4 col-md-6">
-                <a class="btn btn-success mt-5" href="./form/" style="display: block;">填寫資訊</a>
+                <a class="btn btn-success mt-5" href="./info/" style="display: block;">領獎資訊</a>
             </div>
         </div>
     </div>
