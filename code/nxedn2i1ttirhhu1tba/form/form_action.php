@@ -12,6 +12,7 @@
     $id = substr(md5($name . $email . $clear_time . $difficulty . $fun . $advise), 0, 10);
     $_SESSION['code_id'] = "$id";
     $_SESSION['code_name'] = "$name";
+    $_SESSION['code_clear_time'] = "$clear_time";
 
     echo $name . "<br>";
     echo $email . "<br>";

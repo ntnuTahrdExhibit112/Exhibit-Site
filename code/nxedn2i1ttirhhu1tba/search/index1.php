@@ -1,20 +1,12 @@
 <?php
     session_start();
 
-    $str = "";
     $search_id = "";
     $search_name = "";
     $search_clear_time = "";
     $error = 0;
     $hide = 0;
-    if (isset($_GET['str'])) {
-        $str = $_GET['str'];
-        $str_exploded = explode("_", $str);
-        $search_id = $str_exploded[0];
-        $search_name = $str_exploded[1];
-        $search_clear_time = rtrim($str_exploded[2], "/");
-    }
-    else if (isset($_GET['id']) && isset($_GET['name']) && isset($_GET['clear_time'])) {
+    if (isset($_GET['id']) && isset($_GET['name']) && isset($_GET['clear_time'])) {
         $search_id = $_GET['id'];
         $search_name = $_GET['name'];
         $search_clear_time = $_GET['clear_time'];
@@ -60,6 +52,14 @@
 <script src="../../../assets/js/code.js"></script>
 <link href="../../../assets/css/code.css" rel="stylesheet">
 <style>
+    #nxedn2i1ttirhhu1tba #form_root {
+        margin-top: calc(30vh / 2);
+    }
+    @media screen and (max-width: 992px) {
+        #nxedn2i1ttirhhu1tba #form_root {
+            margin-top: calc(45vh / 2);
+        }
+    }
 </style>
 </head>
 
@@ -88,9 +88,6 @@
                         </div>
                     </div>
                 </form>
-            </div>
-            <div class="col-8 col-lg-4 col-md-6">
-                <a class="btn btn-success mt-5" href="./all.php" style="display: block;">查看全部</a>
             </div>
         </div>
     </div>

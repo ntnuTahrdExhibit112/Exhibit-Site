@@ -37,6 +37,17 @@
 
 <script src="../../../assets/js/code.js"></script>
 <link href="../../../assets/css/code.css" rel="stylesheet">
+<style>
+    .search_qr {
+        width: 25%;
+    }
+    @media screen and (max-width: 992px) {
+        .search_qr {
+            margin-top: 2.5rem;
+            width: 45%;
+        }
+    }
+</style>
 </head>
 
 <body>
@@ -52,9 +63,13 @@
                     else if ($_SESSION['code_status'] == 'done') {
                         echo $done_msg;
                     }
+                    $id = $_SESSION['code_id'];
+                    $name = $_SESSION['code_name'];
+                    $clear_time = $_SESSION['code_clear_time'];
                 ?>
                 姓名：<?php echo $_SESSION['code_name'];?><br>
                 領獎編號：<?php echo $_SESSION['code_id'];?><br>
+                <img class="search_qr" src="https://api.qrserver.com/v1/create-qr-code/?data=https://ntnutechpunk112.ml/code/nxedn2i1ttirhhu1tba/search/?str=<?php echo $id;?>_<?php echo $name;?>_<?php echo $clear_time;?>&end" alt="">
                 <script>
                     alert("領獎當日需出示此頁面的資訊，請記得截圖！\n 若不克前來，獎品將會回收！");
                 </script>
