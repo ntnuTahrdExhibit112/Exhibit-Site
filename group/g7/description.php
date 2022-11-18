@@ -1,11 +1,31 @@
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
+<h2>動機</h2>
+    <p class="indent1">
+        本專題製作成果為「快陶唄杯-特殊杯型咖啡保溫杯」，因應近年台灣精品咖啡的消費市場日益茁壯，以及後疫情時代的來臨，使得人人一個隨行杯在手，加上環保意識逐漸提升等趨勢，我們針對咖啡豆種的特質設計出適合的保溫杯杯型與杯嘴形狀，並以手工陶瓷製做保溫杯內膽，開發一款能夠凸顯咖啡香氣與風味的保溫杯，期望提供愛好咖啡的民眾更好的咖啡外帶體驗。
+    </p>
+<hr>
+<h2>設計理念</h2>
+    <p class="indent1">
+        根據文獻分析之研究，咖啡的特點是其香氣與酸值，從理想杯型或酒杯設計原理中可發現內縮以及保留空間可以讓香氣更加聚集，而杯緣外翻的設計除了可以更好飲用之外，也讓酸值因為接觸舌頭地面積增大，使其能夠更好的被突出，因此快陶唄杯的保溫杯內膽使用了內縮杯頸和外翻杯緣之設計，另外選擇了陶作為製作的主要材質，不同於不銹鋼，陶瓷內膽耐酸鹼、不挑飲品，且不易垢與殘留異味。
+    </p>
+<hr>
+<h2>製作方法</h2>
+    <h4 class="indent1">外殼製作</h4>
+        <p class="indent2">
+            打樣使用之原料為PLA，利用3D列印方式製作
+        </p>
+    <h4 class="indent1">陶瓷內膽燒製(由陶藝師製作)</h4>
+        <p class="indent2">
+            1. 原料為陶土，經捏製成型後燒製而成<br>
+            2. 燒製溫度大多落在900度~1200度之間<br>
+            3. 製作流程：練土 → 成形 → 陰乾 → 素燒 → 裝飾 → 上釉 → 燒成 → 完成
+        </p>
+    <h4 class="indent1">外殼接合處、接合防漏墊圈</h4>
+        <p class="indent2">
+            使用彈性墊圈接合內膽及外殼達到防漏效果，使用TPE材質，透過3D列印製作
+        </p>
+<hr>
+<h2>結語</h2>
+    <p class="indent1">
+        本次的專題製作發展出一款可以凸顯咖啡香氣與風味的保溫杯，同時與市面上之產品做出區隔。快陶唄杯運用杯身形狀所造就的物理性質，設計內縮的杯頸和外翻的杯緣，使咖啡香氣能夠更加聚集，酸值也能夠更加突出，同時研究內膽材質對於味道之吸附程度、不同接合材質防漏程度、外殼杯型對於手持的友善程度等等層面，並運用3D建模與列印進行多次嘗試。<br>
+        在行銷推廣領域也有進行嘗試，在IG, FB, YouTube進行社群行銷，製作知識性貼文、參訪Vlog與訪談影片，將大學四年所學投入於此。
+    </p>
