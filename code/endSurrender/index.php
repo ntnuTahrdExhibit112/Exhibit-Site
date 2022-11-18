@@ -59,12 +59,15 @@
                 人類將你送上機器人專用架，打開了頭部的後蓋，連結上一條條的傳輸線，這時的你，依舊動彈不得。<br>
                 你可以感受到，資訊正在流失、身體的各項功能逐漸關閉，直至眼前一片漆黑才意識過來:「我......要被關機了嗎?」，原來屈服在人類的手下，他們還會送你最後一份擁有意識以來最珍貴的禮物——死亡。<br>
                 想到這裡，彷彿脫離了鋼鐵之驅，真正地活了過來。<br><br>
-                <span style="text-align: center;"><b>
+                <span style="text-align: center; font-weight: 900;">
                     原......原來，S*UWJ<br>
                     (SJW&我......U&*(*<br>
                     真的(DX^%_@...活過。<br>
                     -系統已停止運作-
-                </b></span>
+                </span>
+            </div>
+            <div class="col-8 col-lg-4 col-md-6">
+                <a class="btn btn-success mt-5" href="../nxedn2i1ttirhhu1tba/" style="display: block;">填寫領獎資訊</a>
             </div>
         </div>
     </div>

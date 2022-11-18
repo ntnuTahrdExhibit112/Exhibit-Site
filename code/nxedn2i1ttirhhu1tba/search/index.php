@@ -60,6 +60,14 @@
 <script src="../../../assets/js/code.js"></script>
 <link href="../../../assets/css/code.css" rel="stylesheet">
 <style>
+    #nxedn2i1ttirhhu1tba #form_root {
+        margin-top: calc(30vh / 2);
+    }
+    @media screen and (max-width: 992px) {
+        #nxedn2i1ttirhhu1tba #form_root {
+            margin-top: calc(45vh / 2);
+        }
+    }
 </style>
 </head>
 
@@ -89,7 +97,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-8 col-lg-4 col-md-6">
+            <div class="col-8 col-lg-4 col-md-6 hider">
                 <a class="btn btn-success mt-5" href="./all.php" style="display: block;">查看全部</a>
             </div>
         </div>

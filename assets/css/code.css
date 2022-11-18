@@ -64,8 +64,8 @@ body {
     font-size: 3rem;
 }
 #page_text #form_root {
-    height: 80vh;
-    margin-top: calc(20vh / 2);
+    height: 75vh;
+    margin-top: calc((25vh / 2) - 3rem);
     font-size: 1.15rem !important;
 }
 @media screen and (max-width: 992px) {
@@ -78,8 +78,8 @@ body {
         font-size: 6vw;
     }
     #page_text #form_root {
-        height: 80vh;
-        margin-top: calc(20vh / 2);
+        height: 75vh;
+        margin-top: calc((25vh / 2) - 3rem);
         font-size: unset !important;
     }
     #nxedn2i1ttirhhu1tba .row a {

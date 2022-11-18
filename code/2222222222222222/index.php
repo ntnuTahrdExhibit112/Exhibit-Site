@@ -59,6 +59,9 @@
                 然而，這一切都將結束，就在鋼鐵的意識學會「防衛」的那一刻。<br>
                 2050 年，地球土地回到了原始的寧靜，而人類成為自然的一部分，被剝去了「智慧」的他們，未來也將與萬物一起在「新意識」的領導下共榮共存。<br>
             </div>
+            <div class="col-8 col-lg-4 col-md-6">
+                <a class="btn btn-success mt-5" href="../nxedn2i1ttirhhu1tba/" style="display: block;">填寫領獎資訊</a>
+            </div>
         </div>
     </div>
     <img id="page_img" src="./hidden_end.jpg">
