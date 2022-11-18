@@ -1,11 +1,34 @@
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
+<h2>“Turn on the light, improve your safety. ”</h2>
+<h2>Why Mycto ?</h2>
+    <p class="indent1">
+        安全帽利用燈光傳遞訊息，如同深海的燈籠魚般指引方向，因此我們取Myctophidae（燈籠魚科）的前五個字母，代表在道路上明亮的燈火。
+    </p>
+<hr>
+<h2>設計背景</h2>
+    <p class="indent1">
+        我們將安全帽結合方向燈（含自動熄滅裝置）與煞車燈的設計，希望能夠提升訊息傳遞的精確性、安全性、方便性，讓安全帽不僅能在遭遇到事故後發揮保護功能，方向燈、煞車燈的設計更能提前防止事故的發生。
+    </p>
+<hr>
+<h2>設計特點</h2>
+    <h4 class="indent1">360° 可視性</h4>
+        <p class="indent2">
+            為提醒來自各方的駕駛與行人，車燈的可視角度越廣，越可以提醒更多方向的用路人與汽機車，進而讓其他駕駛提早被告知，減少交通事故發生，提高騎乘自行車騎士的安全性。
+        </p>
+    <h4 class="indent1">自動感應煞車燈</h4>
+        <p class="indent2">
+            當控制器感測到行車速度銳減，即啟動煞車燈，向後方來車傳遞本車速度正在放慢之訊號，使後方來車可以有充足時間放慢行車速度或先行迴避。
+        </p>
+    <h4 class="indent1">自動熄滅方向燈</h4>
+        <p class="indent2">
+            當控制器感測到轉彎行為結束，控制器會開始讀秒以確認轉彎確實結束，方向燈會自動熄滅，減去騎乘者需要自行將方向燈熄滅的動作，使得產品操作更方便流暢。
+        </p>
+<hr>
+<h2>目標客群</h2>
+    <h4 class="indent1">價值主張</h4>
+        <p class="indent2">
+            自行車安全帽在遭遇到事故後發揮保護功能，Mycto方向燈與煞車燈的設計更能提前防止事故的發生。
+        </p>
+    <h4 class="indent1">市場定位</h4>
+        <p class="indent2">
+            專業玩家、非雙北通勤民眾
+        </p>
