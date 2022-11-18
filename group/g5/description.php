@@ -1,11 +1,33 @@
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
+<h2>製作動機</h2>
+    <p class="indent1">
+        隨著國家政經環境發展，近來國家對特教孩童的教育立場從「恩給照顧」邁向「培養健全人格」和「服務社會」。<br>
+        同時，隨同科學與科技之興起，國家也益發重視科技研究及科技教育。<br>
+        於是打算將運算思維之學習內容，結合社交技巧課程後針對具社交互動障礙(如：自閉症)之特殊需求孩童設計相關課程。
+    </p>
+<hr>
+<h2>專題簡介與目標</h2>
+    <p class="indent1">
+        我們的產品是為特教生與普通生一同合作所打造的運算思維教材。<br>
+        教學內容為「以空間概念為基礎」的運算思維，透過課程主題與生活經驗的連結以及特殊教育專業教師的源頭參與，打造從傳統的講述法跳脫為讓學生體驗的課程，也就是課程即老師與學生互動而成的經驗。<br>
+        我們期望能透過此教案來培養特教學生的科技素養與社交技巧之能力，並翻轉特殊教育學生之不利背景，建構平等和諧之班級環境。
+    </p>
+<hr>
+<h2>專題內容</h2>
+    <h4 class="indent1">產品與對象</h4>
+        <p class="indent2">
+            我們設計的教案、教具和教材，是針對國小低年級的自閉症學生，我們與特教系的教授和同學一起合作，希望能透過跨領域合作，滿足學生的需求。
+        </p>
+    <h4 class="indent1">突破點</h4>
+        <p class="indent2">
+            這份專題中最重要的就是有融入特教相關的專業背景知識，據我們所調查之結果，我們是國內第一個將科技教育與特殊教育進行深度結合與實踐的案例。
+        </p>
+    <h4 class="indent1">教材</h4>
+        <h5 class="indent2">方向架</h5>
+            <p class="indent3">
+                方向架除了可拆解成單一平面的教學外，也可以用於三度空間的教學。<br>
+                透過部分位置挖空的設計，學生將手伸進去解決任務的過程將會有更具體的觀測與學習。
+            </p>
+        <h5 class="indent2">機械手臂</h5>
+            <p class="indent3">
+                機械手臂利用密集板作為骨架，Arduino開發板、伺服馬達、RFID模組控制手臂，透過實際操作及觀察機械手臂，引導學生理解運算思維，並學習解決問題的能力。
+            </p>
