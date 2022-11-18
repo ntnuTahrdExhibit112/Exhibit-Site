@@ -1,11 +1,18 @@
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
+<h2>研究目的</h2>
+    <p class="indent1">
+        根據聯合國永續發展目標(SDGs)的目標4.5可以得知目前傳統教育對於弱勢族群的學習仍有執行上的困難，同時統計資料顯示特教學生與一般學生的學習資源上仍有分配不均的問題。<br>
+        所以我們製作了一款為特教生設計的體感互動遊戲，來嘗試改良特教生的教育方式
+    </p>
+<hr>
+<h2>遊戲內容</h2>
+    <p class="indent1">
+        遊戲內容以童話綠野仙蹤作為遊戲主題之藍本，以精彩有趣的童話故事展開遊戲劇情，並以豐富多元的美術背景及精美角色動畫展現給學生動作學習內容。<br>
+        遊戲透過童話的劇情引導及主角的動畫示範，並以深度攝影機感測學生動作準確度給予分數上的回饋，達到學習評分上的依據。<br>
+        此遊戲一方面可以著實訓練自閉症學生動作訓練需求，另一方面給予自閉症學生輕鬆無負擔、有趣的體感互動遊戲。
+    </p>
+<hr>
+<h2>遊戲演示</h2>
+    <p class="indent1">
+        運用繪圖軟體及3D建模軟體完成童話故事主角的動畫，透過動畫所呈現的動作示範可讓學生有沉浸在遊戲闖關中的樂趣和過關的成就感，減少遊戲與人之間的距離感，使學生更有意願進行遊戲的訓練活動。<br>
+        學生依據遊戲畫面所展現之動作示範動畫進行動作學習及認識，並輔以教師的現場教學及引導，逐步訓練動作精確度及熟練度，盼能為自閉症學生粗大動作技能訓練上帶來更多的練習機會和學習資源。
+    </p>
