@@ -1,11 +1,30 @@
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
+<p>
+    生活與事業的壓力隨著社會進步的發達而增長，進而造成療癒商機的興起，尤其近年更受到疫情影響，防疫長時間關在家，少了人與人的社交生活，也增加了人們的療癒需求，因此我們選擇本身具有療癒感的盆栽作為主題，我們希望能改善市面上普通的盆栽容器，打造小森林，增加它的互動性與趣味性，以抽離生活的壓力，給大家增添一道療癒的風景！
+</p>
+<hr>
+<h2>產品特色</h2>
+    <h4 class="indent1">四感體驗</h4>
+        <p class="indent2">
+            1. 視覺＿療癒可愛的造景<br>
+            2. 聽覺＿使用者澆水時回饋音效<br>
+            3. 嗅覺＿香氛加濕器<br>
+            4. 觸覺＿磁吸式的小物可依喜好自由變換
+        </p>
+    <h4 class="indent1">增加便利性與互動性</h4>
+        <p class="indent2">
+            1. 土壤感測器偵測濕度<br>
+            2. 抽水馬達自動澆水<br>
+            3. 聲控呼吸燈回饋<br>
+            4. 聲控開啟香氛加濕器<br>
+            5. 小物互動
+        </p>
+<hr>
+<h2>目標客群</h2>
+    <p class="indent1">
+        將目標客群鎖定在25到35歲的年輕女性，在擁有高壓生活的同時也有一定的消費能力，繁忙的事業生活之餘，也可以藉由收集本產品的小物，以及與本產品的互動，來達到自我滿足。<br>
+        除此之外，對於30出頭的新手媽媽，療癒盆栽除了能夠減緩帶小孩的壓力，同時也可以藉由帶孩子種盆栽，教育孩童尊重生命，透過小物與孩童互動。
+    </p>
+<hr>
+<p>
+    <i>讓森の泉帶給你多元的感官與充滿生命力的療癒時刻，再忙，也要療癒一下！</i>
+</p>
