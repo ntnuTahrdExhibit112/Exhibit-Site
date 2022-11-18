@@ -2,6 +2,9 @@
     .breadcrumbs {
         background-color: inherit !important;
     }
+    .portfolio-details {
+        padding-top: 20px !important;
+    }
     #portfolio-details .swiper-slide {
         display: flex;
         align-items: center;
@@ -90,14 +93,14 @@
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
         <div class="container">
-            <div class="row gy-4 gx-5">
-                <div class="col-lg-6" style="display: flex; align-items: center;">
+            <div class="row gy-4 gx-5 align-items-start">
+                <div class="col-lg-4" style="display: flex; align-items: center;">
                     <div class="portfolio-details-slider swiper">
                         <?php include($photoSlide_path); ?>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
-                <div class="col-lg-6" style="display: flex; align-items: center;">
+                <div class="col-lg-8" style="display: flex; align-items: center;">
                     <div class="portfolio-description" style="">
                         <?php include($description_path); ?>
                     </div>

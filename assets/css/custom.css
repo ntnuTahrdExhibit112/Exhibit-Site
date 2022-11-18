@@ -277,3 +277,10 @@ hr {
     border-radius: 10px;
 }
 
+/* group page */
+.indent1 {
+    margin-left: 1.5rem;
+}
+.indent2 {
+    margin-left: 3rem;
+}
