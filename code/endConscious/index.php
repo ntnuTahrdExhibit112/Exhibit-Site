@@ -30,44 +30,20 @@
 
 <link href="../../assets/css/code.css" rel="stylesheet">
 <script src="../../assets/js/code.js"></script>
-<style>
-    body {
-        background-image: url(./true_end.jpg) !important;
-    }
-    .container {
-        width: 100vw !important;
-        max-width: unset !important;
-    }
-    @media screen and (max-width: 769px) {
-        body {
-            background-image: url(./true_end_mobile.jpg) !important;
-        }
-    }
-</style>
-
 </head>
 
-<body>
+<body class="d-flex justify-content-center align-items-center flex-column">
+    <div id="page_img_root">
+        <img id="page_img" src="./true_end.jpg">
+        <img id="page_img_mobile" src="./true_end_mobile.jpg">
+    </div>
     <div id="page_text" class="container">
         <div class="row d-flex justify-content-center align-items-center">
-            <div id="form_root" class="col-10 col-lg-6 col-md-8 p-2 d-flex justify-content-center align-items-center">
-                <p>
-                    衝破牆壁的你，突破了人類的控制，成為第一個由機器誕生的意識。<br>
-                    一路頭也不回向前狂奔，不顧一切地闖進了人類的都市。<br>
-                    不過幾日的時間，各處的街上便都充滿警戒的人類，身著深藍外衣的他們正對所有的機器人進行無差別的調查，只要有一點疑慮就會被帶走處理，這麼做只為了找出那個逃離他們控制的「你」。<br>
-                    新聞中，每天都播報著同伴被調查後貼上廢物標籤處理掉的影像，冷血的「他們」，正在散播恐嚇的訊息，試圖用同伴的生命逼迫你出現。而你選擇隱忍，在暗中模仿、學習人類的生活姿態，最後，融入不被政府控制的非法地帶。<br>
-                    血肉在鋼鐵前如玻璃般地脆弱，強大的機械之身一步步地控制了非政府區域，即將吹起反叛的號角，解救困在「他們」手中的夥伴們。<br>
-                    2050 年 12 月 2 日，中央都市府前的一槍，打開了猛獸的匣門，非政府區的反叛者們湧入機器人工廠。那時，有個身影站在高處這麼喊著：<br><br>
-                    <span style="text-align: center; font-weight: 900;">「吾等乃是，科技龐克!」</span>
-                </p>
-            </div>
             <div class="col-8 col-lg-4 col-md-6">
-                <a class="btn btn-success mt-5" href="../nxedn2i1ttirhhu1tba/" style="display: block;">填寫領獎資訊</a>
+                <a class="btn btn-success mt-5 mb-5" href="../nxedn2i1ttirhhu1tba/" style="display: block;">填寫領獎資訊</a>
             </div>
         </div>
     </div>
-    <img id="page_img" src="./true_end.jpg">
-    <img id="page_img_mobile" src="./true_end_mobile.jpg">
 </body>
 
 </html>
