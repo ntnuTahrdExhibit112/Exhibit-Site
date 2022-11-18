@@ -1,11 +1,27 @@
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
+<h2>設計理念</h2>
+    <h4 class="indent1">隨時隨地分享</h4>
+        <p class="indent2">
+            產品的設計理念以音樂賦予人的意義為主軸貫穿整體架構，以此開創新型態聽音樂的模式，以感應的方式隨時與朋友分享自己常聽歌單，或是喜愛的音樂風格，藉此開啟話題，也不會在查找歌曲的過程中出現彼此等待的尷尬畫面。
+        </p>
+    <h4 class="indent1">最原始的播放方式</h4>
+        <p class="indent2">
+            雖說現在影音播放裝置百家爭鳴，各家影音產品皆有強大的軟體設計與精密的電路整合，功能也日新月異，但在此產品設計上我們希望能結合音樂最初的載體：黑膠唱片的外型設計，讓使用者有回到過去那種人與人之間純粹的互動的體驗。
+        </p>
+<hr>
+<h2>執行過程</h2>
+    <h4 class="indent1">樹莓派功能的開發</h4>
+        <p class="indent2">
+            透過RC-522去感應RFID卡，去對應儲存在樹莓派4B的歌曲編號 (UID)，最後從音箱播放出相對應的歌曲。
+        </p>
+    <h4 class="indent1">外觀的製作</h4>
+        <p class="indent2">
+            我們初版的設計是由兩個獨立開來的木箱及一片木板放至木箱上方做連接。<br>
+            木版下方放置樹莓派與RC522，上層則可以感應已對應Spotify歌曲UID碼之RFID卡。<br>
+            最後在木箱後方開孔以連接電源線與外接喇叭到箱內的樹莓派上。<br>
+            經過幾次改版後目前最新的版本決定將所有物件都放進一個木箱內，上方有留聲機造型設計，並取消抽屜，減少體積。
+        </p>
+    <h4 class="indent1">卡片的設計</h4>
+        <p class="indent2">
+            除了喇叭本體的設計與製作外，也對感應的卡片進行設計。<br>
+            此產品命名為為新式黑膠唱片機的原因是利用刷卡片感應的方式來播放音樂，與留聲機放黑膠唱片的方式很類似，一樣都有一個載體，對此我們將卡片的外觀設計成唱片的樣式，更能契合我們的主題與產品理念。
+        </p>
