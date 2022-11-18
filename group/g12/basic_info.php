@@ -5,7 +5,7 @@
     $root_path = "./g12/";
 
     $category = "產品設計";
-    $filter = "design";
+    $filter = "ProductDesign";
     $category2 = "";
     $filter2 = "";
     

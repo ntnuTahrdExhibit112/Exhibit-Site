@@ -5,7 +5,7 @@
             <div class="portfolio-info">
                 <h4><?php echo($title); ?></h4>
                 <h6><?php echo($subtitle); ?></h6>
-                <p><?php echo($category); ?><?php if($category2) echo(" / " . $category2); ?></p>
+                <p><?php echo($category); ?><?php if($category2) echo(", " . $category2); ?></p>
             </div>
         </a>
     </div>

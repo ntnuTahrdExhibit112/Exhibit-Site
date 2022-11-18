@@ -54,6 +54,12 @@
     .portfolio_image_link img {
         cursor: pointer !important;
     }
+    @media screen and (max-width: 992px) {
+        #portfolio #portfolio-flters {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 </style>
 
 <?php
@@ -81,7 +87,7 @@
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                     <li data-filter="*" class="filter-active">全部</li>
-                    <li data-filter=".filter-Edu-Learning">教育／教材／學習系統</li>
+                    <li data-filter=".filter-Educational">教育／教材／學習系統</li>
                     <li data-filter=".filter-BoardGame">桌遊</li>
                     <li data-filter=".filter-ProductDesign">產品設計</li>
                 </ul>

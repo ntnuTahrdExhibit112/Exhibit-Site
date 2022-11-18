@@ -1,11 +1,11 @@
 <?php 
     $title = "08 - 無人機虛擬實境STEM學習系統";
-    $subtitle = "RobotFly";
+    $subtitle = "robotfly";
     $breadcrumb = "08 - 無人機虛擬實境STEM學習系統";
     $root_path = "./g8/";
 
     $category = "教育／教材／學習系統";
-    $filter = "Edu-Learning";
+    $filter = "Educational";
     $category2 = "";
     $filter2 = "";
     

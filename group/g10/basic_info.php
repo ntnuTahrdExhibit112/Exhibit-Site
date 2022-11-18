@@ -5,7 +5,7 @@
     $root_path = "./g10/";
 
     $category = "教育／教材／學習系統";
-    $filter = "Edu-Learning";
+    $filter = "Educational";
     $category2 = "桌遊";
     $filter2 = "BoardGame";
 

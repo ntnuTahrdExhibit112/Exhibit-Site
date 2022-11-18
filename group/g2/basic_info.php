@@ -1,14 +1,14 @@
 <?php 
-    $title = "02 - Face to Virtual";
-    $subtitle = "高中生非同步模擬面試平台";
+    $title = "02 - Face to Virtual 高中生非同步模擬面試平台";
+    $subtitle = "FaceToVirtual";
     $breadcrumb = "02 - Face to Virtual";
     $root_path = "./g2/";
 
-    $category = "產品設計";
-    $filter = "design";
+    $category = "教育／教材／學習系統";
+    $filter = "Educational";
     $category2 = "";
     $filter2 = "";
     
     $cover = "./group/portfolio/g02.png";
-    $link = "./group/?project=Face2Virtual";
+    $link = "./group/?project=FaceToVirtual";
 ?>
