@@ -15,11 +15,11 @@
             </li>
             <li>
                 基礎版分為題庫區及考試區，學生在題庫區觀看各類題目的解析，並在考試區進行考試後得到弱點分析及詳解參考。
-                (如<a data-gallery="g2" class="portfolio-lightbox group-page_link" href="./g2/image/2.png">圖二</a>)
+                (如<a data-gallery="2" class="portfolio-lightbox group-page_link" href="./g2/image/2.png">圖二</a>)
             </li>
             <li>
                 進階版為模擬面試情境。(非同步錄影)
-                (如<a data-gallery="g2" class="portfolio-lightbox group-page_link" href="./g2/image/3.png">圖三</a>)
+                (如<a data-gallery="3" class="portfolio-lightbox group-page_link" href="./g2/image/3.png">圖三</a>)
             </li>
         </ul>
     </p>
