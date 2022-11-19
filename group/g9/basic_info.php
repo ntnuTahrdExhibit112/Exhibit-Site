@@ -10,5 +10,6 @@
     $filter2 = "ProductDesign";
     
     $cover = "./group/portfolio/g09.png";
+    $poster = "./group/poster/g09.png";
     $link = "./group/?project=MiniEscape";
 ?>

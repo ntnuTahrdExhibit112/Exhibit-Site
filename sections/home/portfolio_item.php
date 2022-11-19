@@ -1,6 +1,6 @@
 <div class="col-lg-4 col-md-4 portfolio-item filter-<?php echo($filter); ?> <?php if($filter2) echo("filter-" . $filter2); ?>">
     <div class="portfolio-wrap"> 
-        <a href="<?php echo($cover) ?>" class="portfolio-lightbox" id="portfolio-link-<?php echo $i ?>" data-gallery="portfolio-<?php echo $i ?>">
+        <a href="<?php echo($poster) ?>" class="portfolio-lightbox" id="portfolio-link-<?php echo $i ?>" data-gallery="portfolio-<?php echo $i ?>">
             <img src="<?php echo($cover); ?>" class="img-fluid" alt="">
             <div class="portfolio-info">
                 <h4><?php echo($title); ?></h4>

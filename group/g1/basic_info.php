@@ -10,5 +10,6 @@
     $filter2 = "";
 
     $cover = "./group/portfolio/g01.png";
+    $poster = "./group/poster/g01.png";
     $link = "./group/?project=wingfolder";
 ?>
