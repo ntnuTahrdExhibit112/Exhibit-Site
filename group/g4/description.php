@@ -1,11 +1,67 @@
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
-
-<h2>This is an example of portfolio detail</h2>
-<p> Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius. </p>
+<h2>專題簡介</h2>
+    <p class="indent1">
+        本專題旨在透過遊戲劇情的設計結合生活科技知識的學習，提升學生學習的專注度與動機，並與傳統教學相比能夠提升學生於學習中的情意感知。<br>
+        因此本專題目的將生活科技知識存放在手機APP上，並結合時下流行的密室逃脫，開發一款數位密室逃脫遊戲的教具。<br>
+        期望最終成果的教具能審視學生對生活科技知識的學習效果，幫助學生於特定領域的學習。<br>
+        學習內容選擇國中生活科技並以兩大重點課程：木工與電子電路作為主軸。
+    </p>
+<hr>
+<h2>專題特色</h2>
+    <h4 class="indent1">知識系統</h4>
+        <p class="indent2">
+            為不失去教育性，在學習新的知識上，會將所學過的知識存入百科全書，當學生想複習時，可以藉由此功能來更快地達到目的地。
+        </p>
+    <h4 class="indent1">解題幫手系統</h4>
+        <p class="indent2">
+            為減少老師的人力分配，在每關裡面設有小幫手，若學生遇到卡關，或者一些疑難雜症，可以去尋求小幫手的幫助，進而解決因卡關導致的學習效果下降。
+        </p>
+    <h4 class="indent1">徽章系統</h4>
+        <p class="indent2">
+            為了提升學生遊戲的成就感，在通關各個主題的遊戲關卡時，都會同步徽章傳入Email，學生可將此徽章列為學習歷程檔案，也可分享至社群媒體，以提升學生學習樂趣，進而增加學生學習時的外部動機。
+        </p>
+    <h4 class="indent1">豐富故事性與探索性</h4>
+        <p class="indent2">
+            我們採用山海經之人物進行劇情之撰寫，玩家們需要從中調查西王母的崑崙山以及女媧的宮殿究竟發生何事。<br>
+            探索時有戰爭迷霧效果，增加玩家的探索體驗。<br>
+            遊戲內也設置背包系統可供玩家存放地圖上所獲得之道具並與之互動。
+        </p>
+<hr>
+<h2>專題內容</h2>
+    <h4 class="indent1">程式端</h4>
+        <p class="indent2">
+            採用Unity進行遊戲開發，其中使用C#進行主要語言，並用到委派、泛型、繼承、事件等基礎用法。
+        </p>
+        <h5 class="indent2">電路系統</h5>
+            <p class="indent3">
+                為了使學生能夠在遊戲裡模擬電路連接，我們採用A*最短路徑演算法來進行短路與接通電線的情況，並使用UI LineRenderer模擬拉線情形。
+            </p>
+        <h5 class="indent2">後端資料庫系統</h5>
+            <p class="indent3">
+                我們採用phpAdmin以及MySQL將學生資料保存至後端伺服器，在學生破關時，會將數位徽章傳送至他的Email，可供學生進行後續知識的複習。
+            </p>
+    <h4 class="indent1">教學端</h4>
+        <h5 class="indent2">拼圖法</h5>
+            <p class="indent3">
+                透過專家小組的合作學習模式，讓學生可以共享學習成果。
+            </p>
+        <h5 class="indent2">多媒體學習認知理論</h5>
+            <p class="indent3">
+                透過多媒體來整合學習資訊，給與學習者提示，並吸引學習者的注意力。
+            </p>
+        <h5 class="indent2">數位密室逃脫學習方法</h5>
+            <p class="indent3">
+                在團隊合作遊戲中融入學習內容，提升學生的學習動機與增進合作交流。
+            </p>
+<hr>
+<h2>結語</h2>
+    <p class="indent1">
+        問君能有幾多愁，做完專題去郊遊。<br>
+        風飄飄、雨蕭蕭，結束去吃湖底撈。
+    </p>
+    <p class="indent1">
+        西園摘處香和露，做專題、臉blue。<br>
+        境靜江清無事時，熬夜工作不超時。<br>
+        山前雨點大如手，參點壹肆壹伍玖。<br>
+        海棠過了只垂楊，小時愛看喜羊羊。
+    </p>
+<hr>

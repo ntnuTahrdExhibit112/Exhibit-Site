@@ -5,7 +5,7 @@
     $root_path = "./g4/";
 
     $category = "教育／教材／學習系統";
-    $filter = "Edu-Learning";
+    $filter = "Educational";
     $category2 = "";
     $filter2 = "";
     
