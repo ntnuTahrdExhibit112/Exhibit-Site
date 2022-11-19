@@ -5,6 +5,6 @@
     
     for ($i = 0; $i < mysqli_num_rows($getAll); $i++) {
         $code = mysqli_fetch_assoc($getAll);
-        echo $code['id'] . ", " . $code['name'] . ", " . $code['clear_time'];
+        echo "<p>" . $code['id'] . "  |  " . $code['name'] . "  |  " . $code['email'] . "<br> --> 破關時間：" . $code['clear_time'] . "<br> --> 困難程度：" . $code['difficulty'] . "<br> --> 好玩程度" . $code['fun'] . "<br> --> " . $code['advise'] . "</p>";
     }
 ?>
