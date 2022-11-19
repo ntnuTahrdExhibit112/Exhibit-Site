@@ -3,9 +3,8 @@
         padding: 20px 0 !important;
     }
     #sponsers .clients-slider {
-        /* background-color: rgba(255, 255, 255, 1); */
-        /* background-image: url("assets/img/clients/sponsor_frame.png"); */
         border-image: url(assets/img/clients/sponsor_frame.png) 0 fill;
+        height: auto;
         padding: 2rem 2rem;
         /* border-radius: 50px; */
         background-position: center;
@@ -13,7 +12,11 @@
     }
     @media screen and (max-width: 768px) {
         #sponsers .clients-slider {
-            border-image: url(assets/img/clients/sponsor_frame_mobile.png) 0 fill;
+            /* border-image: url(assets/img/clients/sponsor_frame_mobile.png) 0 fill; */
+            background-image: url("assets/img/clients/sponsor_frame.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
     #sponsers .swiper-slide img {
