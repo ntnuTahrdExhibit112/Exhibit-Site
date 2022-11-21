@@ -104,7 +104,7 @@
 
 <main id="main" style="margin-top: 10vh;">
     <section id="vote" class="features">
-        <div class="container" data-aos="">
+        <div class="container justify-content-center" data-aos="">
             <?php
                 date_default_timezone_set('Asia/Taipei');
                 $resetter = 'reset_' . date("mdHi");

@@ -55,6 +55,7 @@
     }
 
     $q07_rank = [[], [], []];
+    $q07_score = [];
     $i07 = 0;
     $t_prev = -1;
     $t_rank = 0;
@@ -72,6 +73,7 @@
                 $t_rank++;
             }
             array_push($q07_rank[$t_rank], $key);
+            $q07_score[$t_rank] = $val;
         }
         else {
             break;
@@ -79,6 +81,7 @@
     }
     // echo "<br>";
     $q08_rank = [[], [], []];
+    $q08_score = [];
     $i08 = 0;
     $t_prev = -1;
     $t_rank = 0;
@@ -96,6 +99,7 @@
                 $t_rank++;
             }
             array_push($q08_rank[$t_rank], $key);
+            $q08_score[$t_rank] = $val;
         }
         else {
             break;
