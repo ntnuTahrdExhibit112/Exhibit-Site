@@ -1,6 +1,9 @@
 <?php 
-    include("./result_calc.php");
+    include("./sections/result_calc.php");
     
+    print_r($q07_rank);
+    echo "<br>";
+    print_r($q08_rank);
 ?>
 <div class="section-title">
     <h2>觀展回饋＆抽獎</h2>

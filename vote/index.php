@@ -125,6 +125,9 @@
                 else if ($vote_action == $resetter) {
                     include("./sections/test_cleaner.php");
                 }
+                else if ($vote_action == 'result') {
+                    include("./sections/result.php");
+                }
                 else {
                     include("./sections/error.php");
                 }

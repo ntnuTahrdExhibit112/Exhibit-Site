@@ -1,5 +1,5 @@
 <?php
-    include("../../db/db_connect.php");
+    include("../db/db_connect.php");
 
     $cmd_readData = "SELECT q07, q08 FROM vote";
     $readData = mysqli_query($db, $cmd_readData);
@@ -54,45 +54,57 @@
         echo "<br>";
     }
 
-    $q07_rank = [];
-    $q08_rank = [];
-    $prev = -1;
+    $q07_rank = [[], [], []];
     $i07 = 0;
-    $i08 = 0;
+    $t_prev = -1;
+    $t_rank = 0;
     foreach ($q07_sorted as $key => $val) {
         if ($i07 < 3) {
-            echo "(" . $key . ", " . $val . ")<br>";
+            // echo "(" . $key . ", " . $val . ")<br>";
             $i07++;
-            if ($prev == -1) {
-                $prev = $val;
+            if ($t_prev == -1) {
+                $t_prev = $val;
             }
-            else if ($prev == $val) {
+            else if ($t_prev == $val) {
                 $i07--;
             }
+            else {
+                $t_rank++;
+            }
+            array_push($q07_rank[$t_rank], $key);
         }
         else {
             break;
         }
     }
-    echo "<br>";
-    $prev = -1;
+    // echo "<br>";
+    $q08_rank = [[], [], []];
+    $i08 = 0;
+    $t_prev = -1;
+    $t_rank = 0;
     foreach ($q08_sorted as $key => $val) {
         if ($i08 < 3) {
-            echo "(" . $key . ", " . $val . ")<br>";
+            // echo "(" . $key . ", " . $val . ")<br>";
             $i08++;
-            if ($prev == -1) {
-                $prev = $val;
+            if ($t_prev == -1) {
+                $t_prev = $val;
             }
-            else if ($prev == $val) {
+            else if ($t_prev == $val) {
                 $i08--;
             }
+            else {
+                $t_rank++;
+            }
+            array_push($q08_rank[$t_rank], $key);
         }
         else {
             break;
         }
     }
-    echo "<br>";
-    echo "<br>";
+    // echo "<br>";
+    // echo "<br>";
 
-    
+    // print_r($q07_rank);
+    // echo "<br>";
+    // print_r($q08_rank);
 ?>
