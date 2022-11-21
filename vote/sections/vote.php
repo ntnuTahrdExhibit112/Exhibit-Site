@@ -17,10 +17,10 @@
             tokenSeparators: [',', ' '], 
             placeholder: "請選擇或填寫您的答案"
         });
-        $('.form_single').select2({
-            tokenSeparators: [',', ' '], 
-            placeholder: "請選擇或填寫您的答案"
-        });
+        // $('.form_single').select2({
+        //     tokenSeparators: [',', ' '], 
+        //     placeholder: "請選擇或填寫您的答案"
+        // });
     });
 </script>
 <div class="section-title">
@@ -119,42 +119,42 @@
                     <label for="q07" class="control-label h5">您最喜歡的作品</label>
                     <div class="form_multiple_root">
                         <select class="form-select form_single" id="q07" name="q07[]" required>
-                            <option value="0" disabled selected>請選擇一個專題組別</option>
-                            <option value="1">當科技與星星相遇：科技教育與特殊教育之整合探討</option>
-                            <option value="2">結合實體機械手臂與虛擬動畫的機電整合教材</option>
-                            <option value="3">進位制轉換AR桌遊</option>
-                            <option value="4">VR無人機模擬器</option>
-                            <option value="5">快陶唄杯：特殊杯型咖啡保溫杯</option>
-                            <option value="6">Mini Escape桌上型密室逃脫</option>
-                            <option value="7">體感互動遊戲輔助自閉症動作學習系統</option>
-                            <option value="8">療癒互動盆栽</option>
-                            <option value="9">見紅就收</option>
-                            <option value="10">新式黑膠唱片機</option>
-                            <option value="11">Westpath 西境山海：生活科技多人數位密室逃脫遊戲</option>
-                            <option value="12">高中生AI模擬面試系統</option>
-                            <option value="13">Mycto自行車安全帽</option>
+                            <option value="" disabled selected>請選擇一個專題組別</option>
+                            <option value="1">01 - 見紅就收</option>
+                            <option value="2">02 - Face to Virtual：高中生非同步模擬面試平台</option>
+                            <option value="3">03 - 體感互動遊戲輔助自閉症兒童動作學習系統</option>
+                            <option value="4">04 - Westpath 西境山海：生活科技多人數位密室逃脫遊戲</option>
+                            <option value="5">05 - 當科技與星星相遇：科技教育與特殊教育之整合探討</option>
+                            <option value="6">06 - 結合實體機械手臂與虛擬動畫的機電整合教材</option>
+                            <option value="7">07 - 快陶唄杯：特殊杯型咖啡保溫杯</option>
+                            <option value="8">08 - 無人機虛擬實境STEM學習系統</option>
+                            <option value="9">09 - Mini Escape：桌上型密室逃脫</option>
+                            <option value="10">10 - 進位制轉換AR桌遊</option>
+                            <option value="11">11 - 森の泉 - 療癒互動盆栽</option>
+                            <option value="12">12 - Mycto自行車安全帽</option>
+                            <option value="13">13 - 新式黑膠唱片機</option>
                         </select>
                     </div>
                 </div>
                 <!-- q08 -->
                 <div class="form-group">
                     <label for="q08" class="control-label h5">你最喜歡的攤位空間佈置</label>
-                    <div class="form_multiple_root">
+                    <div class="">
                         <select class="form-select form_single" id="q08" name="q08[]" required>
-                            <option value="0" disabled selected>請選擇一個專題組別</option>
-                            <option value="1">當科技與星星相遇：科技教育與特殊教育之整合探討</option>
-                            <option value="2">結合實體機械手臂與虛擬動畫的機電整合教材</option>
-                            <option value="3">進位制轉換AR桌遊</option>
-                            <option value="4">VR無人機模擬器</option>
-                            <option value="5">快陶唄杯：特殊杯型咖啡保溫杯</option>
-                            <option value="6">Mini Escape桌上型密室逃脫</option>
-                            <option value="7">體感互動遊戲輔助自閉症動作學習系統</option>
-                            <option value="8">療癒互動盆栽</option>
-                            <option value="9">見紅就收</option>
-                            <option value="10">新式黑膠唱片機</option>
-                            <option value="11">Westpath 西境山海：生活科技多人數位密室逃脫遊戲</option>
-                            <option value="12">高中生AI模擬面試系統</option>
-                            <option value="13">Mycto自行車安全帽</option>
+                            <option value="" disabled selected>請選擇一個專題組別</option>
+                            <option value="1">01 - 見紅就收</option>
+                            <option value="2">02 - Face to Virtual：高中生非同步模擬面試平台</option>
+                            <option value="3">03 - 體感互動遊戲輔助自閉症兒童動作學習系統</option>
+                            <option value="4">04 - Westpath 西境山海：生活科技多人數位密室逃脫遊戲</option>
+                            <option value="5">05 - 當科技與星星相遇：科技教育與特殊教育之整合探討</option>
+                            <option value="6">06 - 結合實體機械手臂與虛擬動畫的機電整合教材</option>
+                            <option value="7">07 - 快陶唄杯：特殊杯型咖啡保溫杯</option>
+                            <option value="8">08 - 無人機虛擬實境STEM學習系統</option>
+                            <option value="9">09 - Mini Escape：桌上型密室逃脫</option>
+                            <option value="10">10 - 進位制轉換AR桌遊</option>
+                            <option value="11">11 - 森の泉 - 療癒互動盆栽</option>
+                            <option value="12">12 - Mycto自行車安全帽</option>
+                            <option value="13">13 - 新式黑膠唱片機</option>
                         </select>
                     </div>
                 </div>
