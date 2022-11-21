@@ -3,6 +3,9 @@
     $q09_rank = [[1], [2], [3]];
     $q09_score = [10, 9, 8];
 
+    // $rank1 = [$q07_score[0], $q08_score[0], $q09_score[0]];
+    // $rank2 = [$q07_score[1], $q08_score[1], $q09_score[1]];
+    // $rank3 = [$q07_score[2], $q08_score[2], $q09_score[2]];
 ?>
 <style>
     .row {
@@ -29,15 +32,6 @@
         border-radius: 10px 10px 0 0;
         padding: 0;
     }
-    .rank_1 {
-        height: 99%;
-    }
-    .rank_2 {
-        height: 66%;
-    }
-    .rank_3 {
-        height: 33%;
-    }
 </style>
 <div class="section-title">
     <h2>觀展回饋＆抽獎</h2>
@@ -54,21 +48,21 @@
                 TECHPUNK獎
             </div>
             <div class="result_display col-12 container row">
-                <div class="rank_2 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" data-aos="" data-aos-delay="100">
+                <div class="rank_2 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q07_score[1] / $q07_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q07_rank[1]); $i++) {
                             echo "第" . $q07_rank[1][$i] . "組<br>";
                         }
                     ?>
                 </div>
-                <div class="rank_1 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" data-aos="" data-aos-delay="100">
+                <div class="rank_1 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q07_score[0] / $q07_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q07_rank[0]); $i++) {
                             echo "第" . $q07_rank[0][$i] . "組<br>";
                         }
                     ?>
                 </div>
-                <div class="rank_3 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" data-aos="" data-aos-delay="100">
+                <div class="rank_3 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q07_score[2] / $q07_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q07_rank[2]); $i++) {
                             echo "第" . $q07_rank[2][$i] . "組<br>";
@@ -86,21 +80,21 @@
                 わくわく
             </div>
             <div class="result_display col-12 container row">
-                <div class="rank_2 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" data-aos="" data-aos-delay="100">
+                <div class="rank_2 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q08_score[1] / $q08_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q08_rank[1]); $i++) {
                             echo "第" . $q08_rank[1][$i] . "組<br>";
                         }
                     ?>
                 </div>
-                <div class="rank_1 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" data-aos="" data-aos-delay="100">
+                <div class="rank_1 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q08_score[0] / $q08_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q08_rank[0]); $i++) {
                             echo "第" . $q08_rank[0][$i] . "組<br>";
                         }
                     ?>
                 </div>
-                <div class="rank_3 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" data-aos="" data-aos-delay="100">
+                <div class="rank_3 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q08_score[2] / $q08_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q08_rank[2]); $i++) {
                             echo "第" . $q08_rank[2][$i] . "組<br>";
@@ -117,21 +111,21 @@
                 路過不錯過獎
             </div>
             <div class="result_display col-12 container row">
-                <div class="rank_2 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" data-aos="" data-aos-delay="100">
+                <div class="rank_2 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q09_score[1] / $q09_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q09_rank[1]); $i++) {
                             echo "第" . $q09_rank[1][$i] . "組<br>";
                         }
                     ?>
                 </div>
-                <div class="rank_1 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" data-aos="" data-aos-delay="100">
+                <div class="rank_1 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q09_score[0] / $q09_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q09_rank[0]); $i++) {
                             echo "第" . $q09_rank[0][$i] . "組<br>";
                         }
                     ?>
                 </div>
-                <div class="rank_3 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" data-aos="" data-aos-delay="100">
+                <div class="rank_3 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q09_score[2] / $q09_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q09_rank[2]); $i++) {
                             echo "第" . $q09_rank[2][$i] . "組<br>";

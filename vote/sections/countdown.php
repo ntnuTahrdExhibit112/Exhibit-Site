@@ -47,6 +47,12 @@
 <div class="row flex align-items-center mt-2"> <!--活動理念-->
     <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="" data-aos-delay="100">
         <center>
+            <div class="mb-5<?php if($_GET['vote'] != 'done') {echo ' hider';} ?>">
+                <h3>抽獎資訊</h3>
+                <p>
+                    抽獎時領獎人需在閉幕式現場，否則將會自動棄權喔！
+                </p>
+            </div>
             <h3 id="countdown_title_root">
                 距離<span id="countdown_title"></span>時間還有
                 <script>
