@@ -14,11 +14,11 @@
         $GetMessage = mysqli_query($db, $cmd_GetMessage);
         if (isset($_SESSION['message_deleted'])) {
             if ($_SESSION['message_deleted'] == "success") {
-                echo("<p class='h4 m-4' style='color: red;'>已刪除評論</p>");
+                echo("<script>alert('已刪除評論')</script>");
                 unset($_SESSION['message_deleted']);
             }
             else if ($_SESSION['message_deleted'] == "failed") {
-                echo("<p class='h4 m-4' style='color: red;'>無法刪除評論，請稍候重試</p>");
+                echo("<script>alert('無法刪除評論，請稍候重試')</script>");
                 unset($_SESSION['message_deleted']);
             }
         }

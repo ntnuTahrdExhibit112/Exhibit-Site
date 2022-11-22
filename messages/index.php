@@ -97,7 +97,7 @@
         <div class="container justify-content-center" data-aos="">
             <div class="section-title">
                 <h2>我有話想說！</h2>
-                <p>留言板</p>
+                <p>留言板<?php if (isset($_SESSION['message_id'])) echo " / " . $_SESSION['message_id']; ?></p>
                 <img src="../assets/img/lu_deco.png" alt="" class="section_title_deco">
             </div>
             <div class="row flex align-items-center mt-2 justify-content-center"> <!--活動理念-->
