@@ -49,9 +49,13 @@
                     <a class="nav-link scrollto" href="../#contact">聯絡我們</a>
                     <div class="space"></div>
                 </li>
-                <li class="dropdown nav-li">
-                    <a class="nav-link scrollto desktop_nav active" href="#special_event">特別活動 <i class="bi bi-chevron-down"></i></a>
+                <li class="nav-li">
+                    <a class="nav-link scrollto active" href="./">留言板</a>
                     <div class="space space_active"></div>
+                </li>
+                <li class="dropdown nav-li">
+                    <a class="nav-link scrollto desktop_nav" href="#special_event">特別活動 <i class="bi bi-chevron-down"></i></a>
+                    <div class="space"></div>
                     <a class="nav-link mobile_nav active" href="#">特別活動 <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li>
@@ -61,7 +65,7 @@
                             <a class="nav-link scrollto disabled" href="../AR_interact/">展場AR互動</a>
                         </li>
                         <li>
-                            <a class="nav-link scrollto active" href="../vote/?vote=countdown">專題票選</a>
+                            <a class="nav-link scrollto" href="../vote/?vote=countdown">專題票選</a>
                         </li>
                     </ul>
                 </li>
