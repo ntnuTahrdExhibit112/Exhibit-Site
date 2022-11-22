@@ -1,0 +1,1 @@
+<li><a class="nav-link scrollto" href=<?php echo("../" . $link); ?>><?php echo $title; ?></a></li>
