@@ -23,20 +23,20 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 footer-links">
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../">首頁</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#concept">專展理念</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#portfolio">作品廊</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#visit">參觀資訊</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#about">關於科技系</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#contact">聯絡我們</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../">首頁</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../#concept">專展理念</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../#portfolio">作品廊</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../#visit">參觀資訊</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../#about">關於科技系</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../#contact">聯絡我們</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-6 col-md-6 footer-links">
                             <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../">留言板</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../onlineExhibit">線上展</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../ARinteract">展場AR互動</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../vote/?vote=countdown">專題票選</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../onlineExhibit">線上展</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../ARinteract">展場AR互動</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../vote/?vote=countdown">專題票選</a></li>
                             </ul>
                         </div>
                     </div>
@@ -44,10 +44,10 @@
                 <div class="col-4 footer-sponsor d-flex">
                     <center class="footer-center d-flex">
                         <a href="https://sponya.co/" target="_blank">
-                            <img src="../assets/img/clients/01-sponya.png" class="img-fluid" alt="Sponya" title="Sponya">
+                            <img src="../../assets/img/clients/01-sponya.png" class="img-fluid" alt="Sponya" title="Sponya">
                         </a>
                         <a href="https://www.ceomate.com.tw/" target="_blank">
-                            <img src="../assets/img/clients/02-ceomate.png" class="img-fluid" alt="西歐科技" title="西歐科技">
+                            <img src="../../assets/img/clients/02-ceomate.png" class="img-fluid" alt="西歐科技" title="西歐科技">
                         </a>
                     </center>
                 </div>
@@ -74,19 +74,19 @@
                     <div class="row">
                         <div class="col-6 footer-links">
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../">首頁</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#concept">專展理念</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#portfolio">作品廊</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#visit">參觀資訊</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#about">關於科技系</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../#contact">聯絡我們</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../">首頁</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../#concept">專展理念</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../#portfolio">作品廊</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../#visit">參觀資訊</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../#about">關於科技系</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../#contact">聯絡我們</a></li>
                             </ul>
                         </div>
                         <div class="col-6 footer-links">
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../onlineExhibit">線上展</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../ARinteract">展場AR互動</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../vote/?vote=countdown">專題票選</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../onlineExhibit">線上展</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../ARinteract">展場AR互動</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="../../vote/?vote=countdown">專題票選</a></li>
                             </ul>
                         </div>
                     </div>
@@ -94,10 +94,10 @@
                 <div class="col-10 footer-sponsor d-flex">
                     <center class="footer-center d-flex">
                         <a href="https://sponya.co/" target="_blank">
-                            <img src="../assets/img/clients/01-sponya.png" class="img-fluid" alt="Sponya" title="Sponya">
+                            <img src="../../assets/img/clients/01-sponya.png" class="img-fluid" alt="Sponya" title="Sponya">
                         </a>
                         <a href="https://www.ceomate.com.tw/" target="_blank">
-                            <img src="../assets/img/clients/02-ceomate.png" class="img-fluid" alt="西歐科技" title="西歐科技">
+                            <img src="../../assets/img/clients/02-ceomate.png" class="img-fluid" alt="西歐科技" title="西歐科技">
                         </a>
                     </center>
                 </div>

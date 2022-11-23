@@ -1,5 +1,5 @@
 <?php 
-    include("../../db/db_connect.php");
+    include("../../../db/db_connect.php");
     session_start();
 
     $message_id = $_GET['message_id'];

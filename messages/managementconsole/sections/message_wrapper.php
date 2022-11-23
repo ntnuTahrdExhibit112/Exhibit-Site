@@ -1,13 +1,13 @@
 <div class="message_wrap col-12">
     <div class="h5">
-        <span class="id" style="float: left;">B<?php echo $i+1; ?></span>&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $row['name']; ?>
+        <span class="id" style="float: left;">
+            ID: <?php echo $row['id']; ?>&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>
+        <?php echo $row['name']; ?>&nbsp;&nbsp;&nbsp;&nbsp;
+        <?php echo $row['time']; ?>
         <div style="float: right;">
             <?php
-                if (isset($_SESSION['message_id'])) {
-                    if ($_SESSION['message_id'] == ($i+1)) {
-                        include("others_btn.php"); 
-                    }
-                }
+                include("others_btn.php");
             ?>
         </div>
     </div>

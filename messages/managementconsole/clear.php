@@ -6,5 +6,5 @@
     $cmd_clear = "TRUNCATE TABLE messages";
     $clear = mysqli_query($db, $cmd_clear);
 
-    header("Location: ../");
+    header("Location: ./");
 ?>
