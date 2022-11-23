@@ -80,6 +80,10 @@
     <?php include("./sections/home/contact.php"); ?>
     <!-- End Team Section --> 
 
+    <!-- ======= Features Section ======= -->
+    <?php include("./sections/home/CTA_messages.php"); ?>
+    <!-- End Features Section -->
+
 </main>
 <!-- End #main --> 
 
@@ -101,15 +105,5 @@
 
 <!-- Template Main JS File --> 
 <script defer src="assets/js/main.js"></script>
-<!-- <div class="preloader hider" id="preloader">
-  <script>
-    var root = document.getElementById('preloader');
-    function load_preload_items() {
-      var imgs = '<img class="preload_items" src="./code/2222222222222222/hidden_end.jpg" alt=""><img class="preload_items" src="./code/endConscious/true_end.jpg" alt=""><img class="preload_items" src="./code/endSurrender/bad_end.jpg" alt="">';
-      root.innerHTML = imgs;
-    }
-    window.onload = load_preload_items;
-  </script>
-</div> -->
 </body>
 </html>

@@ -55,10 +55,6 @@
         padding: 1rem;
         margin: 1rem;
     }
-    .btn-message {
-        background-color: rgb(112,239,239) !important;
-        color: black !important;
-    }
     .btn-success {
         color: #fff !important;
     }
