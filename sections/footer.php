@@ -43,11 +43,11 @@
                 </div>
                 <div class="col-4 footer-sponsor d-flex">
                     <center class="footer-center d-flex">
-                        <a href="https://sponya.co/" target="_blank">
-                            <img src="assets/img/clients/01-sponya.png" class="img-fluid" alt="Sponya" title="Sponya">
+                        <a href="https://www.tkb.com.tw/" target="_blank">
+                            <img src="assets/img/clients/00-TKB.png" class="img-fluid" alt="TKB" title="TKB">
                         </a>
-                        <a href="https://www.ceomate.com.tw/" target="_blank">
-                            <img src="assets/img/clients/02-ceomate.png" class="img-fluid" alt="西歐科技" title="西歐科技">
+                        <a href="https://www.csofe.org/index/index" target="_blank">
+                            <img src="assets/img/clients/00-CSOFE.png" class="img-fluid" alt="CSOFE" title="CSOFE">
                         </a>
                     </center>
                 </div>
@@ -93,11 +93,11 @@
                 </div>
                 <div class="col-10 footer-sponsor d-flex">
                     <center class="footer-center d-flex">
-                        <a href="https://sponya.co/" target="_blank">
-                            <img src="assets/img/clients/01-sponya.png" class="img-fluid" alt="Sponya" title="Sponya">
+                        <a href="https://www.tkb.com.tw/" target="_blank">
+                            <img src="assets/img/clients/00-TKB.png" class="img-fluid" alt="TKB" title="TKB">
                         </a>
-                        <a href="https://www.ceomate.com.tw/" target="_blank">
-                            <img src="assets/img/clients/02-ceomate.png" class="img-fluid" alt="西歐科技" title="西歐科技">
+                        <a href="https://www.csofe.org/index/index" target="_blank">
+                            <img src="assets/img/clients/00-CSOFE.png" class="img-fluid" alt="CSOFE" title="CSOFE">
                         </a>
                     </center>
                 </div>
