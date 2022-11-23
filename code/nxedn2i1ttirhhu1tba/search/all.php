@@ -1,6 +1,6 @@
 <?php
     include("../../../db/db_connect.php");
-    $cmd_getAll = "SELECT * FROM code";
+    $cmd_getAll = "SELECT * FROM code ORDER BY clear_time desc";
     $getAll = mysqli_query($db, $cmd_getAll);
     
     for ($i = 0; $i < mysqli_num_rows($getAll); $i++) {
