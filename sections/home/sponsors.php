@@ -29,6 +29,16 @@
         <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
+                    <a href="https://www.tkb.com.tw/" target="_blank">
+                        <img src="assets/img/clients/00-TKB.png" class="img-fluid" alt="TKB" title="TKB">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.csofe.org/index/index" target="_blank">
+                        <img src="assets/img/clients/00-CSOFE.png" class="img-fluid" alt="CSOFE" title="CSOFE">
+                    </a>
+                </div>
+                <div class="swiper-slide">
                     <a href="https://sponya.co/" target="_blank">
                         <img src="assets/img/clients/01-sponya.png" class="img-fluid" alt="Sponya" title="Sponya">
                     </a>
