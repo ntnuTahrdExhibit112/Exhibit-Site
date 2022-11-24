@@ -1,6 +1,6 @@
 <?php 
-    $title = "11 - 森の泉-療癒互動盆栽";
-    $subtitle = "The Healing Forest";
+    $title = "11 - 森の泉";
+    $subtitle = "療癒互動盆栽";
     $breadcrumb = "11 - 森の泉";
     $root_path = "./g11/";
 

@@ -1,6 +1,6 @@
 <?php 
-    $title = "02 - Face to Virtual 高中生非同步模擬面試平台";
-    $subtitle = "FaceToVirtual";
+    $title = "02 - Face to Virtual";
+    $subtitle = "高中生非同步模擬面試平台";
     $breadcrumb = "02 - Face to Virtual";
     $root_path = "./g2/";
 

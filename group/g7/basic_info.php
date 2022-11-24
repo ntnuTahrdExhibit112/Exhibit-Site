@@ -1,6 +1,6 @@
 <?php 
-    $title = "07 - 快陶唄杯：特殊杯型咖啡保溫杯";
-    $subtitle = "KuaiTaoBeiBei";
+    $title = "07 - 快陶唄杯";
+    $subtitle = "特殊杯型咖啡保溫杯";
     $breadcrumb = "07 - 快陶唄杯";
     $root_path = "./g7/";
 

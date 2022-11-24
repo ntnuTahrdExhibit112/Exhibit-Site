@@ -1,6 +1,6 @@
 <?php 
-    $title = "09 - Mini Escape桌上型密室逃脫";
-    $subtitle = "MiniEscape";
+    $title = "09 - Mini Escape";
+    $subtitle = "桌上型密室逃脫";
     $breadcrumb = "09 - Mini Escape";
     $root_path = "./g9/";
 
