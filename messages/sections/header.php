@@ -13,7 +13,7 @@
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
                 <li class="nav-li">
-                    <a class="nav-link scrollto" href="../#hero">首頁</a>
+                    <a class="nav-link scrollto" href="../">首頁</a>
                     <div class="space"></div>
                 </li>
                 <li class="nav-li">
