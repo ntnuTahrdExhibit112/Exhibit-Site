@@ -2,6 +2,9 @@
 body * {
     font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
 }
+body *, h1, h2, h3, h4, h5, h6 {
+    color: #fff !important;
+}
 .fa-brands, .fab {
     font-family: "Font Awesome 6 Brands" !important;
 }
@@ -27,6 +30,9 @@ main {
 .navbar .dropdown ul, .navbar-mobile ul {
     background-color: #000 !important;
 }
+.dropdown ul .nav-link:hover {
+    color: black !important;
+}
 @media screen and (max-width: 992px) {
     #header-logo {
         margin-left: auto !important;
@@ -41,9 +47,6 @@ main {
     }
     .nav-link:hover {
         color:rgb(70,249,253) !important;
-    }
-    .dropdown ul .nav-link:hover {
-        color: white !important;
     }
 }
 @media screen and (max-width: 992px) {
@@ -104,9 +107,6 @@ main {
 }
 body {
     background-color: #000;
-}
-body *, h1, h2, h3, h4, h5, h6 {
-    color: #fff !important;
 }
 hr {
     color: #000 !important;
