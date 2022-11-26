@@ -13,7 +13,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>留言板 - TECH PUNK</title>
+<title>叛軍留言網路 - TECH PUNK</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
@@ -92,8 +92,8 @@
     <section id="vote" class="features">
         <div class="container justify-content-center" data-aos="">
             <div class="section-title">
-                <h2>我有話想說！</h2>
-                <p>留言板</p>
+                <h2>我想當叛軍</h2>
+                <p>叛軍留言網路</p>
                 <img src="../assets/img/lu_deco.png" alt="" class="section_title_deco">
             </div>
             <div class="row flex align-items-center mt-2 justify-content-center"> <!--活動理念-->
