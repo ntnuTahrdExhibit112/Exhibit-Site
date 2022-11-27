@@ -59,13 +59,13 @@
                     <a class="nav-link mobile_nav active" href="#">特別活動 <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li>
-                            <a class="nav-link scrollto disabled" href="../online_exhibit/">線上展</a>
+                            <a class="nav-link scrollto active" href="../online_exhibit/">線上展</a>
                         </li>
                         <li>
-                            <a class="nav-link scrollto disabled" href="../AR_interact/">展場AR互動</a>
+                            <a class="nav-link scrollto" href="../AR_interact/">展場AR互動</a>
                         </li>
                         <li>
-                            <a class="nav-link scrollto active" href="../vote/?vote=countdown">專題票選</a>
+                            <a class="nav-link scrollto" href="../vote/?vote=countdown">專題票選</a>
                         </li>
                     </ul>
                 </li>
