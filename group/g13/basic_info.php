@@ -10,6 +10,6 @@
     $filter2 = "";
     
     $cover = "./group/portfolio/g13.png";
-    $poster = "./group/poster/g13.png";
+    $poster = "./group/poster/g13.jpg";
     $link = "./group/?project=modern_record_player";
 ?>

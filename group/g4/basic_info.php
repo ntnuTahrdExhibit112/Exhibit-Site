@@ -10,6 +10,6 @@
     $filter2 = "";
     
     $cover = "./group/portfolio/g04.png";
-    $poster = "./group/poster/g04.png";
+    $poster = "./group/poster/g04.jpg";
     $link = "./group/?project=Westpath";
 ?>

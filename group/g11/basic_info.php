@@ -10,6 +10,6 @@
     $filter2 = "";
     
     $cover = "./group/portfolio/g11.png";
-    $poster = "./group/poster/g11.png";
+    $poster = "./group/poster/g11.jpg";
     $link = "./group/?project=The_Healing_Forest";
 ?>

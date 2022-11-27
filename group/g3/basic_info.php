@@ -10,6 +10,6 @@
     $filter2 = "";
     
     $cover = "./group/portfolio/g03.png";
-    $poster = "./group/poster/g03.png";
+    $poster = "./group/poster/g03.jpg";
     $link = "./group/?project=Motion_Sensor_Game";
 ?>

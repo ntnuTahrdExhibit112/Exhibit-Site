@@ -10,6 +10,6 @@
     $filter2 = "";
     
     $cover = "./group/portfolio/g02.png";
-    $poster = "./group/poster/g02.png";
+    $poster = "./group/poster/g02.jpg";
     $link = "./group/?project=FaceToVirtual";
 ?>
