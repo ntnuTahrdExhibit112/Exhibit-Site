@@ -32,6 +32,10 @@
 <!-- countdown -->
 <link href="assets/css/countdown.css" rel="stylesheet" media="print" onload="this.media='all'">
 
+<!-- preload image -->
+<link rel="preload" as="image" href="assets/img/hero-bg.jpg">
+<link rel="preload" as="image" href="assets/img/hero-bg-mobile.png">
+
 <!-- =======================================================
   * Template Name: Gp - v4.7.0
   * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/

@@ -105,6 +105,7 @@ body {
     /* src: url(../fonts/Cyberwar-Regular.ttf); */
     src: url('../fonts/code.woff2') format('woff2'),
     url('../fonts/code1.TTF') format('truetype');
+    font-display: swap;
 }
 
 #nxedn2i1ttirhhu1tba .col-25p {
