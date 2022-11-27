@@ -77,7 +77,7 @@
             <div class="col-xl-4 col-lg-4">
                 <!-- <h1 class="hider">TECH PUNK</h1> -->
                 <img class="desktop_bg" src="assets/img/hero-bg.jpg" fetchpriority="high" id="hero-bg" width="200%">
-                <img class="mobile_bg" src="assets/img/hero-bg-mobile.png" fetchpriority="high" id="hero-bg-mobile" width="100%">
+                <img class="mobile_bg" src="assets/img/hero-bg-mobile.jpg" fetchpriority="high" id="hero-bg-mobile" width="100%">
             </div>
         </div>
     </div>

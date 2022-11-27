@@ -34,7 +34,7 @@
 
 <!-- preload image -->
 <link rel="preload" as="image" href="assets/img/hero-bg.jpg">
-<link rel="preload" as="image" href="assets/img/hero-bg-mobile.png">
+<link rel="preload" as="image" href="assets/img/hero-bg-mobile.jpg">
 
 <!-- =======================================================
   * Template Name: Gp - v4.7.0
