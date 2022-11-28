@@ -50,7 +50,7 @@
                     </p>
                 </div>
                 <div class="map col-lg-6">
-                    <iframe style="border:0; width: 100%; height: 35vh;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.212453793235!2d121.52710961494927!3d25.026863144731585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9844dba393d%3A0x1abfe37305dcc552!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A5ZKM5bmz5p2x6Lev5LiA5q61MTI5LTHomZ_ntpzlkIjlpKfmqJM!5e0!3m2!1szh-TW!2stw!4v1647934654439!5m2!1szh-TW!2stw" frameborder="0" allowfullscreen></iframe>
+                    <iframe loading="lazy" style="border:0; width: 100%; height: 35vh;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.212453793235!2d121.52710961494927!3d25.026863144731585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9844dba393d%3A0x1abfe37305dcc552!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A5ZKM5bmz5p2x6Lev5LiA5q61MTI5LTHomZ_ntpzlkIjlpKfmqJM!5e0!3m2!1szh-TW!2stw!4v1647934654439!5m2!1szh-TW!2stw" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

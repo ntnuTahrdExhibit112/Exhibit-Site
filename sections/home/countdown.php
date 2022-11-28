@@ -80,7 +80,7 @@
                             }
                         </script>
                     </div>
-                    <script src="./assets/js/countdown.js"></script>
+                    <script async src="./assets/js/countdown.js"></script>
                 </center>
             </div>
         </div>

@@ -94,7 +94,7 @@
                     <i class='bx bxl-facebook-square'></i>
                 </a>
             </div>
-            <script src="./assets/js/custom.js"></script>
+            <script async src="./assets/js/custom.js"></script>
         </div>
     </div>
 </header>
