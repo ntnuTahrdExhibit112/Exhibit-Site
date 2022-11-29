@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g09.png";
     $poster = "./group/poster/g09.jpg";
     $link = "./group/?project=MiniEscape";
+
+    $members = [["1123", "胡馨予"], ["1113", "任容嫺"], ["1127", "張育禎"], ["1120", "劉心平"], ["1103", "劉紹穎"]];
 ?>

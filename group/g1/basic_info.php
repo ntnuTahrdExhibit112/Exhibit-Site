@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g01.png";
     $poster = "./group/poster/g01.jpg";
     $link = "./group/?project=wingfolder";
+
+    $members = [["1119", "張睿軒"], ["1111", "楊侑蓁"], ["1207", "李亭萱"], ["1209", "張雅婷"]];
 ?>

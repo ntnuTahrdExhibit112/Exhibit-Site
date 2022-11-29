@@ -101,6 +101,10 @@
         </div>
     </section>
     <!-- End Breadcrumbs --> 
+
+    <section id="group-members" class="clients">
+        <?php include("./sections/members.php"); ?>
+    </section>
     
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">

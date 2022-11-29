@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g13.png";
     $poster = "./group/poster/g13.jpg";
     $link = "./group/?project=modern_record_player";
+
+    $members = [["3117", "劉又萱"], ["1106", "曾元昊"], ["1232", "黃家偉"]];
 ?>

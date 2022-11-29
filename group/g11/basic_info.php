@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g11.png";
     $poster = "./group/poster/g11.jpg";
     $link = "./group/?project=The_Healing_Forest";
+
+    $members = [["1125", "楊汭錠"], ["1108", "李庭伊"], ["1114", "廖宜寬"]];
 ?>

@@ -204,6 +204,42 @@ var portfolioLightbox;
   });
 
   /**
+   * Group Slider
+   */
+   new Swiper('.group-slider', {
+    speed: 600,
+    loop: false,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: true
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 40
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 40
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 40
+      },
+      992: {
+        slidesPerView: 6,
+        spaceBetween: 60
+      }
+    }
+  });
+
+  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {

@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g08.png";
     $poster = "./group/poster/g08.jpg";
     $link = "./group/?project=robotfly";
+
+    $members = [["1226", "呂睿華"], ["1206", "郭栢修"], ["1204", "蘇柏霖"], ["1130", "王家琪"], ["1115", "林亭妤"]];
 ?>

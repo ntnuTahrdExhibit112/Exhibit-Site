@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g04.png";
     $poster = "./group/poster/g04.jpg";
     $link = "./group/?project=Westpath";
+
+    $members = [["1101", "張子濰"], ["1122", "許聿銘"], ["1212", "許皓陞"], ["1215", "卓育霆"], ["1223", "徐存昇"]];
 ?>

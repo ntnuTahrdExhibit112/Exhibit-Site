@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g02.png";
     $poster = "./group/poster/g02.jpg";
     $link = "./group/?project=FaceToVirtual";
+
+    $members = [["1216", "傅玉凱"], ["1228", "廖先翊"], ["1201", "李騏語"], ["1208", "陳亭宇"], ["1217", "李軒騰"]];
 ?>

@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g03.png";
     $poster = "./group/poster/g03.jpg";
     $link = "./group/?project=Motion_Sensor_Game";
+
+    $members = [["1117", "杜伊凱"], ["1131", "柯宗佑"], ["1126", "張勛絜"], ["1110", "許睿哲"], ["1120", "陳宜峻"]];
 ?>

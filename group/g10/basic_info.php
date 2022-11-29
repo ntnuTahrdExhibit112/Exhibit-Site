@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g10.png";
     $poster = "./group/poster/g10.jpg";
     $link = "./group/?project=Deciverse";
+
+    $members = [["1231", "包欣蓉"], ["1220", "林韋均"], ["1213", "楊函甄"], ["1202", "黃珮涵"], ["1211", "潘玟琦"]];
 ?>

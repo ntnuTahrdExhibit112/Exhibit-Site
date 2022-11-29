@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g06.png";
     $poster = "./group/poster/g06.jpg";
     $link = "./group/?project=JGFRA";
+
+    $members = [["1222", "陳宛忻"], ["1114", "陳安婕"], ["1214", "郭碧玉"], ["1210", "黃芳瑜"], ["1129", "廖婕茹"]];
 ?>

@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g07.png";
     $poster = "./group/poster/g07.jpg";
     $link = "./group/?project=KuaiTaoBeiBei";
+
+    $members = [["1122", "陳子珅"], ["1133", "陳博禮"], ["1221", "蘇可航"], ["1905", "李 娟"], ["1904", "洪翌涵"]];
 ?>

@@ -12,4 +12,6 @@
     $cover = "./group/portfolio/g05.png";
     $poster = "./group/poster/g05.jpg";
     $link = "./group/?project=techspestar";
+
+    $members = [["1230", "徐翊堯"], ["1218", "許恆齊"], ["1225", "梁維銘"], ["1227", "陳致愷"], ["1901", "許嘉恩"], ["1128", "陳威諺"]];
 ?>
