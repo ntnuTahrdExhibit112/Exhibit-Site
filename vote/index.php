@@ -58,16 +58,16 @@
     .btn-success {
         color: #fff !important;
     }
-    #vote_form .col-25p {
+    .col-25p {
         width: 25% !important;
     }
-    #vote_form .col-75p {
+    .col-75p {
         width: 75% !important;
     }
-    #vote_form .inline-block {
+    .inline-block {
         display: inline-block !important;
     }
-    #vote_form .group_flex {
+    .group_flex {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -131,6 +131,9 @@
                 }
                 else if ($vote_action == 'draw') {
                     include("./sections/draw.php");
+                }
+                else if ($vote_action == 'drawn') {
+                    include("./sections/draw_result.php");
                 }
                 else {
                     include("./sections/error.php");

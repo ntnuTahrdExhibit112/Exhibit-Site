@@ -1,13 +1,8 @@
 <?php
     include("../db/db_connect.php");
 
-    $cmd_readData = "SELECT * FROM lottery WHERE drawn!=0 ORDER BY drawn asc";
+    $cmd_readData = "SELECT * FROM lottery WHERE drawn=0";
     $readData = mysqli_query($db, $cmd_readData);
 
-    $data = [];
-    // $rows = mysqli_num_rows($readData);
-    for ($i = 0; $i < mysqli_num_rows($readData); $i++) {
-        $row = mysqli_fetch_assoc($readData);
-        array_push($data, $row);
-    }
+    $undrawn_count = mysqli_num_rows($readData);
 ?>
