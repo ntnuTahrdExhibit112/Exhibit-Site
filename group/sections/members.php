@@ -12,7 +12,7 @@
     }
     @media screen and (min-width: 769px) {
         #group-members .swiper-wrapper {
-            <?php if($_GET['project'] == "techspestar") {echo "*";} ?>justify-content: center !important;
+            <?php if($_GET['project'] == "techspestar" || $_GET['project'] == "techspestar1") {echo "*";} ?>justify-content: center !important;
         } 
     }
     @media screen and (max-width: 768px) {

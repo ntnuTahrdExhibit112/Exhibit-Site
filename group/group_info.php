@@ -5,6 +5,7 @@
         "Motion_Sensor_Game" => "g3", 
         "Westpath" => "g4", 
         "techspestar" => "g5", 
+        "techspestar1" => "demo", 
         "JGFRA" => "g6", 
         "KuaiTaoBeiBei" => "g7", 
         "robotfly" => "g8", 
