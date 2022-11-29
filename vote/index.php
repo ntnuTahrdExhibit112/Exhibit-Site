@@ -92,8 +92,8 @@
   </style>
 
   <!-- select2 -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.slim.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.slim.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"  media="print" onload="this.media='all'">
   <script defer src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 </head>
 
@@ -128,6 +128,9 @@
                 }
                 else if ($vote_action == 'result') {
                     include("./sections/result.php");
+                }
+                else if ($vote_action == 'draw') {
+                    include("./sections/draw.php");
                 }
                 else {
                     include("./sections/error.php");
