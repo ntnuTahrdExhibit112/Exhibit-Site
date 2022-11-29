@@ -49,7 +49,7 @@
 <?php include("./sections/header.php"); ?>
 <!-- End Header -->
 
-<iframe style="margin-top: 10vh; width: 100%; height: 100%;" src="https://www.artsteps.com/embed/636f84e2ed00e61ac34d35b9/" frameborder="0" allowfullscreen></iframe>
+<iframe loading="lazy" style="margin-top: 10vh; width: 100%; height: 100%;" src="https://www.artsteps.com/embed/636f84e2ed00e61ac34d35b9/" frameborder="0" allowfullscreen></iframe>
 
 <!-- ======= Footer ======= -->
 <?php include("./sections/footer.php"); ?>

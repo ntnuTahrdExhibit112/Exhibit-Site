@@ -109,5 +109,10 @@
 
 <!-- Template Main JS File --> 
 <script defer src="assets/js/main.js"></script>
+
+<!-- preload -->
+<link rel="preload" as="image" href="assets/img/hero-bg.jpg">
+<link rel="preload" as="image" href="assets/img/hero-bg-mobile.jpg">
+
 </body>
 </html>

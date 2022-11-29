@@ -44,10 +44,10 @@
                 <div class="col-4 footer-sponsor d-flex">
                     <center class="footer-center d-flex">
                         <a href="https://www.tkb.com.tw/" target="_blank">
-                            <img src="assets/img/clients/00-TKB.png" class="img-fluid" alt="TKB" title="TKB">
+                            <img src="assets/img/clients/00-TKB.png" class="img-fluid" alt="TKB" title="TKB" loading="lazy">
                         </a>
                         <a href="https://www.csofe.org/index/index" target="_blank">
-                            <img src="assets/img/clients/00-CSOFE.png" class="img-fluid" alt="CSOFE" title="CSOFE">
+                            <img src="assets/img/clients/00-CSOFE.png" class="img-fluid" alt="CSOFE" title="CSOFE" loading="lazy">
                         </a>
                     </center>
                 </div>
@@ -94,10 +94,10 @@
                 <div class="col-10 footer-sponsor d-flex">
                     <center class="footer-center d-flex">
                         <a href="https://www.tkb.com.tw/" target="_blank">
-                            <img src="assets/img/clients/00-TKB.png" class="img-fluid" alt="TKB" title="TKB">
+                            <img src="assets/img/clients/00-TKB.png" class="img-fluid" alt="TKB" title="TKB" loading="lazy">
                         </a>
                         <a href="https://www.csofe.org/index/index" target="_blank">
-                            <img src="assets/img/clients/00-CSOFE.png" class="img-fluid" alt="CSOFE" title="CSOFE">
+                            <img src="assets/img/clients/00-CSOFE.png" class="img-fluid" alt="CSOFE" title="CSOFE" loading="lazy">
                         </a>
                     </center>
                 </div>
