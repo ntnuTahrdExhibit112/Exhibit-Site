@@ -1,5 +1,5 @@
 <?php
-    include("../../db/db_connect.php");
+    include("../../../db/db_connect.php");
     $cmd_getCode = "SELECT code FROM signup";
     $getCode = mysqli_query($db, $cmd_getCode);
     

@@ -1,5 +1,5 @@
 <?php
-    // include("../../db/db_connect.php");
+    // include("../../../db/db_connect.php");
     // $cmd_truncate = "TRUNCATE TABLE signup";
     // $truncate = mysqli_query($db, $cmd_truncate);
 
