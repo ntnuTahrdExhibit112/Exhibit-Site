@@ -29,7 +29,7 @@
                 <div class="form-group group_flex h5">
                     <label for="name" class="control-label col-25p">姓名</label>
                     <div class="inline-block col-75p">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="請填寫完整姓名（例: 王小明）" required>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="請填寫完整姓名（例: 王小明）" required value="<?php if (isset($_SESSION['name'])) {echo $_SESSION['name'];} ?>">
                     </div>
                 </div>
                 <div class="form-group group_flex h5">
