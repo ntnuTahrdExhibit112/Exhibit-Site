@@ -64,6 +64,12 @@
     .col-75p {
         width: 75% !important;
     }
+    .col-35p {
+        width: 35% !important;
+    }
+    .col-65p {
+        width: 65% !important;
+    }
     .inline-block {
         display: inline-block !important;
     }

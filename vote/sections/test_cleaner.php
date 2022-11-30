@@ -13,7 +13,7 @@
         include("../db/db_connect.php");
 
         function logger($msg) {
-            echo $msg . "<br>";
+            echo "<script>alert('" . $msg . "');</script>";
         }
 
         function reset_SignupStatus($db) {

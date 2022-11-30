@@ -27,20 +27,20 @@
                 </div>
                 <hr><hr>
                 <div class="form-group group_flex h5">
-                    <label for="name" class="control-label col-25p">姓名</label>
-                    <div class="inline-block col-75p">
+                    <label for="name" class="control-label col-35p">姓名</label>
+                    <div class="inline-block col-65p">
                         <input type="text" class="form-control" id="name" name="name" placeholder="請填寫完整姓名（例: 王小明）" required value="<?php if (isset($_SESSION['name'])) {echo $_SESSION['name'];} ?>">
                     </div>
                 </div>
                 <div class="form-group group_flex h5">
-                    <label for="phone" class="control-label col-25p">手機號碼</label>
-                    <div class="inline-block col-75p">
+                    <label for="phone" class="control-label col-35p">手機號碼</label>
+                    <div class="inline-block col-65p">
                         <input type="tel" class="form-control" id="phone" name="phone" placeholder="例: 0912345678" pattern="[0-9]{10}">
                     </div>
                 </div>
 
                 <div class="row flex justify-content-end mt-5">
-                    <input class="btn btn-success col-2" type="submit" value="送出">
+                    <input class="btn btn-success col-4 col-lg-2" type="submit" value="送出">
                 </div>
             </div>
         </form>

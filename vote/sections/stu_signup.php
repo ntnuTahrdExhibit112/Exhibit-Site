@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="row flex justify-content-end mt-5">
-                    <input class="btn btn-success col-2" type="submit" value="繼續">
+                    <input class="btn btn-success col-4 col-lg-2" type="submit" value="繼續">
                 </div>
             </div>
         </form>
