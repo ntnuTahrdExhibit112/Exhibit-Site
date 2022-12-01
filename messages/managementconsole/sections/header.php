@@ -56,7 +56,7 @@
                 <li class="dropdown nav-li">
                     <a class="nav-link scrollto desktop_nav" href="#special_event">特別活動 <i class="bi bi-chevron-down"></i></a>
                     <div class="space"></div>
-                    <a class="nav-link mobile_nav active" href="#">特別活動 <i class="bi bi-chevron-down"></i></a>
+                    <a class="nav-link mobile_nav" href="#">特別活動 <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li>
                             <a class="nav-link scrollto" href="../../online_exhibit/">線上展</a>
