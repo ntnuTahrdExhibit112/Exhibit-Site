@@ -34,8 +34,8 @@
                         <div class="col-lg-6 col-md-6 footer-links">
                             <ul>
                                 <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="./messages/">留言板</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="./onlineExhibit">線上展</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="./ARinteract">展場AR互動</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="./online_exhibit/">線上展</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="./AR_interact/">展場AR互動</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="./vote/?vote=countdown">專題票選</a></li>
                             </ul>
                         </div>
