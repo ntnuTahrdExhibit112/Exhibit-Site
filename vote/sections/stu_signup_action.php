@@ -27,7 +27,7 @@
             $notFilled = mysqli_query($db, $cmd_notFilled);
             if (mysqli_num_rows($notFilled) == 1) {
                 $_SESSION['status'] = "voted";
-                header("Location: ../?vote=lottery");
+                header("Location: ../?vote=stu_lottery");
             }
             else {
                 $_SESSION['status'] = "info_filled";

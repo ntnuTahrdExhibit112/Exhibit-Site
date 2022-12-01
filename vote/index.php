@@ -141,6 +141,9 @@
                 else if ($vote_action == 'stu_vote') {
                     include("./sections/stu_vote.php");
                 }
+                else if ($vote_action == 'stu_lottery') {
+                    include("./sections/stu_lottery.php");
+                }
                 else if ($vote_action == $resetter) {
                     include("./sections/test_cleaner.php");
                 }
