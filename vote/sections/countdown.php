@@ -28,14 +28,14 @@
         color: rgb(112,239,239) !important;
     }
 
-    #countdown #vote_CallToAction {
+    #vote_CallToAction {
         padding: 1% 3%;
         line-height:auto;
         border: 3px solid rgb(112,239,239);
         border-radius: 5px;
         background-color: rgb(112,239,239);
     }
-    #countdown #vote_CallToAction span {
+    #vote_CallToAction span {
         color: black !important;
     }
 </style>
@@ -67,11 +67,12 @@
             </h3>
             <div id="countdown_counter" class="h2 col-12"></div>
             <div class="col-12">
-                <a href="./vote/?vote=signup" id="vote_CallToAction" class="btn" style="display: none;">
-                    <span class="h3">我要投票</span>
+                <a href="./?vote=signup" id="vote_CallToAction" class="btn" style="display: none;">
+                    <span id="vote_btn_title" class="h3">我要投票</span>
                 </a>
                 <script>
                     var vote_btn = document.getElementById("vote_CallToAction");
+                    var vote_btn_title = document.getElementById("vote_btn_title");
                     function showVoteBtn() {
                         if (vote_started == 1) {
                             vote_btn.style.display = "inline-block";
@@ -81,9 +82,13 @@
                         var countdown_title_root = document.getElementById('countdown_title_root');
                         var countdown_counter = document.getElementById('countdown_counter');
                         if (vote_ended == 1) {
-                            vote_btn.style.display = "none";
+                            // vote_btn.style.display = "none";
                             countdown_title_root.innerHTML = "投票已結束！請靜待結果公布～";
-                            countdown_counter.style.display = "none";
+                            // countdown_counter.style.display = "none";
+                            vote_btn_title.innerHTML = "我要抽獎";
+                            <?php 
+                                $_SESSION['lottery_only'] = 1;
+                            ?>
                         }
                     }
                 </script>
