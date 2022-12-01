@@ -10,6 +10,12 @@
             echo "<script>window.location.href = './?vote=vote';</script>";
         }
     }
+    date_default_timezone_set('Asia/Taipei');
+    $endDate = new DateTime('2022-12-3 13:00:00');
+    $currentDate = new DateTime();
+    if ($endDate < $currentDate) {
+        $_SESSION['lottery_only'] = 1;
+    }
 ?>
 <div class="section-title">
     <h2>觀展回饋＆抽獎</h2>

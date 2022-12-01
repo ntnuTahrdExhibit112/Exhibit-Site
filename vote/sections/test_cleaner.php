@@ -8,6 +8,7 @@
     <a class="btn btn-danger m-3" href="?vote=<?php echo $resetter; ?>&reset=entryID">reset entryID</a>
     <a class="btn btn-danger m-3" href="?vote=<?php echo $resetter; ?>&reset=group_id">reset group_id</a>
     <a class="btn btn-danger m-3" href="?vote=<?php echo $resetter; ?>&reset=name">reset name</a>
+    <a class="btn btn-danger m-3" href="?vote=<?php echo $resetter; ?>&reset=session">session destroy</a>
 
     <?php 
         include("../db/db_connect.php");
@@ -45,6 +46,10 @@
             unset($_SESSION['name']);
             logger('name cleared. ');
         }
+        function destroy_session() {
+            session_destroy();
+            logger('session cleared. ');
+        }
 
         function truncate_table($db) {
             $cmd_vote = "TRUNCATE TABLE vote";
@@ -72,6 +77,9 @@
             }
             else if ($_GET['reset'] == "name") {
                 name();
+            }
+            else if ($_GET['reset'] == "session") {
+                destroy_session();
             }
             // header("Location: ./?vote=$resetter");
             echo '<script type="text/javascript">window.location = "./?vote=' . $resetter . '"</script>';

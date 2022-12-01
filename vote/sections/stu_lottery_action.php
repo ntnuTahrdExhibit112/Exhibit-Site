@@ -10,7 +10,7 @@
     $storeData = mysqli_query($db, $cmd_storeData);
 
     //mark as voted in signup table
-    $cmd_markAsFilled = "UPDATE stu_signup SET info_filled=1 WHERE code='$entryID'";
+    $cmd_markAsFilled = "UPDATE stu_signup SET info_filled=1 WHERE id='$entryID'";
     $markAsFilled = mysqli_query($db, $cmd_markAsFilled);
     $_SESSION['status'] = "info_filled";
 

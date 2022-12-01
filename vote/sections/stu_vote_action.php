@@ -26,7 +26,7 @@
     $storeData = mysqli_query($db, $cmd_storeData);
 
     //mark as voted in signup table
-    $cmd_markAsVoted = "UPDATE stu_signup SET voted=1 WHERE code='$entryID'";
+    $cmd_markAsVoted = "UPDATE stu_signup SET voted=1 WHERE id='$entryID'";
     $markAsVoted = mysqli_query($db, $cmd_markAsVoted);
     $_SESSION['status'] = "voted";
 

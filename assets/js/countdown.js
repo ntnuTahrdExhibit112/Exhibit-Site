@@ -107,8 +107,8 @@ function Clock(countdown,callback) {
 var startVote = new Date(2022, 12-1, 2, 8, 0, 0);
 var endVote = new Date(2022, 12-1, 3, 13, 0, 0);
 
-// startVote = new Date(2022, 12-1, 2, 0, 16, 30);
-// endVote = new Date(2022, 12-1, 2, 0, 17, 0);
+// startVote = new Date(2022, 12-1, 2, 0, 37, 40);
+// endVote = new Date(2022, 12-1, 2, 0, 38, 00);
 
 var countdown_counter = document.getElementById('countdown_counter');
 var c = new Clock(startVote, function(){

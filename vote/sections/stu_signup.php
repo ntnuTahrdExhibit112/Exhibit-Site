@@ -10,6 +10,13 @@
             echo "<script>window.location.href = './?vote=stu_vote';</script>";
         }
     }
+
+    date_default_timezone_set('Asia/Taipei');
+    $endDate = new DateTime('2022-12-3 13:00:00');
+    $currentDate = new DateTime();
+    if ($endDate < $currentDate) {
+        $_SESSION['lottery_only'] = 1;
+    }
 ?>
 <style>
     .col-25p {
@@ -43,7 +50,7 @@
                 <div class="form-group group_flex h3">
                     <label for="entryID" class="control-label col-25p">叛軍號召者ID</label>
                     <div class="inline-block col-75p">
-                        <input type="text" class="form-control" id="entryID" name="entryID" placeholder="例: 1a2b3c" required>
+                        <input type="text" class="form-control" id="entryID" name="entryID" placeholder="請輸入學號 ex: 40871000H" required>
                     </div>
                 </div>
                 <div class="row flex justify-content-end mt-5">

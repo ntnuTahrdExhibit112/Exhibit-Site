@@ -1,28 +1,25 @@
 <?php
     session_start();
     include("../../db/db_connect.php");
-    if (!isset($_SESSION['lottery_only'])) {
-        $_SESSION['lottery_only'] = 0;
-    }
     
-    $entryID = $_POST['entryID'];
+    $entryID = strtoupper($_POST['entryID']);
     echo $entryID;
 
-    $cmd_verify = "SELECT * FROM stu_signup WHERE code = '$entryID'";
+    $cmd_verify = "SELECT * FROM stu_signup WHERE id='$entryID'";
     $verify = mysqli_query($db, $cmd_verify);
 
     if (mysqli_num_rows($verify) == 1) {
         $_SESSION['entryID'] = $entryID;
 
-        if ($_SESSION['lottery_only']) {
-            $cmd_markAsVoted = "UPDATE stu_signup SET voted=1 WHERE code='$entryID'";
+        if (isset($_SESSION['lottery_only'])) {
+            $cmd_markAsVoted = "UPDATE stu_signup SET voted=1 WHERE id='$entryID'";
             $markAsVoted = mysqli_query($db, $cmd_markAsVoted);
             $_SESSION['status'] = "voted";
             unset($_SESSION['lottery_only']);
             header("Location: ../?vote=stu_lottery");
         }
         else {
-            $cmd_notVoted = "SELECT * FROM stu_signup WHERE code = '$entryID' AND voted=0";
+            $cmd_notVoted = "SELECT * FROM stu_signup WHERE id='$entryID' AND voted=0";
             $notVoted = mysqli_query($db, $cmd_notVoted);
             if (mysqli_num_rows($notVoted) == 1) {
                 $agent = mysqli_fetch_assoc($notVoted);
@@ -34,7 +31,7 @@
                 header("Location: ../?vote=stu_vote");
             }
             else {
-                $cmd_notFilled = "SELECT * FROM stu_signup WHERE code = '$entryID' AND info_filled=0";
+                $cmd_notFilled = "SELECT * FROM stu_signup WHERE id='$entryID' AND info_filled=0";
                 $notFilled = mysqli_query($db, $cmd_notFilled);
                 if (mysqli_num_rows($notFilled) == 1) {
                     $_SESSION['status'] = "voted";

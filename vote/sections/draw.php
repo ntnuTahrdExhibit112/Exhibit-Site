@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="row flex justify-content-end mt-5">
-                <input class="btn get-started-btn col-2" type="submit" value="抽獎">
+                <input class="btn get-started-btn col-4 col-lg-2" type="submit" value="抽獎">
             </div>
         </form>
     </div>
