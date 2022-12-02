@@ -5,7 +5,7 @@
     
     for ($i = 0; $i < mysqli_num_rows($getAll); $i++) {
         $row1 = mysqli_fetch_assoc($getAll);
-        $entryID = $row1['code'];
+        $entryID = $row1['id'];
         $cmd_getVote = "SELECT * FROM vote WHERE entryID='$entryID'";
         $getVote = mysqli_query($db, $cmd_getVote);
         $row2 = mysqli_fetch_assoc($getVote);

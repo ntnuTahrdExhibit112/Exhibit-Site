@@ -159,6 +159,15 @@
                 else if ($vote_action == 'drawn') {
                     include("./sections/draw_result.php");
                 }
+                else if ($vote_action == 'view_data') {
+                    include("./sections/view_data.php");
+                }
+                else if ($vote_action == 'stu_view_data') {
+                    include("./sections/stu_view_data.php");
+                }
+                else if ($vote_action == 'view_vote') {
+                    include("./sections/view_vote.php");
+                }
                 else {
                     include("./sections/error.php");
                 }

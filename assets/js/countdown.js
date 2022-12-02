@@ -60,6 +60,7 @@ function getTime() {
 }
 
 function Clock(countdown,callback) {
+  
   countdown = countdown ? new Date(Date.parse(countdown)) : false;
   callback = callback || function(){};
   
@@ -107,8 +108,8 @@ function Clock(countdown,callback) {
 var startVote = new Date(2022, 12-1, 2, 8, 0, 0);
 var endVote = new Date(2022, 12-1, 3, 13, 0, 0);
 
-// startVote = new Date(2022, 12-1, 2, 0, 37, 40);
-// endVote = new Date(2022, 12-1, 2, 0, 38, 00);
+// startVote = new Date(2022, 11-1, 10, 19, 40, 0);
+// endVote = new Date(2022, 11-1, 10, 19, 41, 0);
 
 var countdown_counter = document.getElementById('countdown_counter');
 var c = new Clock(startVote, function(){
