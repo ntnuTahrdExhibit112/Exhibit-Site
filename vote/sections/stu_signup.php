@@ -15,7 +15,7 @@
     $endDate = new DateTime('2022-12-3 13:00:00');
     $currentDate = new DateTime();
     if ($endDate < $currentDate) {
-        $_SESSION['lottery_only'] = 1;
+        $_SESSION['lottery_only1'] = 1;
     }
 ?>
 <style>

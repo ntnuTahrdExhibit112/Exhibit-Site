@@ -11,11 +11,11 @@
     if (mysqli_num_rows($verify) == 1) {
         $_SESSION['entryID'] = $entryID;
 
-        if (isset($_SESSION['lottery_only'])) {
+        if (isset($_SESSION['lottery_only1'])) {
             $cmd_markAsVoted = "UPDATE stu_signup SET voted=1 WHERE id='$entryID'";
             $markAsVoted = mysqli_query($db, $cmd_markAsVoted);
             $_SESSION['status'] = "voted";
-            unset($_SESSION['lottery_only']);
+            unset($_SESSION['lottery_only1']);
             header("Location: ../?vote=stu_lottery");
         }
         else {

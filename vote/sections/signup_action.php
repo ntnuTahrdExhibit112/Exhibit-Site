@@ -1,9 +1,6 @@
 <?php
     session_start();
     include("../../db/db_connect.php");
-    if (!isset($_SESSION['lottery_only'])) {
-        $_SESSION['lottery_only'] = 0;
-    }
     
     $entryID = $_POST['entryID'];
     echo $entryID;
@@ -14,11 +11,11 @@
     if (mysqli_num_rows($verify) == 1) {
         $_SESSION['entryID'] = $entryID;
 
-        if ($_SESSION['lottery_only']) {
+        if (isset($_SESSION['lottery_only1'])) {
             $cmd_markAsVoted = "UPDATE signup SET voted=1 WHERE code='$entryID'";
             $markAsVoted = mysqli_query($db, $cmd_markAsVoted);
             $_SESSION['status'] = "voted";
-            unset($_SESSION['lottery_only']);
+            unset($_SESSION['lottery_only1']);
             header("Location: ../?vote=lottery");
         }
         else {
