@@ -60,7 +60,7 @@
                     <div id="countdown_counter" class="h2 col-12"></div>
                     <div class="col-12">
                         <a href="./vote/?vote=signup" id="vote_CallToAction" class="btn" style="display: none;">
-                            <span class="h3">我要投票</span>
+                            <span id="vote_btn_title" class="h3">我要投票</span>
                         </a>
                         <script>
                             var vote_btn = document.getElementById("vote_CallToAction");
@@ -79,7 +79,7 @@
                                     // countdown_counter.style.display = "none";
                                     vote_btn_title.innerHTML = "我要抽獎";
                                     <?php 
-                                        $_SESSION['lottery_only'] = 1;
+                                        $_SESSION['lottery_only1'] = 1;
                                     ?>
                                 }
                             }

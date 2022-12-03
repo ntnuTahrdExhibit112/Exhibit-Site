@@ -87,7 +87,7 @@
                             // countdown_counter.style.display = "none";
                             vote_btn_title.innerHTML = "我要抽獎";
                             <?php 
-                                $_SESSION['lottery_only'] = 1;
+                                $_SESSION['lottery_only1'] = 1;
                             ?>
                         }
                     }
