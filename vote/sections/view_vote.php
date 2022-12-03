@@ -14,12 +14,16 @@
         // echo $row['q07'] . ", " . $row['q08'] . "<br>";
     }
 ?>
-
-<table style="width: 100%">
+<style>
+    table, tr, td {
+        border: 2px solid rgba(255, 255, 255, 0.7);
+    }
+</style>
+<table>
     <tr>
-        <td>組別</td>
-        <td>最喜歡作品</td>
-        <td>最喜歡攤位佈置</td>
+        <td style="width: 10%">組別</td>
+        <td style="width: 20%">最喜歡作品</td>
+        <td style="width: 20%">最喜歡攤位佈置</td>
     </tr>
     <tr>
         <td>01</td>
