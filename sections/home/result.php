@@ -23,14 +23,14 @@
         color: rgb(112,239,239) !important;
     }
 
-    #countdown #vote_CallToAction {
+    #countdown .vote_CallToAction {
         padding: 1% 3%;
         line-height:auto;
         border: 3px solid rgb(112,239,239);
         border-radius: 5px;
         background-color: rgb(112,239,239);
     }
-    #countdown #vote_CallToAction span {
+    #countdown .vote_CallToAction span {
         color: black !important;
     }
 </style>
@@ -50,7 +50,10 @@
                     </h3>
                     <!-- <div id="countdown_counter" class="h2 col-12"></div> -->
                     <div class="col-12">
-                        <a href="./vote/?vote=result" id="vote_CallToAction" class="btn mt-4">
+                        <a href="./vote/?vote=signup" class="btn m-1 mt-4 vote_CallToAction">
+                            <span class="h3">我要抽獎</span>
+                        </a>
+                        <a href="./vote/?vote=result" class="btn m-1 mt-4 vote_CallToAction">
                             <span class="h3">查看結果</span>
                         </a>
                         <script>

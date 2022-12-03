@@ -32,6 +32,16 @@
         border-radius: 10px 10px 0 0;
         padding: 0;
     }
+    #vote_CallToAction {
+        padding: 1% 3%;
+        line-height:auto;
+        border: 3px solid rgb(112,239,239);
+        border-radius: 5px;
+        background-color: rgb(112,239,239);
+    }
+    #vote_CallToAction span {
+        color: black !important;
+    }
 </style>
 <div class="section-title">
     <h2>觀展回饋＆抽獎</h2>
@@ -134,5 +144,12 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="col-12 mt-4">
+        <center>
+            <a href="./?vote=signup" id="vote_CallToAction" class="btn">
+                <span id="vote_btn_title" class="h3">我要抽獎</span>
+            </a>
+        </center>
     </div>
 </div>
