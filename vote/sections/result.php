@@ -12,7 +12,7 @@
         justify-content: center;
     }
     .q_result {
-        height: 30vh;
+        height: 40vh;
         align-items: flex-end;
         border: 1px solid rgb(112,239,239);
         border-radius: 15px;
@@ -51,21 +51,21 @@
                 <div class="rank_2 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q07_score[1] / $q07_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q07_rank[1]); $i++) {
-                            echo "第" . $q07_rank[1][$i] . "組<br>";
+                            echo "第" . $q07_rank[1][$i] . "組<br>" . $q07_score[1] . "<br>";
                         }
                     ?>
                 </div>
                 <div class="rank_1 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q07_score[0] / $q07_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q07_rank[0]); $i++) {
-                            echo "第" . $q07_rank[0][$i] . "組<br>";
+                            echo "第" . $q07_rank[0][$i] . "組<br>" . $q07_score[0] . "<br>";
                         }
                     ?>
                 </div>
                 <div class="rank_3 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q07_score[2] / $q07_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q07_rank[2]); $i++) {
-                            echo "第" . $q07_rank[2][$i] . "組<br>";
+                            echo "第" . $q07_rank[2][$i] . "組<br>" . $q07_score[2] . "<br>";
                         }
                     ?>
                 </div>
@@ -83,21 +83,21 @@
                 <div class="rank_2 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q08_score[1] / $q08_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q08_rank[1]); $i++) {
-                            echo "第" . $q08_rank[1][$i] . "組<br>";
+                            echo "第" . $q08_rank[1][$i] . "組<br>" . $q08_score[1] . "<br>";
                         }
                     ?>
                 </div>
                 <div class="rank_1 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q08_score[0] / $q08_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q08_rank[0]); $i++) {
-                            echo "第" . $q08_rank[0][$i] . "組<br>";
+                            echo "第" . $q08_rank[0][$i] . "組<br>" . $q08_score[0] . "<br>";
                         }
                     ?>
                 </div>
                 <div class="rank_3 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q08_score[2] / $q08_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q08_rank[2]); $i++) {
-                            echo "第" . $q08_rank[2][$i] . "組<br>";
+                            echo "第" . $q08_rank[2][$i] . "組<br>" . $q08_score[2] . "<br>";
                         }
                     ?>
                 </div>
@@ -114,21 +114,21 @@
                 <div class="rank_2 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q09_score[1] / $q09_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q09_rank[1]); $i++) {
-                            echo "第" . $q09_rank[1][$i] . "組<br>";
+                            echo "第" . $q09_rank[1][$i] . "組<br>" . $q09_score[1] . "<br>";
                         }
                     ?>
                 </div>
                 <div class="rank_1 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q09_score[0] / $q09_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q09_rank[0]); $i++) {
-                            echo "第" . $q09_rank[0][$i] . "組<br>";
+                            echo "第" . $q09_rank[0][$i] . "組<br>" . $q09_score[0] . "<br>";
                         }
                     ?>
                 </div>
                 <div class="rank_3 col-3 ml-1 mr-1 pt-4 pt-lg-0 container" style="height: calc(100% * (<?php echo($q09_score[2] / $q09_score[0]); ?>))" data-aos="" data-aos-delay="100">
                     <?php 
                         for ($i = 0; $i < count($q09_rank[2]); $i++) {
-                            echo "第" . $q09_rank[2][$i] . "組<br>";
+                            echo "第" . $q09_rank[2][$i] . "組<br>" . $q09_score[2] . "<br>";
                         }
                     ?>
                 </div>
