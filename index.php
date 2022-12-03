@@ -61,7 +61,11 @@
     <!-- End Clients Section --> 
 
     <!-- ======= Features Section ======= -->
-    <?php include("./sections/home/countdown.php"); ?>
+    <?php //include("./sections/home/countdown.php"); ?>
+    <!-- End Features Section -->
+    
+    <!-- ======= Features Section ======= -->
+    <?php include("./sections/home/result.php"); ?>
     <!-- End Features Section -->
 
     <!-- ======= Features Section ======= -->

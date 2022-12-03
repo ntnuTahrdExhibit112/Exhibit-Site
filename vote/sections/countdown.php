@@ -1,4 +1,8 @@
+<script>
+    window.location.href = "./?vote=result";
+</script>
 <?php 
+    
     if ($_SESSION['status'] == "unset" || $_SESSION['status'] == "not_verified" || $_SESSION['status'] == "verified" || $_SESSION['status'] == "voted") {
         echo "<script>showVoteBtn();</script>";
     }
