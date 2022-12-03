@@ -6,6 +6,7 @@
 
     $q07_result = ['1' => 0, '2' => 0, '3' => 0, '4' => 0, '5' => 0, '6' => 0, '7' => 0, '8' => 0, '9' => 0, '10' => 0, '11' => 0, '12' => 0, '13' => 0];
     $q08_result = ['1' => 0, '2' => 0, '3' => 0, '4' => 0, '5' => 0, '6' => 0, '7' => 0, '8' => 0, '9' => 0, '10' => 0, '11' => 0, '12' => 0, '13' => 0];
+    $q09_result = ['1' => 0, '2' => 0, '3' => 0, '4' => 0, '5' => 0, '6' => 0, '7' => 0, '8' => 0, '9' => 0, '10' => 0, '11' => 0, '12' => 0, '13' => 0];
     
     //test
     // $q07_result = ['1' => 10, '2' => 3, '3' => 4, '4' => 10, '5' => 7, '6' => 9, '7' => 10, '8' => 0, '9' => 0, '10' => 5, '11' => 0, '12' => 0, '13' => 0];
@@ -28,14 +29,20 @@
         foreach ($q08_result as $key => $val) {
             echo "(" . $key . ", " . $val . ") | ";
         }
+        echo "<br> | ";
+        foreach ($q09_result as $key => $val) {
+            echo "(" . $key . ", " . $val . ") | ";
+        }
         echo "<br>";
         echo "<br>";
     }
 
     $q07_sorted = $q07_result;
     $q08_sorted = $q08_result;
+    $q09_sorted = $q09_result;
     arsort($q07_sorted);
     arsort($q08_sorted);
+    arsort($q09_sorted);
 
     function print_sorted() {
         echo " | ";
@@ -49,6 +56,12 @@
             // if ($i08 > 2) {break;}
             echo "(" . $key . ", " . $val . ") | ";
             // $i08++;
+        }
+        echo "<br> | ";
+        foreach ($q09_sorted as $key => $val) {
+            // if ($i09 > 2) {break;}
+            echo "(" . $key . ", " . $val . ") | ";
+            // $i09++;
         }
         echo "<br>";
         echo "<br>";
@@ -100,6 +113,31 @@
             }
             array_push($q08_rank[$t_rank], $key);
             $q08_score[$t_rank] = $val;
+        }
+        else {
+            break;
+        }
+    }
+    $q09_rank = [[], [], []];
+    $q09_score = [];
+    $i09 = 0;
+    $t_prev = -1;
+    $t_rank = 0;
+    foreach ($q09_sorted as $key => $val) {
+        if ($i09 < 3) {
+            // echo "(" . $key . ", " . $val . ")<br>";
+            $i09++;
+            if ($t_prev == -1) {
+                $t_prev = $val;
+            }
+            else if ($t_prev == $val) {
+                $i09--;
+            }
+            else {
+                $t_rank++;
+            }
+            array_push($q09_rank[$t_rank], $key);
+            $q09_score[$t_rank] = $val;
         }
         else {
             break;

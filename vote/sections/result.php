@@ -1,7 +1,7 @@
 <?php 
     include("./sections/result_calc.php");
-    $q09_rank = [[1], [2], [3]];
-    $q09_score = [0, 0, 0];
+    // $q09_rank = [[1], [2], [3]];
+    // $q09_score = [0, 0, 0];
 
     // $rank1 = [$q07_score[0], $q08_score[0], $q09_score[0]];
     // $rank2 = [$q07_score[1], $q08_score[1], $q09_score[1]];
