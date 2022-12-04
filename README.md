@@ -19,6 +19,7 @@
  - 專展網頁
      - 模板：[Gp - Free Multipurpose HTML Bootstrap Template](https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/)
      - 專展票選 倒數鐘：[CodePen](https://codepen.io/shshaw/pen/vKzoLL)
+     - 專展票選 表單複選選單製作：[Select2](https://select2.org/)
      - 專展資訊總結 圖表製作：[Chart.js](https://www.chartjs.org/)
  - 線上展
      - [Artsteps](https://www.artsteps.com/)
