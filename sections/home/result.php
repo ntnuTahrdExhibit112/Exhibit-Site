@@ -50,7 +50,7 @@
                     </h3>
                     <!-- <div id="countdown_counter" class="h2 col-12"></div> -->
                     <div class="col-12">
-                        <a href="./vote/?vote=signup" class="btn m-1 mt-4 vote_CallToAction">
+                        <a href="./vote/?vote=signup" class="btn m-1 mt-4 vote_CallToAction hider">
                             <span class="h3">我要抽獎</span>
                         </a>
                         <a href="./vote/?vote=result" class="btn m-1 mt-4 vote_CallToAction">

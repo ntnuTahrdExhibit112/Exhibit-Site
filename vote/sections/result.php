@@ -145,7 +145,7 @@
             </div>
         </div>
     </div>
-    <div class="col-12 mt-4">
+    <div class="col-12 mt-4 hider">
         <center>
             <a href="./?vote=signup" id="vote_CallToAction" class="btn">
                 <span id="vote_btn_title" class="h3">我要抽獎</span>
