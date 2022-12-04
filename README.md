@@ -1,6 +1,6 @@
 # Exhibit-Site
 台師大科技系 112級畢業專題展 專展網站
-## [TECHPUNK](https://ntnutechpunk112.ml)
+## [TECH PUNK](https://ntnutechpunk112.ml)
 
 ## 開發者
 ### 專展網站架設及線上投票/抽獎製作
