@@ -18,7 +18,7 @@
 ## 採用套件
  - 專展網頁
      - 模板：[Gp - Free Multipurpose HTML Bootstrap Template](https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/)
-     - 首頁倒數鐘：[CodePen](https://codepen.io/shshaw/pen/vKzoLL)
+     - 專展票選 倒數鐘：[CodePen](https://codepen.io/shshaw/pen/vKzoLL)
      - 專展資訊總結 圖表製作：[Chart.js](https://www.chartjs.org/)
  - 線上展
      - [Artsteps](https://www.artsteps.com/)
@@ -43,7 +43,9 @@
 ### 專題票選
 #### 觀眾可瀏覽區域
 ##### 倒數
- - 點擊
+ - 點擊首頁之“我要投票”按鈕，或選單中的“專題票選”後，將會導覽至此頁面
+ - 若投票開始將會自動顯示“我要投票”按鈕
+ - 目前已公布專題票選結果，進入此頁將自動跳轉至結果頁面
 ##### 一般觀眾投票
  - 叛軍ID（入場取得之編號）登入：登入後才可投票
  - 觀展回饋表單填寫及人氣獎項投票
@@ -120,3 +122,31 @@
 ### 網域：FreeNom免費網域 + Cloudflare SSL加密與CDN
  - FreeNom: ntnutechpunk.ml，期限至2023-08-07，之後須重新申請
  - Cloudflare: 使用其免費SSL加密服務、CDN及速度優化服務等
+
+## 成果紀錄與截圖
+ - Azure虛擬機
+     - 透過SSH連線
+        ![](https://i.imgur.com/vxKFjoj.png)
+     - MySQL 資料表
+        ![](https://i.imgur.com/q4Lyr5Q.png)
+     - 專展期間使用狀況
+        ![](https://i.imgur.com/hWrjNlU.png)
+ - Cloudflare後台：專展期間流量紀錄
+    ![](https://i.imgur.com/5vDfvU6.png)
+    
+    ![](https://i.imgur.com/6AaGbR5.png)
+ - 專展頁面截圖
+     - 首頁 ![](https://i.imgur.com/3ViXkE8.jpg)
+     - 留言板 ![](https://i.imgur.com/aYIHlzQ.png)
+     - 投票結果公佈 ![](https://i.imgur.com/P31o28G.png)
+     - 線上展 ![](https://i.imgur.com/6KJqQo0.jpg)
+     - 專展數據總結
+         ![](https://i.imgur.com/Kr0phdh.png)
+         
+         ![](https://i.imgur.com/D96gUg7.png)
+         
+         ![](https://i.imgur.com/wFfNOsU.png)
+         
+         ![](https://i.imgur.com/caIYg1I.png)
+         
+         ![](https://i.imgur.com/RrYzcMQ.png)
