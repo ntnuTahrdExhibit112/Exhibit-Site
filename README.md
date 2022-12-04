@@ -3,7 +3,7 @@
 ## [TECH PUNK](https://ntnutechpunk112.ml)
 
 ## 開發者
-### 專展網站架設及線上投票/抽獎製作
+### 專展網站架設及其他功能製作
 許恆齊 [80113hunterhsu](https://github.com/80113hunterhsu)
 
 ### 線上展製作
