@@ -6,7 +6,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>首頁 - TECH PUNK</title>
 <meta content="" name="description">
-<meta content="techpunk, 科技應用與人力資源發展學系, 科技系, 畢業專題成果展, 112級" name="keywords">
+<meta content="ntnu, tahrd, tech punk, techpunk, 科技應用與人力資源發展學系, 科技系, 畢業專題成果展, 112" name="keywords">
 
 <!-- Favicons -->
 <link href="assets/img/favicon.png" rel="icon">
