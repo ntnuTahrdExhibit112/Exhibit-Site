@@ -70,7 +70,7 @@
         <div class="container justify-content-center" data-aos="">
             <div class="section-title">
                 <h2>Dashboard</h2>
-                <p>專題總結</p>
+                <p>專展總結</p>
                 <img src="../assets/img/lu_deco.png" alt="" class="section_title_deco">
             </div>
             <div class="row flex align-items-center mt-2"> <!--活動理念-->

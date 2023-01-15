@@ -53,6 +53,10 @@
                     <a class="nav-link scrollto" href="../messages/">留言板</a>
                     <div class="space"></div>
                 </li>
+                <li class="nav-li">
+                    <a class="nav-link scrollto" href="../dashboard/">專展總結</a>
+                    <div class="space"></div>
+                </li>
                 <li class="dropdown nav-li">
                     <a class="nav-link scrollto desktop_nav active" href="#special_event">特別活動 <i class="bi bi-chevron-down"></i></a>
                     <div class="space space_active"></div>
