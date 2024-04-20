@@ -6,6 +6,10 @@
         #portfolio .portfolio-mobile {
             display: none !important;
         }
+        #portfolio .portfolio-item {
+            margin-bottom: 30px;
+            aspect-ratio: 1 / 1;
+        }
     }
     @media screen and (max-width: 992px) {
         #portfolio .portfolio-desktop {

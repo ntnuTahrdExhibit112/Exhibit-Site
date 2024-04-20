@@ -26,8 +26,8 @@
 <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
 <!-- Template Main CSS File -->
-<link href="assets/css/style.css" rel="stylesheet">
-<link href="assets/css/custom.css" rel="stylesheet">
+<link href="assets/css/style.css?v=202404201500" rel="stylesheet">
+<link href="assets/css/custom.css?v=202404201500" rel="stylesheet">
 
 <!-- countdown -->
 <link href="assets/css/countdown.css" rel="stylesheet" media="print" onload="this.media='all'">
@@ -112,7 +112,7 @@
 <script defer src="assets/vendor/php-email-form/validate.js"></script> 
 
 <!-- Template Main JS File --> 
-<script defer src="assets/js/main.js"></script>
+<script defer src="assets/js/main.js?v=202404201438"></script>
 
 <!-- preload -->
 <link rel="preload" as="image" href="assets/img/hero-bg.jpg">
