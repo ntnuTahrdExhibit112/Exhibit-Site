@@ -15,7 +15,7 @@
         <div class="row flex align-items-center" id="history"> <!--歷史沿革-->
             <div class="col-lg-6 order-1 order-lg-2" data-aos="" data-aos-delay="100"> 
                 <a href="./assets/img/about_tahrd.png" data-gallery="about_tahrd" class="portfolio-lightbox" title="<h3>關於科技系</h3><p>學制與分組</p>">
-                    <img src="./assets/img/about_tahrd.png" class="img-fluid" alt="" loading="lazy"> 
+                    <img data-src="./assets/img/about_tahrd.png" class="img-fluid" alt="" loading="lazy"> 
                 </a>
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="" data-aos-delay="100">

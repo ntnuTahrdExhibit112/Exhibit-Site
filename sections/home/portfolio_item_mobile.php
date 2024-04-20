@@ -2,7 +2,7 @@
     <a href="<?php echo($poster) ?>" class="portfolio-item_mobile_link portfolio-lightbox" id="portfolio-mobile-link-<?php echo $i ?>" data-gallery="portfolio-mobile-<?php echo $i ?>">
         <table class="portfolio-table_mobile">
             <tr style="width: 100%;">
-                <td style="width: 25%;"><img src="<?php echo($cover); ?>" class="img-fluid" alt="" style="border-radius: 5px;" fetchpriority="low"></td>
+                <td style="width: 25%;"><img data-src="<?php echo($cover); ?>" class="img-fluid" alt="" style="border-radius: 5px;" fetchpriority="low"></td>
                 <td style="width: 55%;">
                     <p class="h5"><?php echo($title); ?></p>
                     <p class="h6"><?php echo($subtitle); ?></p>

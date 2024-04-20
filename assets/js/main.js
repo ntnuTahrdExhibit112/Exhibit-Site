@@ -163,6 +163,13 @@ var portfolioLightbox;
   let preloader = select('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
+      let imgs = document.querySelectorAll('img');
+      imgs.forEach(img => {
+        if (img.dataset.src != undefined) {
+          img.src = img.dataset.src;
+        }
+      });
+      
       preloader.remove()
     });
   }
