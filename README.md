@@ -9,7 +9,7 @@
 ### 線上展製作
 陳威諺 [Williechen7414](https://github.com/Williechen7414)
 陳致愷 [Jacobchen142](https://github.com/Jacobchen142)
-許嘉恩 [ThatCoolPeanut](https://github.com/ThatCoolPeanut)
+許嘉恩 [JoanneHsuPeanut](https://github.com/JoanneHsuPeanut)
 
 ### 展場AR互動製作
 呂睿華 [Amazingboy210](https://github.com/Amazingboy210)
